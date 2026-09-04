@@ -1,0 +1,700 @@
+/* =================================
+   SHOP BY AGE
+================================= */
+
+.shop-age {
+  min-height: 100vh;
+  background: #fffaf7;
+  color: #4b3b3b;
+  font-family: "Poppins", sans-serif;
+}
+
+
+/* =================================
+   HERO
+================================= */
+
+.age-hero {
+  min-height: 480px;
+  padding: 60px 9%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  background:
+    radial-gradient(
+      circle at 10% 20%,
+      #fff1b8 0 8%,
+      transparent 9%
+    ),
+    radial-gradient(
+      circle at 90% 15%,
+      #ffd7e5 0 7%,
+      transparent 8%
+    ),
+    linear-gradient(
+      135deg,
+      #fff3df,
+      #ffe9ef
+    );
+
+  overflow: hidden;
+}
+
+.age-hero-content {
+  max-width: 560px;
+}
+
+.age-small-heading {
+  color: #c77d8c;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  margin-bottom: 15px;
+}
+
+.age-hero-content h1 {
+  font-size: 55px;
+  line-height: 1.1;
+  margin: 0;
+  color: #5c4747;
+}
+
+.age-hero-content h1 span {
+  color: #d9899d;
+}
+
+.age-hero-content > p:not(.age-small-heading) {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #806d6d;
+  margin: 20px 0 28px;
+  max-width: 500px;
+}
+
+.age-explore-btn {
+  border: none;
+  padding: 14px 28px;
+  border-radius: 30px;
+
+  background: #d990a5;
+  color: white;
+
+  font-size: 15px;
+  font-weight: 600;
+
+  cursor: pointer;
+  transition: 0.3s;
+
+  box-shadow:
+    0 8px 20px
+    rgba(217, 144, 165, 0.25);
+}
+
+.age-explore-btn:hover {
+  transform: translateY(-3px);
+  background: #c87991;
+}
+
+
+/* =================================
+   HERO VISUAL
+================================= */
+
+.age-hero-visual {
+  width: 400px;
+  height: 400px;
+
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.age-hero-circle {
+  width: 300px;
+  height: 300px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+
+  background: white;
+
+  box-shadow:
+    0 20px 50px
+    rgba(100, 70, 70, 0.12);
+
+  font-size: 150px;
+}
+
+
+/* =================================
+   STARS
+================================= */
+
+.age-floating-star {
+  position: absolute;
+
+  color: #e2b25f;
+  font-size: 35px;
+
+  animation:
+    ageFloat 3s ease-in-out infinite;
+}
+
+.star-one {
+  top: 45px;
+  left: 35px;
+}
+
+.star-two {
+  bottom: 70px;
+  right: 20px;
+  animation-delay: 0.5s;
+}
+
+.star-three {
+  top: 100px;
+  right: 35px;
+  font-size: 25px;
+  animation-delay: 1s;
+}
+
+@keyframes ageFloat {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-12px);
+  }
+}
+
+
+/* =================================
+   HEADING
+================================= */
+
+.age-heading {
+  text-align: center;
+  padding: 65px 20px 30px;
+}
+
+.age-heading > p:first-child {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  color: #d69a78;
+}
+
+.age-heading h2 {
+  font-size: 38px;
+  margin: 12px 0;
+  color: #574747;
+}
+
+.age-heading h2 span {
+  color: #d8899e;
+}
+
+.age-heading > p:last-child {
+  color: #917e7e;
+}
+
+
+/* =================================
+   AGE CARDS
+================================= */
+
+.age-container {
+  width: 82%;
+  margin: 20px auto 50px;
+
+  display: grid;
+  grid-template-columns:
+    repeat(6, 1fr);
+
+  gap: 18px;
+}
+
+.age-card {
+  background: white;
+
+  border: 1px solid #f4e6e6;
+  border-radius: 22px;
+
+  padding: 22px 12px;
+
+  text-align: center;
+
+  cursor: pointer;
+
+  box-shadow:
+    0 8px 25px
+    rgba(100, 70, 70, 0.07);
+
+  transition: 0.35s;
+}
+
+.age-card:hover {
+  transform: translateY(-7px);
+
+  box-shadow:
+    0 18px 35px
+    rgba(100, 70, 70, 0.13);
+}
+
+.age-card.active {
+  background: #fff0f4;
+
+  border-color: #d98fa4;
+
+  box-shadow:
+    0 12px 30px
+    rgba(217, 144, 165, 0.2);
+
+  transform: translateY(-5px);
+}
+
+.age-emoji {
+  display: block;
+
+  font-size: 35px;
+
+  margin-bottom: 10px;
+}
+
+.age-card h3 {
+  margin: 0;
+
+  font-size: 14px;
+
+  color: #574747;
+}
+
+.age-card p {
+  margin: 7px 0 0;
+
+  font-size: 10px;
+
+  color: #9b8585;
+}
+
+
+/* =================================
+   PRODUCTS
+================================= */
+
+.age-products {
+  width: 82%;
+  margin: auto;
+
+  padding-bottom: 80px;
+}
+
+.products-top {
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+
+  margin-bottom: 25px;
+}
+
+.products-top h2 {
+  font-size: 24px;
+  color: #5b4848;
+}
+
+.products-top h2 span {
+  color: #d47791;
+}
+
+.products-top > span {
+  font-size: 13px;
+  color: #9c8989;
+}
+
+
+/* =================================
+   PRODUCT GRID
+================================= */
+
+.product-grid {
+  display: grid;
+
+  grid-template-columns:
+    repeat(4, 1fr);
+
+  gap: 25px;
+}
+
+
+/* =================================
+   PRODUCT CARD
+================================= */
+
+.product-card {
+  background: white;
+
+  border-radius: 22px;
+
+  overflow: hidden;
+
+  border: 1px solid #f4e6e6;
+
+  box-shadow:
+    0 8px 25px
+    rgba(100, 70, 70, 0.07);
+
+  transition: 0.35s;
+}
+
+.product-card:hover {
+  transform: translateY(-8px);
+
+  box-shadow:
+    0 18px 35px
+    rgba(100, 70, 70, 0.13);
+}
+
+
+/* =================================
+   IMAGE
+================================= */
+
+.product-image {
+  height: 235px;
+
+  position: relative;
+
+  background: #fff5f3;
+
+  overflow: hidden;
+}
+
+.product-image img {
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+
+  transition: 0.5s;
+}
+
+.product-card:hover
+.product-image img {
+  transform: scale(1.06);
+}
+
+
+/* =================================
+   WISHLIST
+================================= */
+
+.wishlist-btn {
+  position: absolute;
+
+  top: 14px;
+  right: 14px;
+
+  width: 40px;
+  height: 40px;
+
+  border: none;
+  border-radius: 50%;
+
+  background:
+    rgba(255, 255, 255, 0.95);
+
+  font-size: 23px;
+
+  color: #b99b9b;
+
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  transition: 0.3s;
+}
+
+.wishlist-btn:hover {
+  transform: scale(1.1);
+}
+
+.wishlist-btn.liked {
+  color: #e47791;
+  background: #fff0f4;
+}
+
+
+/* =================================
+   CATEGORY
+================================= */
+
+.product-category {
+  position: absolute;
+
+  bottom: 12px;
+  left: 12px;
+
+  padding: 6px 12px;
+
+  background:
+    rgba(255, 255, 255, 0.92);
+
+  border-radius: 20px;
+
+  font-size: 10px;
+
+  color: #9a7777;
+
+  font-weight: 600;
+}
+
+
+/* =================================
+   DETAILS
+================================= */
+
+.product-details {
+  padding: 18px;
+}
+
+.product-details h3 {
+  margin: 0 0 8px;
+
+  font-size: 17px;
+
+  color: #574747;
+
+  white-space: nowrap;
+
+  overflow: hidden;
+
+  text-overflow: ellipsis;
+}
+
+.product-rating {
+  font-size: 13px;
+  margin-bottom: 8px;
+}
+
+.product-age {
+  font-size: 12px;
+
+  color: #9b8585;
+
+  margin: 6px 0;
+}
+
+.product-description {
+  font-size: 12px;
+
+  line-height: 1.5;
+
+  color: #9a8888;
+
+  height: 36px;
+
+  overflow: hidden;
+
+  margin: 8px 0 15px;
+}
+
+
+/* =================================
+   PRICE + BAG
+================================= */
+
+.product-bottom {
+  display: flex;
+
+  align-items: center;
+
+  justify-content: space-between;
+
+  gap: 8px;
+}
+
+.price {
+  font-size: 19px;
+
+  font-weight: 700;
+
+  color: #d47791;
+}
+
+.bag-btn {
+  border: none;
+
+  padding: 9px 13px;
+
+  border-radius: 20px;
+
+  background: #f4d8df;
+
+  color: #76545d;
+
+  font-size: 11px;
+
+  font-weight: 600;
+
+  cursor: pointer;
+
+  transition: 0.3s;
+}
+
+.bag-btn:hover {
+  background: #d98fa4;
+  color: white;
+}
+
+
+/* =================================
+   LOADING
+================================= */
+
+.loading-products {
+  text-align: center;
+
+  padding: 70px 20px;
+}
+
+.loading-products div {
+  font-size: 60px;
+}
+
+.loading-products h2 {
+  color: #6b5656;
+}
+
+
+/* =================================
+   NO PRODUCTS
+================================= */
+
+.no-products {
+  text-align: center;
+
+  padding: 80px 20px;
+}
+
+.no-products div {
+  font-size: 70px;
+}
+
+.no-products h3 {
+  font-size: 24px;
+
+  margin: 10px;
+}
+
+.no-products p {
+  color: #998888;
+}
+
+
+/* =================================
+   RESPONSIVE
+================================= */
+
+@media (max-width: 1100px) {
+
+  .product-grid {
+    grid-template-columns:
+      repeat(3, 1fr);
+  }
+
+  .age-container {
+    grid-template-columns:
+      repeat(4, 1fr);
+  }
+
+  .age-hero-content h1 {
+    font-size: 45px;
+  }
+
+  .age-hero-visual {
+    width: 330px;
+  }
+}
+
+
+@media (max-width: 800px) {
+
+  .age-hero {
+    flex-direction: column;
+
+    text-align: center;
+
+    padding: 50px 20px;
+  }
+
+  .age-hero-content
+  > p:not(.age-small-heading) {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .age-hero-visual {
+    margin-top: 30px;
+  }
+
+  .age-container {
+    width: 90%;
+
+    grid-template-columns:
+      repeat(3, 1fr);
+  }
+
+  .age-products {
+    width: 90%;
+  }
+
+  .product-grid {
+    grid-template-columns:
+      repeat(2, 1fr);
+  }
+}
+
+
+@media (max-width: 550px) {
+
+  .age-container {
+    grid-template-columns:
+      repeat(2, 1fr);
+  }
+
+  .product-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .age-hero-content h1 {
+    font-size: 38px;
+  }
+
+  .age-hero-circle {
+    width: 230px;
+    height: 230px;
+
+    font-size: 110px;
+  }
+
+  .age-hero-visual {
+    width: 280px;
+    height: 280px;
+  }
+
+  .age-heading h2 {
+    font-size: 30px;
+  }
+}

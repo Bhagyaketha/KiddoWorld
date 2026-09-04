@@ -1,0 +1,190 @@
+.story-page {
+  min-height: 100vh;
+  padding: 50px 20px;
+  background: linear-gradient(
+    135deg,
+    #fff7ed,
+    #f5f3ff,
+    #ecfeff
+  );
+  font-family: Arial, sans-serif;
+}
+
+
+/* HEADER */
+
+.story-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.story-icon {
+  font-size: 55px;
+  margin-bottom: 10px;
+}
+
+.story-header h1 {
+  margin: 0;
+  font-size: 38px;
+  color: #3b2f63;
+}
+
+.story-header p {
+  margin-top: 12px;
+  color: #666;
+  font-size: 17px;
+}
+
+
+/* FORM */
+
+.story-form {
+  max-width: 700px;
+  margin: auto;
+  padding: 35px;
+  background: white;
+  border-radius: 25px;
+  box-shadow: 0 10px 35px rgba(0, 0, 0, 0.08);
+}
+
+.form-group {
+  margin-bottom: 22px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #3b2f63;
+}
+
+.form-group input,
+.form-group select {
+  width: 100%;
+  padding: 14px 15px;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  font-size: 15px;
+  box-sizing: border-box;
+  outline: none;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+  border-color: #7c3aed;
+}
+
+
+/* BUTTON */
+
+.generate-btn,
+.new-story-btn {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  border-radius: 14px;
+  background: #7c3aed;
+  color: white;
+  font-size: 17px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.generate-btn:hover,
+.new-story-btn:hover {
+  background: #5b21b6;
+}
+
+
+/* STORY */
+
+.story-result {
+  max-width: 850px;
+  margin: auto;
+}
+
+.story-card {
+  background: white;
+  padding: 40px;
+  border-radius: 25px;
+  box-shadow: 0 10px 35px rgba(0, 0, 0, 0.08);
+}
+
+.story-title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.book-icon {
+  font-size: 55px;
+}
+
+.story-title h2 {
+  color: #3b2f63;
+  font-size: 30px;
+  margin-top: 10px;
+}
+
+.story-content {
+  line-height: 1.8;
+  font-size: 17px;
+  color: #444;
+}
+
+.story-content p {
+  margin-bottom: 20px;
+}
+
+
+/* LESSON */
+
+.lesson-box {
+  margin-top: 30px;
+  padding: 25px;
+  background: #ecfdf5;
+  border-radius: 18px;
+  border-left: 5px solid #10b981;
+}
+
+.lesson-box h3 {
+  color: #047857;
+  margin-top: 0;
+}
+
+
+/* ACTIVITY */
+
+.activity-box {
+  margin-top: 20px;
+  padding: 25px;
+  background: #eff6ff;
+  border-radius: 18px;
+  border-left: 5px solid #3b82f6;
+}
+
+.activity-box h3 {
+  color: #1d4ed8;
+  margin-top: 0;
+}
+
+
+/* MOBILE */
+
+@media (max-width: 600px) {
+
+  .story-page {
+    padding: 30px 15px;
+  }
+
+  .story-header h1 {
+    font-size: 28px;
+  }
+
+  .story-form,
+  .story-card {
+    padding: 25px;
+  }
+
+}

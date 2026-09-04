@@ -1,0 +1,784 @@
+/* =========================================
+   SPORTS PAGE
+========================================= */
+
+.sports-page {
+  min-height: 100vh;
+  background: #fffaf8;
+  color: #594747;
+  font-family: "Poppins", sans-serif;
+}
+
+
+/* =========================================
+   HERO
+========================================= */
+
+.sports-hero {
+  min-height: 470px;
+
+  padding: 70px 9%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  overflow: hidden;
+
+  background:
+    radial-gradient(
+      circle at 8% 18%,
+      #fff0bd 0 5%,
+      transparent 6%
+    ),
+    radial-gradient(
+      circle at 90% 20%,
+      #ffdce8 0 7%,
+      transparent 8%
+    ),
+    radial-gradient(
+      circle at 85% 90%,
+      #dff4e9 0 6%,
+      transparent 7%
+    ),
+    linear-gradient(
+      135deg,
+      #fff1df,
+      #e8f5ff
+    );
+}
+
+
+/* =========================================
+   HERO CONTENT
+========================================= */
+
+.sports-hero-content {
+  max-width: 560px;
+}
+
+.sports-small-title {
+  margin: 0 0 18px;
+
+  color: #c98296;
+
+  font-size: 12px;
+  font-weight: 700;
+
+  letter-spacing: 3px;
+}
+
+.sports-hero h1 {
+  margin: 0;
+
+  color: #594747;
+
+  font-size: 58px;
+
+  line-height: 1.08;
+}
+
+.sports-hero h1 span {
+  color: #82a9c5;
+}
+
+.sports-hero-text {
+  max-width: 470px;
+
+  margin: 22px 0 28px;
+
+  color: #907d7d;
+
+  font-size: 15px;
+
+  line-height: 1.8;
+}
+
+
+/* =========================================
+   BUTTON
+========================================= */
+
+.sports-explore-btn {
+  padding: 14px 28px;
+
+  border: none;
+
+  border-radius: 30px;
+
+  background: #82a9c5;
+
+  color: white;
+
+  font-size: 13px;
+
+  font-weight: 600;
+
+  cursor: pointer;
+
+  transition: 0.3s;
+}
+
+.sports-explore-btn:hover {
+  background: #6f97b5;
+
+  transform: translateY(-3px);
+
+  box-shadow:
+    0 10px 22px rgba(100, 140, 170, 0.25);
+}
+
+
+/* =========================================
+   HERO ART
+========================================= */
+
+.sports-hero-art {
+  width: 400px;
+  height: 400px;
+
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sports-circle {
+  width: 280px;
+  height: 280px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+
+  background: rgba(255, 255, 255, 0.72);
+
+  border: 12px solid rgba(255, 255, 255, 0.55);
+
+  font-size: 125px;
+
+  box-shadow:
+    0 20px 45px rgba(100, 70, 70, 0.1);
+}
+
+.sports-star {
+  position: absolute;
+
+  color: #82a9c5;
+
+  font-size: 30px;
+
+  animation: sportsFloat 3s ease-in-out infinite;
+}
+
+.sports-star1 {
+  top: 45px;
+  left: 40px;
+}
+
+.sports-star2 {
+  top: 90px;
+  right: 25px;
+
+  color: #e3b45e;
+
+  animation-delay: 0.7s;
+}
+
+.sports-star3 {
+  bottom: 55px;
+  left: 55px;
+
+  color: #cda1b0;
+
+  animation-delay: 1.2s;
+}
+
+@keyframes sportsFloat {
+
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+
+/* =========================================
+   INTRO
+========================================= */
+
+.sports-intro {
+  padding: 70px 20px 40px;
+
+  text-align: center;
+}
+
+.sports-intro > p {
+  margin: 0 0 12px;
+
+  color: #82a9c5;
+
+  font-size: 11px;
+
+  font-weight: 700;
+
+  letter-spacing: 3px;
+}
+
+.sports-intro h2 {
+  margin: 0;
+
+  color: #594747;
+
+  font-size: 36px;
+}
+
+.sports-intro h2 span {
+  color: #82a9c5;
+}
+
+.sports-intro h4 {
+  margin: 12px 0 0;
+
+  color: #9b8989;
+
+  font-size: 14px;
+
+  font-weight: 400;
+}
+
+
+/* =========================================
+   CONTROLS
+========================================= */
+
+.sports-controls {
+  width: 82%;
+
+  margin: 25px auto 45px;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: space-between;
+
+  gap: 20px;
+}
+
+
+/* SEARCH */
+
+.sports-search {
+  width: 440px;
+
+  padding: 13px 18px;
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 10px;
+
+  background: white;
+
+  border: 1px solid #dfeaf0;
+
+  border-radius: 30px;
+
+  box-shadow:
+    0 5px 18px rgba(100, 70, 70, 0.05);
+}
+
+.sports-search input {
+  width: 100%;
+
+  border: none;
+
+  outline: none;
+
+  background: transparent;
+
+  color: #594747;
+
+  font-family: inherit;
+
+  font-size: 13px;
+}
+
+.sports-search input::placeholder {
+  color: #b3a0a0;
+}
+
+
+/* FILTER */
+
+.sports-filter select {
+  min-width: 210px;
+
+  padding: 13px 20px;
+
+  border: 1px solid #dfeaf0;
+
+  border-radius: 30px;
+
+  outline: none;
+
+  background: white;
+
+  color: #765b63;
+
+  font-family: inherit;
+
+  font-size: 13px;
+
+  cursor: pointer;
+}
+
+
+/* =========================================
+   PRODUCTS
+========================================= */
+
+.sports-products {
+  width: 82%;
+
+  margin: auto;
+
+  padding-bottom: 90px;
+}
+
+.sports-heading {
+  margin-bottom: 25px;
+
+  display: flex;
+
+  align-items: end;
+
+  justify-content: space-between;
+}
+
+.sports-heading p {
+  margin: 0 0 5px;
+
+  color: #82a9c5;
+
+  font-size: 10px;
+
+  font-weight: 700;
+
+  letter-spacing: 2px;
+}
+
+.sports-heading h2 {
+  margin: 0;
+
+  color: #594747;
+
+  font-size: 29px;
+}
+
+.sports-heading > span {
+  color: #9b8989;
+
+  font-size: 13px;
+}
+
+
+/* =========================================
+   GRID
+========================================= */
+
+.sports-grid {
+  display: grid;
+
+  grid-template-columns: repeat(4, 1fr);
+
+  gap: 25px;
+}
+
+
+/* =========================================
+   CARD
+========================================= */
+
+.sports-card {
+  overflow: hidden;
+
+  background: #ffffff;
+
+  border: 1px solid #e4edf1;
+
+  border-radius: 22px;
+
+  box-shadow:
+    0 8px 25px rgba(100, 70, 70, 0.06);
+
+  transition: 0.35s;
+}
+
+.sports-card:hover {
+  transform: translateY(-8px);
+
+  box-shadow:
+    0 18px 35px rgba(100, 70, 70, 0.13);
+}
+
+
+/* =========================================
+   IMAGE
+========================================= */
+
+.sports-image {
+  height: 260px;
+
+  position: relative;
+
+  overflow: hidden;
+
+  background: #eef7fb;
+}
+
+.sports-image img {
+  width: 100%;
+  height: 100%;
+
+  display: block;
+
+  object-fit: cover;
+
+  transition: 0.5s;
+}
+
+.sports-card:hover .sports-image img {
+  transform: scale(1.06);
+}
+
+
+/* =========================================
+   WISHLIST
+========================================= */
+
+.sports-wishlist {
+  position: absolute;
+
+  top: 13px;
+  right: 13px;
+
+  width: 42px;
+  height: 42px;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  border: none;
+
+  border-radius: 50%;
+
+  background: rgba(255, 255, 255, 0.95);
+
+  color: #d9829b;
+
+  font-size: 23px;
+
+  cursor: pointer;
+
+  transition: 0.3s;
+
+  z-index: 2;
+}
+
+.sports-wishlist:hover {
+  transform: scale(1.12);
+
+  background: #ffe8ee;
+}
+
+.sports-wishlist.active {
+  background: #ffe7ed;
+
+  color: #d36f8b;
+}
+
+
+/* =========================================
+   TAG
+========================================= */
+
+.sports-tag {
+  position: absolute;
+
+  left: 13px;
+  bottom: 13px;
+
+  padding: 7px 12px;
+
+  border-radius: 20px;
+
+  background: rgba(255, 255, 255, 0.94);
+
+  color: #66869b;
+
+  font-size: 10px;
+
+  font-weight: 600;
+}
+
+
+/* =========================================
+   INFO
+========================================= */
+
+.sports-info {
+  padding: 18px;
+}
+
+.sports-info h3 {
+  margin: 0 0 8px;
+
+  color: #594747;
+
+  font-size: 16px;
+
+  font-weight: 600;
+
+  white-space: nowrap;
+
+  overflow: hidden;
+
+  text-overflow: ellipsis;
+}
+
+.sports-rating {
+  margin-bottom: 9px;
+
+  color: #d19a56;
+
+  font-size: 12px;
+}
+
+.sports-age {
+  display: inline-block;
+
+  margin: 0 0 12px;
+
+  padding: 6px 10px;
+
+  border-radius: 20px;
+
+  background: #edf7f1;
+
+  color: #6c8b79;
+
+  font-size: 10px;
+
+  font-weight: 600;
+}
+
+.sports-description {
+  min-height: 42px;
+
+  margin: 0 0 15px;
+
+  color: #9a8989;
+
+  font-size: 11px;
+
+  line-height: 1.6;
+}
+
+
+/* =========================================
+   PRICE + BAG
+========================================= */
+
+.sports-bottom {
+  display: flex;
+
+  align-items: center;
+
+  justify-content: space-between;
+
+  gap: 10px;
+}
+
+.sports-bottom strong {
+  color: #7d9fb7;
+
+  font-size: 20px;
+}
+
+.sports-bottom button {
+  padding: 10px 13px;
+
+  border: none;
+
+  border-radius: 22px;
+
+  background: #dcebf3;
+
+  color: #5e7888;
+
+  font-size: 10px;
+
+  font-weight: 600;
+
+  cursor: pointer;
+
+  transition: 0.3s;
+}
+
+.sports-bottom button:hover {
+  background: #82a9c5;
+
+  color: white;
+
+  transform: translateY(-2px);
+}
+
+
+/* =========================================
+   EMPTY
+========================================= */
+
+.sports-empty {
+  grid-column: 1 / -1;
+
+  padding: 70px 20px;
+
+  text-align: center;
+
+  background: white;
+
+  border: 1px solid #e0ebef;
+
+  border-radius: 25px;
+}
+
+.sports-empty div {
+  font-size: 55px;
+}
+
+.sports-empty h3 {
+  margin: 15px 0 5px;
+
+  color: #594747;
+
+  font-size: 22px;
+}
+
+.sports-empty p {
+  color: #998686;
+
+  font-size: 13px;
+}
+
+
+/* =========================================
+   TABLET
+========================================= */
+
+@media (max-width: 1100px) {
+
+  .sports-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+}
+
+
+/* =========================================
+   SMALL TABLET
+========================================= */
+
+@media (max-width: 850px) {
+
+  .sports-hero {
+    flex-direction: column;
+
+    text-align: center;
+
+    padding: 60px 20px;
+  }
+
+  .sports-hero-text {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .sports-hero-art {
+    width: 300px;
+    height: 300px;
+
+    margin-top: 25px;
+  }
+
+  .sports-circle {
+    width: 210px;
+    height: 210px;
+
+    font-size: 95px;
+  }
+
+  .sports-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .sports-controls,
+  .sports-products {
+    width: 90%;
+  }
+
+}
+
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 550px) {
+
+  .sports-hero h1 {
+    font-size: 42px;
+  }
+
+  .sports-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .sports-controls {
+    flex-direction: column;
+
+    align-items: stretch;
+  }
+
+  .sports-search {
+    width: 100%;
+  }
+
+  .sports-filter select {
+    width: 100%;
+  }
+
+  .sports-heading {
+    flex-direction: column;
+
+    align-items: flex-start;
+
+    gap: 8px;
+  }
+
+  .sports-intro h2 {
+    font-size: 29px;
+  }
+
+}

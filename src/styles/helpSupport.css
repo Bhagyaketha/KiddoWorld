@@ -1,0 +1,410 @@
+
+/* ==============================
+   HELP & SUPPORT PAGE
+============================== */
+
+.help-page {
+  min-height: 100vh;
+  background: #fff7f8;
+  padding-bottom: 50px;
+  font-family: Arial, sans-serif;
+}
+
+/* ==============================
+   HERO SECTION
+============================== */
+
+.help-hero {
+  background: linear-gradient(135deg, #f8d7e3, #e8dcff);
+  padding: 70px 30px;
+  text-align: center;
+  border-radius: 0 0 35px 35px;
+  box-shadow: 0 5px 18px rgba(0, 0, 0, 0.08);
+}
+
+.help-hero h1 {
+  font-size: 42px;
+  color: #6b4c6f;
+  margin-bottom: 15px;
+}
+
+.help-hero p {
+  max-width: 650px;
+  margin: auto;
+  font-size: 17px;
+  line-height: 1.7;
+  color: #765f76;
+}
+
+/* ==============================
+   SUPPORT OPTIONS
+============================== */
+
+.help-options {
+  max-width: 1100px;
+  margin: 50px auto;
+  padding: 0 25px;
+
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 22px;
+}
+
+.help-card {
+  background: #ffffff;
+  padding: 30px 20px;
+  text-align: center;
+
+  border-radius: 25px;
+
+  box-shadow: 0 8px 22px rgba(120, 90, 120, 0.12);
+
+  transition: transform 0.3s ease,
+              box-shadow 0.3s ease;
+}
+
+.help-card:hover {
+  transform: translateY(-8px);
+
+  box-shadow: 0 14px 30px rgba(120, 90, 120, 0.18);
+}
+
+.help-icon {
+  font-size: 42px;
+  margin-bottom: 15px;
+}
+
+.help-card h3 {
+  color: #704f70;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.help-card p {
+  color: #7d6b7d;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+/* ==============================
+   FAQ SECTION
+============================== */
+
+.faq-section {
+  max-width: 900px;
+  margin: 70px auto;
+  padding: 0 25px;
+}
+
+.faq-section h2 {
+  text-align: center;
+  font-size: 30px;
+  color: #6b4c6f;
+  margin-bottom: 30px;
+}
+
+.faq-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.faq-container details {
+  background: #ffffff;
+  border-radius: 18px;
+  padding: 20px 25px;
+
+  box-shadow: 0 6px 18px rgba(120, 90, 120, 0.1);
+
+  cursor: pointer;
+
+  transition: all 0.3s ease;
+}
+
+.faq-container details:hover {
+  transform: translateY(-2px);
+}
+
+.faq-container summary {
+  color: #6d4d6d;
+  font-size: 17px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.faq-container details p {
+  color: #7d6b7d;
+  line-height: 1.7;
+  font-size: 15px;
+
+  margin: 15px 0 0;
+  padding-top: 12px;
+
+  border-top: 1px solid #f1dce8;
+}
+
+/* ==============================
+   CONTACT SECTION
+============================== */
+
+.contact-section {
+  max-width: 1100px;
+  margin: 70px auto 20px;
+  padding: 40px;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+
+  background: linear-gradient(
+    135deg,
+    #fce4ec,
+    #eee5ff
+  );
+
+  border-radius: 30px;
+
+  box-shadow: 0 10px 30px rgba(120, 90, 120, 0.12);
+}
+
+/* ==============================
+   CONTACT INFORMATION
+============================== */
+
+.contact-info {
+  padding: 20px;
+}
+
+.contact-info h2 {
+  color: #6b4c6f;
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+.contact-info > p {
+  color: #765f76;
+  line-height: 1.7;
+  margin-bottom: 30px;
+}
+
+.contact-item {
+  background: rgba(255, 255, 255, 0.75);
+
+  padding: 15px 18px;
+  margin-bottom: 15px;
+
+  border-radius: 15px;
+
+  color: #704f70;
+  font-size: 15px;
+
+  box-shadow: 0 4px 12px rgba(120, 90, 120, 0.08);
+}
+
+.contact-item span {
+  margin-left: 8px;
+}
+
+/* ==============================
+   SUPPORT FORM
+============================== */
+
+.support-form {
+  background: #ffffff;
+
+  padding: 30px;
+
+  border-radius: 25px;
+
+  box-shadow: 0 8px 25px rgba(120, 90, 120, 0.12);
+}
+
+.support-form h2 {
+  color: #6b4c6f;
+  font-size: 25px;
+  margin-bottom: 22px;
+}
+
+.support-form input,
+.support-form textarea {
+  width: 100%;
+  box-sizing: border-box;
+
+  border: 1px solid #ead8e7;
+
+  background: #fffafa;
+
+  padding: 14px 16px;
+
+  border-radius: 14px;
+
+  margin-bottom: 15px;
+
+  font-family: inherit;
+  font-size: 14px;
+
+  outline: none;
+
+  transition: border 0.3s ease,
+              box-shadow 0.3s ease;
+}
+
+.support-form input:focus,
+.support-form textarea:focus {
+  border-color: #c9a7d8;
+
+  box-shadow: 0 0 0 3px rgba(201, 167, 216, 0.15);
+}
+
+.support-form textarea {
+  resize: vertical;
+}
+
+.support-form button {
+  width: 100%;
+
+  border: none;
+
+  padding: 14px;
+
+  border-radius: 15px;
+
+  background: linear-gradient(
+    135deg,
+    #d9b8d8,
+    #c7b1e8
+  );
+
+  color: #ffffff;
+
+  font-size: 16px;
+  font-weight: 600;
+
+  cursor: pointer;
+
+  transition: transform 0.3s ease,
+              box-shadow 0.3s ease;
+}
+
+.support-form button:hover {
+  transform: translateY(-2px);
+
+  box-shadow: 0 8px 18px rgba(120, 90, 120, 0.2);
+}
+
+/* ==============================
+   SUCCESS MESSAGE
+============================== */
+
+.success-message {
+  margin-top: 15px;
+
+  padding: 12px;
+
+  background: #e5f8e8;
+
+  border-radius: 12px;
+
+  text-align: center;
+
+  color: #4d7955;
+
+  font-size: 14px;
+}
+
+/* ==============================
+   TABLET
+============================== */
+
+@media (max-width: 1000px) {
+
+  .help-options {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .contact-section {
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+}
+
+/* ==============================
+   MOBILE
+============================== */
+
+@media (max-width: 700px) {
+
+  .help-hero {
+    padding: 50px 20px;
+  }
+
+  .help-hero h1 {
+    font-size: 32px;
+  }
+
+  .help-hero p {
+    font-size: 15px;
+  }
+
+  .help-options {
+    grid-template-columns: 1fr;
+    margin-top: 35px;
+  }
+
+  .faq-section {
+    margin-top: 50px;
+  }
+
+  .faq-section h2 {
+    font-size: 25px;
+  }
+
+  .contact-section {
+    grid-template-columns: 1fr;
+    padding: 25px;
+    gap: 20px;
+  }
+
+  .contact-info {
+    padding: 10px;
+  }
+
+  .contact-info h2 {
+    font-size: 25px;
+  }
+
+  .support-form {
+    padding: 22px;
+  }
+}
+
+/* ==============================
+   SMALL MOBILE
+============================== */
+
+@media (max-width: 450px) {
+
+  .help-hero h1 {
+    font-size: 27px;
+  }
+
+  .help-card {
+    padding: 25px 18px;
+  }
+
+  .faq-container details {
+    padding: 17px 18px;
+  }
+
+  .faq-container summary {
+    font-size: 15px;
+  }
+
+  .contact-section {
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 18px;
+    border-radius: 22px;
+  }
+}
+

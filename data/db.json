@@ -1,0 +1,2298 @@
+{
+  "toys": [
+    {
+      "id": "1",
+      "name": "Cute Teddy Bear",
+      "category": "Soft Toys",
+      "price": 699,
+      "image": "https://i.pinimg.com/736x/01/2a/96/012a969cf56c5c103f6770e1b06a1c8f.jpg",
+      "rating": 4.8,
+      "age": "0-1 Years",
+      "description": "Soft and cuddly teddy bear perfect for little ones."
+    },
+    {
+      "id": "2",
+      "name": "Colorful Building Blocks",
+      "category": "Building Toys",
+      "price": 499,
+      "image": "https://i.pinimg.com/1200x/de/40/2d/de402dc88de930988af94aa120cf9126.jpg",
+      "rating": 4.9,
+      "age": "2-3 Years",
+      "description": "Colorful building blocks that encourage creativity and imagination."
+    },
+    {
+      "id": "3",
+      "name": "Red Toy Car",
+      "category": "Vehicle Toys",
+      "price": 599,
+      "image": "https://i.pinimg.com/736x/f2/58/bc/f258bc57f2903a9467096ccfe39ebd9d.jpg",
+      "rating": 4.7,
+      "age": "3-4 Years",
+      "description": "Fun toy car designed for exciting racing adventures."
+    },
+    {
+      "id": "4",
+      "name": "Dinosaur Toy",
+      "category": "Action Figures",
+      "price": 549,
+      "image": "https://i.pinimg.com/1200x/98/17/06/98170680a1e5a655b29a2064be10a673.jpg",
+      "rating": 4.7,
+      "age": "4-5 Years",
+      "description": "Colorful dinosaur toy for imaginative prehistoric adventures."
+    },
+    {
+      "id": "5",
+      "name": "Wooden Puzzle",
+      "category": "Puzzles",
+      "price": 399,
+      "image": "https://i.pinimg.com/736x/58/89/1d/58891dba80789d0fc05e7c42d0a9c591.jpg",
+      "rating": 4.6,
+      "age": "5-6 Years",
+      "description": "Educational puzzle that helps children develop problem-solving skills."
+    },
+    {
+      "id": "6",
+      "name": "Princess Doll",
+      "category": "Dolls",
+      "price": 799,
+      "image": "https://i.pinimg.com/736x/f1/35/e6/f135e6f2445ea6354953e9e54e3e7e67.jpg",
+      "rating": 4.8,
+      "age": "6-7 Years",
+      "description": "Lovely doll for creative storytelling and pretend play."
+    },
+    {
+      "id": "7",
+      "name": "Toy Train",
+      "category": "Vehicle Toys",
+      "price": 899,
+      "image": "https://i.pinimg.com/736x/13/55/a9/1355a9ddf97ca008c028ba82081bb43b.jpg",
+      "rating": 4.7,
+      "age": "7-8 Years",
+      "description": "Colorful toy train for fun railway adventures."
+    },
+    {
+      "id": "8",
+      "name": "Rainbow Stacking Rings",
+      "category": "Learning Toys",
+      "price": 349,
+      "image": "https://i.pinimg.com/736x/8a/1d/2a/8a1d2a16c41dc0713deefcd243a90bd5.jpg",
+      "rating": 4.6,
+      "age": "8-9 Years",
+      "description": "Bright stacking rings that help develop coordination."
+    },
+    {
+      "id": "9",
+      "name": "Kids Art & Craft Set",
+      "category": "Arts & Crafts",
+      "price": 849,
+      "image": "https://i.pinimg.com/736x/91/6b/9e/916b9e5011b204f418c0eab7e64ff359.jpg",
+      "rating": 4.8,
+      "age": "9-10 Years",
+      "description": "Creative art set for drawing, painting and crafting."
+    },
+    {
+      "id": "10",
+      "name": "Mini Kitchen Play Set",
+      "category": "Pretend Play",
+      "price": 799,
+      "image": "https://i.pinimg.com/1200x/29/de/12/29de129a5c0c2554130dcc22aadd6584.jpg",
+      "rating": 4.7,
+      "age": "10-11 Years",
+      "description": "Pretend kitchen toys for imaginative cooking adventures."
+    },
+    {
+      "id": "11",
+      "name": "Remote Control Car",
+      "category": "Remote Control Toys",
+      "price": 1199,
+      "image": "https://i.pinimg.com/736x/d6/b4/6b/d6b46b6b2dcd15ccb5b92150f3765e2d.jpg",
+      "rating": 4.6,
+      "age": "11-12 Years",
+      "description": "Exciting remote control car for racing and outdoor play."
+    },
+    {
+      "id": "12",
+      "name": "Educational Learning Toy",
+      "category": "Educational Toys",
+      "price": 899,
+      "image": "https://i.pinimg.com/736x/15/76/9f/15769fb4ddafad579698fe6ad65a872e.jpg",
+      "rating": 4.8,
+      "age": "0-1 Years",
+      "description": "Interactive educational toys for early learning and development."
+    },
+    {
+      "id": "13",
+      "name": "Animal Toy Set",
+      "category": "Animal Toys",
+      "price": 649,
+      "image": "https://i.pinimg.com/736x/32/f3/b7/32f3b7c4067a9e637063bc58ef362ec6.jpg",
+      "rating": 4.7,
+      "age": "1-2 Years",
+      "description": "Colorful animal toys for imaginative farm and jungle play."
+    },
+    {
+      "id": "14",
+      "name": "Cute Bunny Plush",
+      "category": "Soft Toys",
+      "price": 749,
+      "image": "https://i.pinimg.com/736x/d9/43/5b/d9435b05557cc8b0b3d36e65d8059423.jpg",
+      "rating": 4.8,
+      "age": "2-3 Years",
+      "description": "Soft plush bunny that makes a cute cuddly companion."
+    },
+    {
+      "id": "15",
+      "name": "Magnetic Building Tiles",
+      "category": "Building Toys",
+      "price": 999,
+      "image": "https://i.pinimg.com/736x/5e/07/4f/5e074fb57af88d5b58149cf6dd78e944.jpg",
+      "rating": 4.9,
+      "age": "3-4 Years",
+      "description": "Creative building tiles for constructing different shapes."
+    },
+    {
+      "id": "16",
+      "name": "Toy Robot",
+      "category": "Electronic Toys",
+      "price": 999,
+      "image": "https://i.pinimg.com/736x/61/3f/3b/613f3b10856aa0e89c3210ce6d1c782c.jpg",
+      "rating": 4.6,
+      "age": "4-5 Years",
+      "description": "Colorful robot toy designed for exciting imaginative play."
+    },
+    {
+      "id": "17",
+      "name": "Kids Shopping Set",
+      "category": "Pretend Play",
+      "price": 749,
+      "image": "https://i.pinimg.com/736x/2c/d1/77/2cd177697d270043d01f6e775e090d58.jpg",
+      "rating": 4.7,
+      "age": "5-6 Years",
+      "description": "Fun pretend shopping set for role-playing adventures."
+    },
+    {
+      "id": "18",
+      "name": "Colorful Toy Collection",
+      "category": "Kids Toys",
+      "price": 899,
+      "image": "https://i.pinimg.com/1200x/4f/06/24/4f06244c2a4fd6b73727070e58a57b78.jpg",
+      "rating": 4.8,
+      "age": "6-7 Years",
+      "description": "A colorful collection of toys for creative everyday play."
+    },
+    {
+      "id": "19",
+      "name": "Toy Car Collection",
+      "category": "Vehicle Toys",
+      "price": 799,
+      "image": "https://i.pinimg.com/736x/e5/c1/e0/e5c1e0cc7f98de2b30e05f0d883f6d62.jpg",
+      "rating": 4.7,
+      "age": "7-8 Years",
+      "description": "Colorful miniature cars for racing and pretend play."
+    },
+    {
+      "id": "20",
+      "name": "Kids Activity Set",
+      "category": "Educational Toys",
+      "price": 1099,
+      "image": "https://i.pinimg.com/736x/7c/42/26/7c42261ef8c9f4990faeb369e6673f5c.jpg",
+      "rating": 4.9,
+      "age": "8-9 Years",
+      "description": "Fun activity set combining learning and creative play."
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "Toys",
+      "icon": "🧸",
+      "tagline": "PLAY & DISCOVER",
+      "description": "Fun toys to spark imagination and endless adventures.",
+      "path": "/Toys",
+      "className": "category-pink"
+    },
+    {
+      "id": "2",
+      "name": "Clothing",
+      "icon": "👗",
+      "tagline": "LITTLE FASHION",
+      "description": "Cute, comfy and stylish outfits for little trendsetters.",
+      "path": "/Clothing",
+      "className": "category-green"
+    },
+    {
+      "id": "3",
+      "name": "Books",
+      "icon": "📚",
+      "tagline": "READ & IMAGINE",
+      "description": "Wonderful stories and books for curious little minds.",
+      "path": "/Books",
+      "className": "category-yellow"
+    },
+    {
+      "id": "4",
+      "name": "School Supplies",
+      "icon": "✏️",
+      "tagline": "LEARN IN STYLE",
+      "description": "Everything they need for a fun and creative school day.",
+      "path": "/Schoolsupplies",
+      "className": "category-purple"
+    },
+    {
+      "id": "5",
+      "name": "Arts & Crafts",
+      "icon": "🎨",
+      "tagline": "CREATE & EXPLORE",
+      "description": "Creative supplies to turn little ideas into masterpieces.",
+      "path": "/Artscrafts",
+      "className": "category-blue"
+    },
+    {
+      "id": "6",
+      "name": "Sports & Outdoor",
+      "icon": "⚽",
+      "tagline": "MOVE & PLAY",
+      "description": "Get active with exciting games and outdoor adventures.",
+      "path": "/Sports",
+      "className": "category-peach"
+    }
+  ],
+  "ageGroups": [
+    {
+      "id": "1",
+      "age": "0-1 Years",
+      "title": "Tiny Beginnings",
+      "description": "Soft, safe and sensory products for newborns and growing babies.",
+      "image": "https://images.unsplash.com/photo-1519689680058-324335c77eba?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": "2",
+      "age": "1-2 Years",
+      "title": "Little Discoverers",
+      "description": "Fun sensory toys and activities to encourage early exploration.",
+      "image": "https://images.unsplash.com/photo-1596461404969-9ae70f2830c1?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": "3",
+      "age": "2–3 Years",
+      "title": "Curious Tots",
+      "description": "Colorful toys and creative activities for curious little minds.",
+      "image": "https://images.unsplash.com/photo-1560961911-ba7ef651a56c?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": "4",
+      "age": "3–4 Years",
+      "title": "Playful Explorers",
+      "description": "Imaginative toys and playful learning experiences.",
+      "image": "https://images.unsplash.com/photo-1599623560574-39d485900c95?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": "5",
+      "age": "4–5 Years",
+      "title": "Little Adventurers",
+      "description": "Creative toys, puzzles and activities for growing imaginations.",
+      "image": "https://images.unsplash.com/photo-1587654780291-39c9404d746b?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": "6",
+      "age": "5–6 Years",
+      "title": "Creative Kids",
+      "description": "Arts, crafts and educational toys designed for creative minds.",
+      "image": "https://images.unsplash.com/photo-1594736797933-d0501ba2fe65?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": "7",
+      "age": "6–7 Years",
+      "title": "Bright Minds",
+      "description": "Games, books and STEM toys that make learning exciting.",
+      "image": "https://images.unsplash.com/photo-1607453998774-d533f65dac99?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": "8",
+      "age": "7–8 Years",
+      "title": "Smart Explorers",
+      "description": "Build, experiment and discover with exciting learning products.",
+      "image": "https://images.unsplash.com/photo-1596464716127-f2a82984de30?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": "9",
+      "age": "8–9 Years",
+      "title": "Adventure Club",
+      "description": "Games, puzzles and outdoor activities for active kids.",
+      "image": "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": "10",
+      "age": "9–10 Years",
+      "title": "Big Thinkers",
+      "description": "Challenging games and creative products for independent thinkers.",
+      "image": "https://images.unsplash.com/photo-1504159506876-4c757a390951?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": "11",
+      "age": "10–11 Years",
+      "title": "Future Stars",
+      "description": "Technology, science and creative activities for curious minds.",
+      "image": "https://images.unsplash.com/photo-1577896851231-70ef18881754?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": "12",
+      "age": "11–12 Years",
+      "title": "Young Creators",
+      "description": "Creative kits, books and games for independent young creators.",
+      "image": "https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": "13",
+      "age": "12–13 Years",
+      "title": "Teen Explorers",
+      "description": "Trendy, creative and educational picks for growing personalities.",
+      "image": "https://images.unsplash.com/photo-1504052434569-70ad5836ab65?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": "14",
+      "age": "13–14 Years",
+      "title": "Young Dreamers",
+      "description": "Stylish accessories, books and creative products for teens.",
+      "image": "https://images.unsplash.com/photo-1503676382389-4809596d5290?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": "15",
+      "age": "14–16 Years",
+      "title": "Growing Stars",
+      "description": "Cool, creative and inspiring products for independent teens.",
+      "image": "https://images.unsplash.com/photo-1529390079861-591de354faf5?auto=format&fit=crop&w=800&q=80"
+    }
+  ],
+  "interests": [
+    {
+      "id": "1",
+      "title": "Arts & Crafts",
+      "description": "Creative kits, colors and activities for little artists.",
+      "icon": "🎨",
+      "image": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": "2",
+      "title": "Fashion & Style",
+      "description": "Cute clothing, accessories and stylish picks for kids.",
+      "icon": "👗",
+      "image": "https://images.unsplash.com/photo-1514090458221-65bb69cf63e6?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": "3",
+      "title": "Reading",
+      "description": "Wonderful stories and books for young readers.",
+      "icon": "📚",
+      "image": "https://images.unsplash.com/photo-1504052434569-70ad5836ab65?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": "4",
+      "title": "Sports",
+      "description": "Active games and sports equipment for energetic kids.",
+      "icon": "⚽",
+      "image": "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": "5",
+      "title": "School-Supplies",
+      "description": "Discover different school supplies ",
+      "icon": "✏️",
+      "image": "https://i.pinimg.com/736x/21/c1/a1/21c1a135c84d98399c554e898fe5b2cf.jpg"
+    },
+    {
+      "id": "6",
+      "title": "Dolls & Pretend Play",
+      "description": "Imaginative toys for storytelling and pretend adventures.",
+      "icon": "🧸",
+      "image": "https://images.unsplash.com/photo-1599623560574-39d485900c95?auto=format&fit=crop&w=800&q=80"
+    }
+  ],
+  "giftProducts": [
+    {
+      "id": "101",
+      "name": "Rainbow Art Kit",
+      "age": "0-1 Years",
+      "interest": "Arts & Crafts",
+      "price": 499,
+      "description": "A colorful art kit for creative little artists.",
+      "image": "https://i.pinimg.com/1200x/7b/cb/70/7bcb708e6825c2d6cebfa452c31e68bf.jpg"
+    },
+    {
+      "id": "102",
+      "name": "Little Scientist Kit",
+      "age": "6-7 Years",
+      "interest": "Science",
+      "price": 799,
+      "description": "Fun experiments for curious young scientists.",
+      "image": "https://i.pinimg.com/736x/1b/f2/53/1bf25348e6b2847589335c520320b53e.jpg"
+    },
+    {
+      "id": "103",
+      "name": "Space Explorer Set",
+      "age": "7-8 Years",
+      "interest": "Space & Astronomy",
+      "price": 899,
+      "description": "Discover planets, stars and outer space.",
+      "image": "https://i.pinimg.com/736x/38/53/7f/38537f66109b2c7c92f1b4d99b47e13e.jpg"
+    },
+    {
+      "id": "104",
+      "name": "Magic Story Book Set",
+      "age": "8-9 Years",
+      "interest": "Reading",
+      "price": 399,
+      "description": "A magical collection of stories for young readers.",
+      "image": "https://i.pinimg.com/1200x/b8/bb/82/b8bb8297ff7c7b4975df72c184ccb130.jpg"
+    },
+    {
+      "id": "105",
+      "name": "Mini Music Keyboard",
+      "age": "10-11 Years",
+      "interest": "Music",
+      "price": 999,
+      "description": "A fun keyboard for little musicians.",
+      "image": "https://i.pinimg.com/736x/df/f0/69/dff0697ab6f8bb44beb07edce7d6dea9.jpg"
+    },
+    {
+      "id": "106",
+      "name": "Junior Football Set",
+      "age": "6-7 Years",
+      "interest": "Sports",
+      "price": 599,
+      "description": "A fun football set for active kids.",
+      "image": "https://i.pinimg.com/1200x/f0/60/fb/f060fb4c2c19abab24e9507d5fe7017d.jpg"
+    },
+    {
+      "id": "107",
+      "name": "Creative Building Blocks",
+      "age": "5-6 Years",
+      "interest": "Building & Construction",
+      "price": 699,
+      "description": "Build houses, vehicles and creative structures.",
+      "image": "https://i.pinimg.com/736x/d4/99/14/d499146a1a950517c9855cfa906083ab.jpg"
+    },
+    {
+      "id": "108",
+      "name": "Brain Puzzle Box",
+      "age": "9-10 Years",
+      "interest": "Puzzles & Games",
+      "price": 549,
+      "description": "Challenging puzzles for smart young minds.",
+      "image": "https://i.pinimg.com/1200x/87/61/94/8761948f19e1e1838601e73fbe018744.jpg"
+    },
+    {
+      "id": "109",
+      "name": "Wildlife Discovery Kit",
+      "age": "2-3 Years",
+      "interest": "Animals & Nature",
+      "price": 749,
+      "description": "Discover animals and the wonders of nature.",
+      "image": "https://i.pinimg.com/236x/05/7a/67/057a6766152ce94c0345645264e26f09.jpg"
+    },
+    {
+      "id": "110",
+      "name": "Little Chef Kitchen Set",
+      "age": "5-6 Years",
+      "interest": "Cooking",
+      "price": 899,
+      "description": "A pretend kitchen set for future little chefs.",
+      "image": "https://i.pinimg.com/1200x/86/b0/db/86b0db61311ce7ea7978a36bbf96b033.jpg"
+    },
+    {
+      "id": "111",
+      "name": "Cute Doll House",
+      "age": "4-5 Years",
+      "interest": "Dolls & Pretend Play",
+      "price": 1299,
+      "description": "A cute doll house for imaginative adventures.",
+      "image": "https://i.pinimg.com/1200x/93/34/cf/9334cf3e3c38b9b526b6bffd79f38791.jpg"
+    },
+    {
+      "id": "112",
+      "name": "Racing Car Collection",
+      "age": "8-9 Years",
+      "interest": "Vehicles",
+      "price": 699,
+      "description": "Colorful racing cars for little racers.",
+      "image": "https://i.pinimg.com/736x/ca/d4/53/cad45366e4dc8e7c311d2fb73ad30d11.jpg"
+    },
+    {
+      "id": "113",
+      "name": "Kids Coding Robot",
+      "age": "11-12 Years",
+      "interest": "Technology",
+      "price": 1999,
+      "description": "A beginner coding robot for young innovators.",
+      "image": "https://i.pinimg.com/736x/da/b6/72/dab6724a645c04093c1ef9cdb8d5fa3b.jpg"
+    },
+    {
+      "id": "114",
+      "name": "Adventure Explorer Kit",
+      "age": "9-10 Years",
+      "interest": "Outdoor Adventures",
+      "price": 1099,
+      "description": "A fun kit for young outdoor explorers.",
+      "image": "https://i.pinimg.com/1200x/a0/7b/41/a07b41ea0f1bd7bdf8346a7589e19b71.jpg"
+    },
+    {
+      "id": "115",
+      "name": "Pastel Style Backpack",
+      "age": "4-5 Years",
+      "interest": "Fashion & Style",
+      "price": 899,
+      "description": "A trendy pastel backpack for stylish teens.",
+      "image": "https://i.pinimg.com/736x/44/d7/67/44d767fd5146a880320a752ddb8f3b4e.jpg"
+    }
+  ],
+  "clothing": [
+    {
+      "id": "1",
+      "name": "Floral Princess Dress",
+      "category": "Dresses",
+      "price": 899,
+      "age": "2-3 Years",
+      "rating": 4.9,
+      "image": "https://i.pinimg.com/736x/06/09/05/0609054e729dbb997ef52cf276c43de8.jpg",
+      "description": "Beautiful floral dress designed for little princesses."
+    },
+    {
+      "id": "2",
+      "name": "Pastel Party Dress",
+      "category": "Dresses",
+      "price": 999,
+      "age": "4-5 Years",
+      "rating": 4.8,
+      "image": "https://i.pinimg.com/736x/84/1a/3c/841a3c78967962da0edc29446d42a777.jpg",
+      "description": "Elegant pastel party dress for special occasions."
+    },
+    {
+      "id": "3",
+      "name": "Cute Denim Jacket",
+      "category": "Jackets",
+      "price": 799,
+      "age": "5-6 Years",
+      "rating": 4.7,
+      "image": "https://i.pinimg.com/736x/64/14/5a/64145a14e23ae071a80254b1dd6bd2d3.jpg",
+      "description": "Trendy denim jacket perfect for everyday adventures."
+    },
+    {
+      "id": "4",
+      "name": "Rainbow T-Shirt",
+      "category": "T-Shirts",
+      "price": 399,
+      "age": "3-4 Years",
+      "rating": 4.8,
+      "image": "https://i.pinimg.com/736x/db/1e/fd/db1efdc417d94c7a16ffcca4256166c5.jpg",
+      "description": "Colorful rainbow T-shirt made for playful days."
+    },
+    {
+      "id": "5",
+      "name": "Little Explorer Hoodie",
+      "category": "Hoodies",
+      "price": 699,
+      "age": "5-6 Years",
+      "rating": 4.7,
+      "image": "https://i.pinimg.com/736x/99/81/ec/9981ec1f1094ab5001bf28623412bc3f.jpg",
+      "description": "Comfortable hoodie for little explorers."
+    },
+    {
+      "id": "6",
+      "name": "Pink Bow Top",
+      "category": "Tops",
+      "price": 499,
+      "age": "2-3 Years",
+      "rating": 4.8,
+      "image": "https://i.pinimg.com/1200x/24/61/9e/24619e40e97fe9270e00140c2212c711.jpg",
+      "description": "Pretty pink top with a cute bow detail."
+    },
+    {
+      "id": "7",
+      "name": "Cotton Summer Shorts",
+      "category": "Shorts",
+      "price": 449,
+      "age": "4-5 Years",
+      "rating": 4.6,
+      "image": "https://i.pinimg.com/1200x/fd/c8/d2/fdc8d2ceabb1448622b4c8c04c3294e4.jpg",
+      "description": "Soft cotton shorts perfect for summer play."
+    },
+    {
+      "id": "8",
+      "name": "Sunny Yellow Dress",
+      "category": "Dresses",
+      "price": 749,
+      "age": "2-3 Years",
+      "rating": 4.9,
+      "image": "https://i.pinimg.com/736x/8a/45/73/8a45731f79736653dc88bf7bb41f2dfe.jpg",
+      "description": "Bright yellow dress for happy sunny days."
+    },
+    {
+      "id": "9",
+      "name": "Classic Kids Shirt",
+      "category": "Shirts",
+      "price": 599,
+      "age": "5-6 Years",
+      "rating": 4.7,
+      "image": "https://i.pinimg.com/736x/6d/77/ac/6d77ac5b6cf2d3c163a6eb84079c1b88.jpg",
+      "description": "Classic comfortable shirt for smart occasions."
+    },
+    {
+      "id": "10",
+      "name": "Rainbow Striped Tee",
+      "category": "T-Shirts",
+      "price": 429,
+      "age": "3-4 Years",
+      "rating": 4.8,
+      "image": "https://i.pinimg.com/736x/a0/b9/7c/a0b97c4dbae3657aab031c411d51e492.jpg",
+      "description": "Fun striped T-shirt with playful colors."
+    },
+    {
+      "id": "11",
+      "name": "Cozy Winter Sweater",
+      "category": "Sweaters",
+      "price": 899,
+      "age": "4-5 Years",
+      "rating": 4.8,
+      "image": "https://i.pinimg.com/1200x/0a/6d/b4/0a6db43da8e39f579599d9139c0a5068.jpg",
+      "description": "Warm and cozy sweater for chilly days."
+    },
+    {
+      "id": "12",
+      "name": "Little Star Pajama Set",
+      "category": "Nightwear",
+      "price": 649,
+      "age": "3-4 Years",
+      "rating": 4.9,
+      "image": "https://i.pinimg.com/736x/b2/d0/65/b2d065ffbdd37990738ac48231042429.jpg",
+      "description": "Soft pajama set with adorable star details."
+    },
+    {
+      "id": "13",
+      "name": "Cute Denim Overalls",
+      "category": "Overalls",
+      "price": 849,
+      "age": "3-4 Years",
+      "rating": 4.7,
+      "image": "https://i.pinimg.com/736x/0a/8f/27/0a8f27fd668753c19753ea1e42da4120.jpg",
+      "description": "Stylish denim overalls for everyday adventures."
+    },
+    {
+      "id": "14",
+      "name": "Butterfly Print Frock",
+      "category": "Dresses",
+      "price": 799,
+      "age": "2-3 Years",
+      "rating": 4.9,
+      "image": "https://i.pinimg.com/736x/72/ef/52/72ef52afc674cbc5800df721c4ebf564.jpg",
+      "description": "Sweet butterfly print frock for little girls."
+    },
+    {
+      "id": "16",
+      "name": "Cute Animal Hoodie",
+      "category": "Hoodies",
+      "price": 749,
+      "age": "7-8 Years",
+      "rating": 4.8,
+      "image": "https://i.pinimg.com/1200x/73/06/c6/7306c6837891f14da8d7f6f77dff6592.jpg",
+      "description": "Adorable animal hoodie for cozy adventures."
+    },
+    {
+      "id": "17",
+      "name": "Pastel Cotton Skirt",
+      "category": "Skirts",
+      "price": 549,
+      "age": "7-8 Years",
+      "rating": 4.7,
+      "image": "https://i.pinimg.com/1200x/bb/56/89/bb56893112e72db58c192e5dff01bc32.jpg",
+      "description": "Soft pastel skirt with a comfortable fit."
+    },
+    {
+      "id": "18",
+      "name": "Party Bow Shirt",
+      "category": "Shirts",
+      "price": 699,
+      "age": "8-9 Years",
+      "rating": 4.8,
+      "image": "https://i.pinimg.com/1200x/b2/4f/2c/b24f2cdc039bef8004bf76c2cffe36cf.jpg",
+      "description": "Smart party shirt with a charming bow detail."
+    },
+    {
+      "id": "19",
+      "name": "Little Sunshine Romper",
+      "category": "Rompers",
+      "price": 649,
+      "age": "0-1 Years",
+      "rating": 4.9,
+      "image": "https://i.pinimg.com/736x/2e/96/46/2e96464ab1a86dd2341a94d137413d63.jpg",
+      "description": "Cute and comfortable romper for little sunshine."
+    },
+    {
+      "id": "20",
+      "name": "Winter Teddy Jacket",
+      "category": "Jackets",
+      "price": 1099,
+      "age": "8-9 Years",
+      "rating": 4.9,
+      "image": "https://i.pinimg.com/1200x/1a/a8/c8/1aa8c80357082b3dadad678eed6bec75.jpg",
+      "description": "Warm teddy jacket perfect for winter outings."
+    }
+  ],
+  "books": [
+    {
+      "id": "1",
+      "name": "The Little Adventure",
+      "category": "Story Books",
+      "price": 299,
+      "age": "5-6 Years",
+      "rating": 4.9,
+      "image": "https://i.pinimg.com/1200x/24/06/35/240635421a77ccff0d02fa108043edd3.jpg",
+      "description": "A delightful adventure story for curious little explorers."
+    },
+    {
+      "id": "2",
+      "name": "My First Picture Book",
+      "category": "Picture Books",
+      "price": 249,
+      "age": "4-5 Years",
+      "rating": 4.8,
+      "image": "https://i.pinimg.com/1200x/13/af/99/13af99d9bb46183f541232c8f5319eae.jpg",
+      "description": "A colorful picture book filled with fun illustrations."
+    },
+    {
+      "id": "3",
+      "name": "Dinosaur World",
+      "category": "Educational",
+      "price": 349,
+      "age": "7-8 Years",
+      "rating": 4.9,
+      "image": "https://i.pinimg.com/1200x/81/81/ad/8181ad735d94bbde7eee200412fe2552.jpg",
+      "description": "Explore the exciting world of dinosaurs."
+    },
+    {
+      "id": "4",
+      "name": "Bedtime Stories",
+      "category": "Bedtime",
+      "price": 299,
+      "age": "6-7 Years",
+      "rating": 4.8,
+      "image": "https://i.pinimg.com/1200x/b8/bb/82/b8bb8297ff7c7b4975df72c184ccb130.jpg",
+      "description": "Sweet and calming stories perfect for bedtime."
+    },
+    {
+      "id": "5",
+      "name": "ABC Fun Learning",
+      "category": "Learning",
+      "price": 199,
+      "age": "2-3 Years",
+      "rating": 4.7,
+      "image": "https://i.pinimg.com/1200x/a5/63/21/a563219c83d0c96b6e8df678878a8c73.jpg",
+      "description": "Learn the alphabet through colorful activities."
+    },
+    {
+      "id": "6",
+      "name": "Numbers Around Us",
+      "category": "Learning",
+      "price": 229,
+      "age": "5-6 Years",
+      "rating": 4.8,
+      "image": "https://i.pinimg.com/736x/32/bb/d1/32bbd1772644511401750c13ee3906ee.jpg",
+      "description": "A fun introduction to numbers and counting."
+    },
+    {
+      "id": "7",
+      "name": "The Magic Forest",
+      "category": "Fantasy",
+      "price": 349,
+      "age": "8-9 Years",
+      "rating": 4.9,
+      "image": "https://i.pinimg.com/736x/38/4d/12/384d12e470f4a95b24869ab6ff0a79a6.jpg",
+      "description": "A magical journey through an enchanted forest."
+    },
+    {
+      "id": "8",
+      "name": "Animal Friends",
+      "category": "Picture Books",
+      "price": 279,
+      "age": "5-6 Years",
+      "rating": 4.8,
+      "image": "https://i.pinimg.com/1200x/f7/0e/cb/f70ecb9f1965247fcb14dbe190162b30.jpg",
+      "description": "Meet adorable animals and learn about friendship."
+    },
+    {
+      "id": "9",
+      "name": "Space Explorers",
+      "category": "Science",
+      "price": 399,
+      "age": "6-7 Years",
+      "rating": 4.9,
+      "image": "https://i.pinimg.com/1200x/28/0d/07/280d07a21f5ccde7b82fb3de96f43c22.jpg",
+      "description": "Discover planets, stars and the wonders of space."
+    },
+    {
+      "id": "10",
+      "name": "Fairy Tale Collection",
+      "category": "Story Books",
+      "price": 449,
+      "age": "7-8 Years",
+      "rating": 4.9,
+      "image": "https://i.pinimg.com/1200x/fa/31/8b/fa318bf9eecfd9b99549ff597677b477.jpg",
+      "description": "A beautiful collection of classic fairy tales."
+    },
+    {
+      "id": "11",
+      "name": "Little Scientist",
+      "category": "Science",
+      "price": 329,
+      "age": "9-10 Years",
+      "rating": 4.7,
+      "image": "https://i.pinimg.com/1200x/6b/9f/c2/6b9fc25adf3df60b490d1d76cf4b17e3.jpg",
+      "description": "Simple science experiments and fascinating facts."
+    },
+    {
+      "id": "12",
+      "name": "Colors & Shapes",
+      "category": "Learning",
+      "price": 199,
+      "age": "2-3 Years",
+      "rating": 4.8,
+      "image": "https://i.pinimg.com/736x/10/59/89/10598980ff4982de659b9911b34e361b.jpg",
+      "description": "Learn colors and shapes through playful activities."
+    },
+    {
+      "id": "13",
+      "name": "The Brave Little Lion",
+      "category": "Story Books",
+      "price": 299,
+      "age": "3-4 Years",
+      "rating": 4.9,
+      "image": "https://i.pinimg.com/736x/c9/13/a6/c913a6d78567197c4c1e129fb956c3b6.jpg",
+      "description": "An inspiring story about courage and friendship."
+    },
+    {
+      "id": "14",
+      "name": "Ocean Adventures",
+      "category": "Nature",
+      "price": 349,
+      "age": "8-9 Years",
+      "rating": 4.8,
+      "image": "https://i.pinimg.com/1200x/97/c0/0c/97c00ce45225cea7a284d1d2cbec9b73.jpg",
+      "description": "Dive into an exciting underwater adventure."
+    },
+    {
+      "id": "15",
+      "name": "My First Encyclopedia",
+      "category": "Educational",
+      "price": 599,
+      "age": "9-10 Years",
+      "rating": 4.9,
+      "image": "https://i.pinimg.com/1200x/0d/a1/c8/0da1c8b36a01420a62ad4fb1c1c5f45a.jpg",
+      "description": "A colorful encyclopedia packed with fascinating facts."
+    },
+    {
+      "id": "16",
+      "name": "Princess Dreams",
+      "category": "Fantasy",
+      "price": 299,
+      "age": "7-8 Years",
+      "rating": 4.8,
+      "image": "https://i.pinimg.com/1200x/78/4e/08/784e08e6dc83f3dc0d61b58060d961c1.jpg",
+      "description": "A charming fantasy story filled with dreams and magic."
+    },
+    {
+      "id": "17",
+      "name": "Good Night Little Star",
+      "category": "Bedtime",
+      "price": 279,
+      "age": "5-6 Years",
+      "rating": 4.9,
+      "image": "https://i.pinimg.com/1200x/7b/75/09/7b7509dbd9e057f2b9aca1d9de55a51d.jpg",
+      "description": "A peaceful bedtime story for sweet dreams."
+    },
+    {
+      "id": "18",
+      "name": "World of Animals",
+      "category": "Nature",
+      "price": 399,
+      "age": "9-10 Years",
+      "rating": 4.8,
+      "image": "https://i.pinimg.com/1200x/00/21/2a/00212abef2290f5ab54f8ebc975ebc46.jpg",
+      "description": "Discover amazing animals from around the world."
+    },
+    {
+      "id": "19",
+      "name": "Creative Activity Book",
+      "category": "Activity Books",
+      "price": 249,
+      "age": "6-7 Years",
+      "rating": 4.7,
+      "image": "https://i.pinimg.com/736x/e0/b6/89/e0b68919f0f8c69e0afc81a080f0d633.jpg",
+      "description": "Fun drawing, coloring and creative activities."
+    },
+    {
+      "id": "20",
+      "name": "My Big Story Book",
+      "category": "Story Books",
+      "price": 399,
+      "age": "8-9 Years",
+      "rating": 4.9,
+      "image": "https://i.pinimg.com/1200x/20/65/7b/20657b0f3beaedca397e94d21832d495.jpg",
+      "description": "A collection of wonderful stories for growing minds."
+    }
+  ],
+  "schoolSupplies": [
+    {
+      "id": "1",
+      "name": "Pastel School Backpack",
+      "category": "Bags",
+      "price": 899,
+      "age": "11-12 Years",
+      "rating": 4.9,
+      "image": "https://i.pinimg.com/736x/39/d7/6e/39d76e381d577f325538171fb859b8fa.jpg",
+      "description": "Cute and spacious backpack perfect for school."
+    },
+    {
+      "id": "2",
+      "name": "Rainbow Pencil Box",
+      "category": "Stationery",
+      "price": 249,
+      "age": "9-10 Years",
+      "rating": 4.8,
+      "image": "https://i.pinimg.com/1200x/23/a0/ba/23a0ba44ac01db343c14b52418c6363c.jpg",
+      "description": "Colorful pencil box for keeping stationery organized."
+    },
+    {
+      "id": "3",
+      "name": "Color Pencil Set",
+      "category": "Art Supplies",
+      "price": 199,
+      "age": "11-12 Years",
+      "rating": 4.8,
+      "image": "https://i.pinimg.com/736x/43/14/87/431487a86e948cff0bb3b9b0cb78076a.jpg",
+      "description": "Bright colored pencils for creative school projects."
+    },
+    {
+      "id": "4",
+      "name": "Cute Water Bottle",
+      "category": "School Essentials",
+      "price": 399,
+      "age": "11-12 Years",
+      "rating": 4.7,
+      "image": "https://i.pinimg.com/736x/d4/b0/58/d4b058e3bcfb3d354f81ba38e6269a5e.jpg",
+      "description": "Reusable water bottle designed for little learners."
+    },
+    {
+      "id": "5",
+      "name": "Animal Lunch Box",
+      "category": "Lunch Accessories",
+      "price": 449,
+      "age": "11-12 Years",
+      "rating": 4.9,
+      "image": "https://i.pinimg.com/736x/f1/0b/f2/f10bf25b3b7df3f27cf19b8f1d7e7afc.jpg",
+      "description": "Fun lunch box for carrying delicious school meals."
+    },
+    {
+      "id": "6",
+      "name": "Cute Notebook Set",
+      "category": "Stationery",
+      "price": 299,
+      "age": "6-7 Years",
+      "rating": 4.8,
+      "image": "https://i.pinimg.com/736x/3d/55/97/3d5597dc39e76133f4fe581d6c23033f.jpg",
+      "description": "Set of colorful notebooks for school notes."
+    },
+    {
+      "id": "7",
+      "name": "Gel Pen Collection",
+      "category": "Stationery",
+      "price": 179,
+      "age": "8-9 Years",
+      "rating": 4.7,
+      "image": "https://i.pinimg.com/736x/d2/8c/23/d28c2318e5f0e3f288a3edf06d112670.jpg",
+      "description": "Smooth-writing colorful gel pens for creative notes."
+    },
+    {
+      "id": "8",
+      "name": "Geometry Box",
+      "category": "School Essentials",
+      "price": 299,
+      "age": "8-9 Years",
+      "rating": 4.8,
+      "image": "https://i.pinimg.com/736x/ab/99/2d/ab992d84b04d5b3535bfc154baf7bb2e.jpg",
+      "description": "Complete geometry set for school mathematics."
+    },
+    {
+      "id": "9",
+      "name": "Kids Study Planner",
+      "category": "Study Accessories",
+      "price": 249,
+      "age": "7-8 Years",
+      "rating": 4.6,
+      "image": "https://i.pinimg.com/1200x/f0/4c/a2/f04ca2c1f4e7d843bb68598d87d3f243.jpg",
+      "description": "Plan homework and school activities with ease."
+    },
+    {
+      "id": "10",
+      "name": "Cute Sticky Notes",
+      "category": "Stationery",
+      "price": 149,
+      "age": "7-8 Years",
+      "rating": 4.7,
+      "image": "https://i.pinimg.com/736x/c8/9b/26/c89b265272b10d300e9f6066a4c8c19f.jpg",
+      "description": "Adorable sticky notes for reminders and study notes."
+    },
+    {
+      "id": "11",
+      "name": "Drawing Book",
+      "category": "Art Supplies",
+      "price": 199,
+      "age": "11-12 Years",
+      "rating": 4.8,
+      "image": "https://i.pinimg.com/736x/a8/1b/b8/a81bb86212f0475f603913286c0d1811.jpg",
+      "description": "Quality drawing book for young artists."
+    },
+    {
+      "id": "12",
+      "name": "Kids Scissors",
+      "category": "Art Supplies",
+      "price": 129,
+      "age": "9-10 Years",
+      "rating": 4.6,
+      "image": "https://i.pinimg.com/736x/a0/5c/bc/a05cbcb864398d3252d0f5ef753bed1a.jpg",
+      "description": "Easy-to-use craft scissors for school activities."
+    },
+    {
+      "id": "13",
+      "name": "School Folder Set",
+      "category": "Study Accessories",
+      "price": 229,
+      "age": "6-7 Years",
+      "rating": 4.7,
+      "image": "https://i.pinimg.com/736x/37/36/ce/3736ced2c2e26980e890a484b6f2c373.jpg",
+      "description": "Keep worksheets and school papers neatly organized."
+    },
+    {
+      "id": "14",
+      "name": "Eraser & Sharpener Set",
+      "category": "Stationery",
+      "price": 99,
+      "age": "11-12 Years",
+      "rating": 4.8,
+      "image": "https://i.pinimg.com/1200x/cd/8d/64/cd8d64867ec3dd200535d278ea0bb570.jpg",
+      "description": "Fun stationery set with colorful erasers and sharpeners."
+    },
+    {
+      "id": "15",
+      "name": "School Pencil Set",
+      "category": "Stationery",
+      "price": 129,
+      "age": "4-5 Years",
+      "rating": 4.8,
+      "image": "https://i.pinimg.com/1200x/b5/04/6c/b5046c5bc1227fd706b7336e570a177e.jpg",
+      "description": "Reliable pencils for everyday school writing."
+    },
+    {
+      "id": "16",
+      "name": "Study Table Organizer",
+      "category": "Study Accessories",
+      "price": 349,
+      "age": "7-8 Years",
+      "rating": 4.7,
+      "image": "https://i.pinimg.com/736x/87/c4/88/87c4881815ab8156f2ba6ae6b6bd13da.jpg",
+      "description": "Keep pencils, pens and stationery neatly arranged."
+    },
+    {
+      "id": "17",
+      "name": "Kids Ruler Set",
+      "category": "School Essentials",
+      "price": 119,
+      "age": "11-12 Years",
+      "rating": 4.6,
+      "image": "https://i.pinimg.com/736x/e4/d4/b2/e4d4b213a8777dbc9ef4177ff6ade81e.jpg",
+      "description": "Colorful rulers for school maths and drawing."
+    },
+    {
+      "id": "18",
+      "name": "Homework Notebook",
+      "category": "Stationery",
+      "price": 149,
+      "age": "11-12 Years",
+      "rating": 4.7,
+      "image": "https://i.pinimg.com/736x/85/b2/dd/85b2dd28d019f049ed13f33ed69cef4d.jpg",
+      "description": "Simple and practical notebook for daily homework."
+    },
+    {
+      "id": "19",
+      "name": "Mini School Umbrella",
+      "category": "School Essentials",
+      "price": 499,
+      "age": "11-12 Years",
+      "rating": 4.8,
+      "image": "https://i.pinimg.com/736x/29/24/09/292409f6a12c49ddc50d636b18755033.jpg",
+      "description": "Lightweight umbrella designed for kids."
+    },
+    {
+      "id": "20",
+      "name": "School Essentials Kit",
+      "category": "School Essentials",
+      "price": 699,
+      "age": "11-12 Years",
+      "rating": 4.9,
+      "image": "https://i.pinimg.com/736x/09/e1/41/09e1411c1e482fd9e9bcda2e923ed022.jpg",
+      "description": "An all-in-one kit containing useful school essentials."
+    }
+  ],
+  "artsCrafts": [
+    {
+      "id": "1",
+      "name": "Pastel Art Set",
+      "category": "Art Sets",
+      "price": 499,
+      "age": "9-10 Years",
+      "rating": 4.9,
+      "image": "https://i.pinimg.com/1200x/58/f6/82/58f6821b8313da6321eaaee58667210a.jpg",
+      "description": "A colorful art set for creative little artists."
+    },
+    {
+      "id": "2",
+      "name": "Rainbow Crayon Set",
+      "category": "Coloring",
+      "price": 199,
+      "age": "7-8 Years",
+      "rating": 4.8,
+      "image": "https://i.pinimg.com/1200x/df/c7/46/dfc746e133ff0081b2200bd12c9fca3b.jpg",
+      "description": "Bright and smooth crayons for colorful drawings."
+    },
+    {
+      "id": "3",
+      "name": "Watercolor Painting Kit",
+      "category": "Painting",
+      "price": 349,
+      "age": "11-12 Years",
+      "rating": 4.9,
+      "image": "https://i.pinimg.com/1200x/02/14/8b/02148b96e23171a12579b1b13b2e2137.jpg",
+      "description": "A fun watercolor kit for painting beautiful pictures."
+    },
+    {
+      "id": "4",
+      "name": "DIY Paper Craft Kit",
+      "category": "DIY Crafts",
+      "price": 299,
+      "age": "9-10 Years",
+      "rating": 4.8,
+      "image": "https://i.pinimg.com/1200x/d5/b8/cd/d5b8cd8b3e3a6294d801c774d612ef74.jpg",
+      "description": "Create fun paper crafts with this creative DIY kit."
+    },
+    {
+      "id": "5",
+      "name": "Kids Paint Brush Set",
+      "category": "Painting",
+      "price": 179,
+      "age": "11-12 Years",
+      "rating": 4.7,
+      "image": "https://i.pinimg.com/1200x/55/cc/89/55cc89f6bcd8fb4c11973c0f072781cb.jpg",
+      "description": "Soft brushes in different sizes for little painters."
+    },
+    {
+      "id": "6",
+      "name": "Glitter Craft Box",
+      "category": "Craft Supplies",
+      "price": 249,
+      "age": "9-10 Years",
+      "rating": 4.8,
+      "image": "https://i.pinimg.com/1200x/15/e2/2b/15e22be5ede0bcf41e2ef074994b748c.jpg",
+      "description": "Sparkly glitter supplies for creative craft projects."
+    },
+    {
+      "id": "7",
+      "name": "Kids Drawing Pad",
+      "category": "Drawing",
+      "price": 229,
+      "age": "4-5 Years",
+      "rating": 4.8,
+      "image": "https://i.pinimg.com/1200x/b3/c1/bf/b3c1bff9b390731f0bb13c353df69f4d.jpg",
+      "description": "Premium drawing sheets for everyday creativity."
+    },
+    {
+      "id": "8",
+      "name": "Clay Modeling Kit",
+      "category": "Modeling",
+      "price": 399,
+      "age": "5-6 Years",
+      "rating": 4.9,
+      "image": "https://i.pinimg.com/1200x/cb/e4/92/cbe4924394686a260753d1932daab281.jpg",
+      "description": "Colorful modeling clay for making fun creations."
+    },
+    {
+      "id": "9",
+      "name": "Sticker Art Book",
+      "category": "Craft Supplies",
+      "price": 199,
+      "age": "3-4 Years",
+      "rating": 4.7,
+      "image": "https://i.pinimg.com/1200x/ef/77/9e/ef779e350de6901e50c1e091f303f8b4.jpg",
+      "description": "A fun sticker book filled with colorful designs."
+    },
+    {
+      "id": "10",
+      "name": "Origami Paper Pack",
+      "category": "Paper Crafts",
+      "price": 149,
+      "age": "6-7 Years",
+      "rating": 4.8,
+      "image": "https://i.pinimg.com/1200x/63/61/f5/6361f5bf4c578fa0b071748d67fcc47d.jpg",
+      "description": "Beautiful colored papers for creative origami."
+    },
+    {
+      "id": "11",
+      "name": "DIY Friendship Bracelet Kit",
+      "category": "DIY Crafts",
+      "price": 329,
+      "age": "7-8 Years",
+      "rating": 4.9,
+      "image": "https://i.pinimg.com/1200x/92/7c/97/927c97b7c9e156c4346f35d56a99c2a2.jpg",
+      "description": "Make colorful friendship bracelets for your loved ones."
+    },
+    {
+      "id": "12",
+      "name": "Foam Craft Shapes",
+      "category": "Craft Supplies",
+      "price": 179,
+      "age": "4-5 Years",
+      "rating": 4.7,
+      "image": "https://i.pinimg.com/1200x/49/47/c1/4947c1a45b4c5bb1a16a34a8b1e21a81.jpg",
+      "description": "Colorful foam shapes for school and craft projects."
+    },
+    {
+      "id": "13",
+      "name": "Kids Finger Painting Set",
+      "category": "Painting",
+      "price": 299,
+      "age": "3-4 Years",
+      "rating": 4.8,
+      "image": "https://i.pinimg.com/1200x/23/5d/12/235d12e2d17e4170579abfd9d7075883.jpg",
+      "description": "Safe washable paints for fun finger painting."
+    },
+    {
+      "id": "14",
+      "name": "Creative Scissor Craft Set",
+      "category": "Paper Crafts",
+      "price": 219,
+      "age": "5-6 Years",
+      "rating": 4.6,
+      "image": "https://i.pinimg.com/1200x/54/f0/c4/54f0c4894e6413865bfead299f47c53c.jpg",
+      "description": "Kid-friendly craft tools for creative paper projects."
+    },
+    {
+      "id": "15",
+      "name": "Magic Marker Set",
+      "category": "Drawing",
+      "price": 279,
+      "age": "5-6 Years",
+      "rating": 4.9,
+      "image": "https://i.pinimg.com/1200x/26/77/77/26777773a314638dd740820096e88494.jpg",
+      "description": "Bright markers for drawing, coloring and lettering."
+    },
+    {
+      "id": "16",
+      "name": "DIY Greeting Card Kit",
+      "category": "DIY Crafts",
+      "price": 249,
+      "age": "6-7 Years",
+      "rating": 4.8,
+      "image": "https://i.pinimg.com/1200x/bf/69/ea/bf69eabe8aa1f2e3b4372ea81f9fe489.jpg",
+      "description": "Create personalized greeting cards for special occasions."
+    },
+    {
+      "id": "17",
+      "name": "Craft Beads Collection",
+      "category": "Jewelry Crafts",
+      "price": 349,
+      "age": "7-8 Years",
+      "rating": 4.8,
+      "image": "https://i.pinimg.com/1200x/d1/ff/25/d1ff25f56decaa2130bc1af2194986e2.jpg",
+      "description": "Colorful beads for making bracelets and necklaces."
+    },
+    {
+      "id": "18",
+      "name": "Canvas Painting Kit",
+      "category": "Painting",
+      "price": 449,
+      "age": "7-8 Years",
+      "rating": 4.9,
+      "image": "https://i.pinimg.com/736x/c2/fb/09/c2fb098a0fa81626f72a46c39b989022.jpg",
+      "description": "Complete mini canvas kit for young creative minds."
+    },
+    {
+      "id": "19",
+      "name": "Nature Craft Kit",
+      "category": "DIY Crafts",
+      "price": 379,
+      "age": "5-6 Years",
+      "rating": 4.7,
+      "image": "https://i.pinimg.com/1200x/b8/b6/f6/b8b6f6a8c23d93838789bb9ac3e3c577.jpg",
+      "description": "Explore creativity with a fun nature-inspired craft kit."
+    },
+    {
+      "id": "20",
+      "name": "Ultimate Creative Art Box",
+      "category": "Art Sets",
+      "price": 699,
+      "age": "5-6 Years",
+      "rating": 4.9,
+      "image": "https://i.pinimg.com/736x/54/6a/44/546a449d4b7eb1d5292ffd05cc79f14e.jpg",
+      "description": "A complete art box packed with everything young artists need."
+    }
+  ],
+  "sports": [
+    {
+      "id": "1",
+      "name": "Kids Football",
+      "category": "Football",
+      "price": 399,
+      "age": "5-6 Years",
+      "rating": 4.9,
+      "image": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=700&q=80",
+      "description": "Soft and lightweight football perfect for young players."
+    },
+    {
+      "id": "2",
+      "name": "Kids Basketball",
+      "category": "Basketball",
+      "price": 449,
+      "age": "6-7 Years",
+      "rating": 4.8,
+      "image": "https://i.pinimg.com/736x/a1/fe/45/a1fe45aedaf03de7b5ba2df9f85a4080.jpg",
+      "description": "Colorful basketball designed for fun outdoor games."
+    },
+    {
+      "id": "3",
+      "name": "Badminton Racket Set",
+      "category": "Badminton",
+      "price": 599,
+      "age": "10-11 Years",
+      "rating": 4.8,
+      "image": "https://i.pinimg.com/1200x/53/43/d9/5343d96204326dbca230c3228ba42b6f.jpg",
+      "description": "Lightweight badminton racket set for active kids."
+    },
+    {
+      "id": "4",
+      "name": "Kids Cricket Bat",
+      "category": "Cricket",
+      "price": 699,
+      "age": "10-11 Years",
+      "rating": 4.9,
+      "image": "https://i.pinimg.com/1200x/8c/2a/79/8c2a79abb89776cf94e47ed2f35a3d4c.jpg",
+      "description": "Lightweight cricket bat made for young cricket lovers."
+    },
+    {
+      "id": "5",
+      "name": "Colorful Skipping Rope",
+      "category": "Fitness",
+      "price": 199,
+      "age": "10-11 Years",
+      "rating": 4.7,
+      "image": "https://i.pinimg.com/1200x/63/7f/37/637f37a64845518165cc6bd00ca09822.jpg",
+      "description": "Fun skipping rope for active play and fitness."
+    },
+    {
+      "id": "6",
+      "name": "Kids Yoga Mat",
+      "category": "Yoga",
+      "price": 499,
+      "age": "10-11 Years",
+      "rating": 4.8,
+      "image": "https://i.pinimg.com/1200x/a7/fc/1c/a7fc1ce64144361845946ddb0e39e99e.jpg",
+      "description": "Soft and comfortable yoga mat for kids."
+    },
+    {
+      "id": "7",
+      "name": "Mini Tennis Racket",
+      "category": "Tennis",
+      "price": 549,
+      "age": "11-12 Years",
+      "rating": 4.7,
+      "image": "https://i.pinimg.com/1200x/05/45/99/054599998e2c4632152dfce1efec8a6a.jpg",
+      "description": "Lightweight mini racket designed for young tennis players."
+    },
+    {
+      "id": "8",
+      "name": "Flying Disc",
+      "category": "Outdoor Games",
+      "price": 179,
+      "age": "11-12 Years",
+      "rating": 4.6,
+      "image": "https://i.pinimg.com/1200x/a7/87/37/a78737e53bea07a4c27d50040b175cac.jpg",
+      "description": "Colorful flying disc for exciting outdoor play."
+    },
+    {
+      "id": "9",
+      "name": "Kids Volleyball",
+      "category": "Volleyball",
+      "price": 399,
+      "age": "7-8 Years",
+      "rating": 4.8,
+      "image": "https://i.pinimg.com/736x/5b/89/dc/5b89dc78eab74980533a96d101984777.jpg",
+      "description": "Soft volleyball suitable for beginners and young players."
+    },
+    {
+      "id": "10",
+      "name": "Mini Golf Set",
+      "category": "Golf",
+      "price": 649,
+      "age": "5-6 Years",
+      "rating": 4.7,
+      "image": "https://i.pinimg.com/1200x/c8/63/cd/c863cdfd734e7caed7c69703bf47bf0c.jpg",
+      "description": "Fun mini golf set for practicing coordination and skills."
+    },
+    {
+      "id": "11",
+      "name": "Kids Hula Hoop",
+      "category": "Fitness",
+      "price": 229,
+      "age": "1-2 Years",
+      "rating": 4.8,
+      "image": "https://i.pinimg.com/1200x/05/e2/d0/05e2d079f0163119d326e58074133ea4.jpg",
+      "description": "Bright and lightweight hula hoop for active play."
+    },
+    {
+      "id": "12",
+      "name": "Kids Bowling Set",
+      "category": "Indoor Games",
+      "price": 499,
+      "age": "1-2 Years",
+      "rating": 4.9,
+      "image": "https://i.pinimg.com/736x/59/68/53/596853536191c57f07b1cf227a68808d.jpg",
+      "description": "Colorful bowling set for fun indoor family games."
+    },
+    {
+      "id": "13",
+      "name": "Kids Boxing Gloves",
+      "category": "Fitness",
+      "price": 599,
+      "age": "8-9 Years",
+      "rating": 4.7,
+      "image": "https://i.pinimg.com/1200x/f8/42/72/f8427226275770041c6c1740f8be5e88.jpg",
+      "description": "Comfortable beginner gloves for supervised training."
+    },
+    {
+      "id": "14",
+      "name": "Balance Training Set",
+      "category": "Fitness",
+      "price": 799,
+      "age": "11-12 Years",
+      "rating": 4.8,
+      "image": "https://i.pinimg.com/736x/00/f8/95/00f895bdd6d123a65f546c76281422c1.jpg",
+      "description": "Fun equipment for developing balance and coordination."
+    },
+    {
+      "id": "15",
+      "name": "Kids Soccer Goal",
+      "category": "Football",
+      "price": 899,
+      "age": "11-12 Years",
+      "rating": 4.9,
+      "image": "https://i.pinimg.com/736x/cb/0c/91/cb0c912790d3bf26a20bbce72e4596f0.jpg",
+      "description": "Portable mini goal for backyard football games."
+    },
+    {
+      "id": "16",
+      "name": "Frisbee Game Set",
+      "category": "Outdoor Games",
+      "price": 299,
+      "age": "1-2 Years",
+      "rating": 4.7,
+      "image": "https://i.pinimg.com/1200x/87/8b/4c/878b4cedebf38f23e18ed1c40795b0ec.jpg",
+      "description": "Outdoor frisbee set for energetic play with friends."
+    },
+    {
+      "id": "17",
+      "name": "Kids Skateboard",
+      "category": "Skating",
+      "price": 1299,
+      "age": "1-2 Years",
+      "rating": 4.8,
+      "image": "https://i.pinimg.com/1200x/51/fe/e3/51fee36f970e7bc69c9128c0f8afdcfd.jpg",
+      "description": "Compact skateboard for beginners learning balance."
+    },
+    {
+      "id": "18",
+      "name": "Kids Bicycle Helmet",
+      "category": "Cycling",
+      "price": 699,
+      "age": "5-6 Years",
+      "rating": 4.9,
+      "image": "https://images.unsplash.com/photo-1558981806-ec527fa84c39?auto=format&fit=crop&w=700&q=80",
+      "description": "Lightweight protective helmet for cycling adventures."
+    },
+    {
+      "id": "19",
+      "name": "Outdoor Cone Set",
+      "category": "Training",
+      "price": 249,
+      "age": "9-10 Years",
+      "rating": 4.7,
+      "image": "https://i.pinimg.com/1200x/25/c6/6b/25c66b4d85faf7c10d573167243cdc73.jpg",
+      "description": "Training cones for fun drills and outdoor activities."
+    },
+    {
+      "id": "20",
+      "name": "Ultimate Sports Kit",
+      "category": "Sports Sets",
+      "price": 999,
+      "age": "9-10 Years",
+      "rating": 4.9,
+      "image": "https://i.pinimg.com/1200x/31/7f/71/317f71a0ba44fe29c419ed6952839d82.jpg",
+      "description": "All-in-one sports collection for active little champions."
+    }
+  ],
+  "homeProducts": [
+    {
+      "id": "1",
+      "name": "Cute Teddy Bear",
+      "category": "Toys",
+      "price": 599,
+      "rating": 4.9,
+      "image": "https://i.pinimg.com/736x/01/2a/96/012a969cf56c5c103f6770e1b06a1c8f.jpg"
+    },
+    {
+      "id": "2",
+      "name": "Rainbow Kids Dress",
+      "category": "Clothing",
+      "price": 799,
+      "rating": 4.8,
+      "image": "https://i.pinimg.com/736x/94/d3/d3/94d3d33533f5291054eb07f60ca3f179.jpg"
+    },
+    {
+      "id": "3",
+      "name": "Colorful Story Book",
+      "category": "Books",
+      "price": 299,
+      "rating": 4.9,
+      "image": "https://i.pinimg.com/736x/2c/9a/e0/2c9ae07051b191dfe1756c5bdba4450b.jpg"
+    },
+    {
+      "id": "4",
+      "name": "Creative Art Box",
+      "category": "Arts & Crafts",
+      "price": 499,
+      "rating": 4.8,
+      "image": "https://i.pinimg.com/1200x/37/90/fc/3790fc67c7d6c4425f5428d651b7525e.jpg"
+    },
+    {
+      "id": "5",
+      "name": "Kids Football",
+      "category": "Sports & Outdoor",
+      "price": 399,
+      "rating": 4.9,
+      "image": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=700&q=80"
+    },
+    {
+      "id": "6",
+      "name": "Cute School Backpack",
+      "category": "School Supplies",
+      "price": 699,
+      "rating": 4.8,
+      "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=700&q=80"
+    }
+  ],
+  "deals": [
+    {
+      "id": "201",
+      "name": "Rainbow Building Blocks",
+      "category": "Toys",
+      "originalPrice": 999,
+      "salePrice": 599,
+      "description": "Colorful blocks for creative building and endless fun.",
+      "image": "https://images.unsplash.com/photo-1596464716127-f2a82984de30?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": "202",
+      "name": "Cute Teddy Bear",
+      "category": "Toys",
+      "originalPrice": 899,
+      "salePrice": 499,
+      "description": "A soft and cuddly teddy friend for little ones.",
+      "image": "https://i.pinimg.com/736x/01/2a/96/012a969cf56c5c103f6770e1b06a1c8f.jpg"
+    },
+    {
+      "id": "203",
+      "name": "Pastel Kids Backpack",
+      "category": "Accessories",
+      "originalPrice": 1299,
+      "salePrice": 799,
+      "description": "A cute and stylish backpack for school and adventures.",
+      "image": "https://i.pinimg.com/736x/44/d7/67/44d767fd5146a880320a752ddb8f3b4e.jpg"
+    },
+    {
+      "id": "204",
+      "name": "Little Princess Dress",
+      "category": "Clothing",
+      "originalPrice": 1499,
+      "salePrice": 899,
+      "description": "A beautiful pastel dress for special occasions.",
+      "image": "https://i.pinimg.com/736x/06/09/05/0609054e729dbb997ef52cf276c43de8.jpg"
+    },
+    {
+      "id": "205",
+      "name": "Adventure Story Books",
+      "category": "Books",
+      "originalPrice": 799,
+      "salePrice": 499,
+      "description": "An exciting collection of adventure stories.",
+      "image": "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": "206",
+      "name": "Mini Science Experiment Kit",
+      "category": "Learning",
+      "originalPrice": 1199,
+      "salePrice": 699,
+      "description": "Fun science experiments for curious young minds.",
+      "image": "https://i.pinimg.com/736x/7c/42/26/7c42261ef8c9f4990faeb369e6673f5c.jpg"
+    },
+    {
+      "id": "207",
+      "name": "Colorful Art Set",
+      "category": "Arts & Crafts",
+      "originalPrice": 699,
+      "salePrice": 399,
+      "description": "Everything little artists need to create colorful masterpieces.",
+      "image": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": "208",
+      "name": "Kids Musical Keyboard",
+      "category": "Music",
+      "originalPrice": 1599,
+      "salePrice": 999,
+      "description": "A fun beginner keyboard for little musicians.",
+      "image": "https://i.pinimg.com/736x/df/f0/69/dff0697ab6f8bb44beb07edce7d6dea9.jpg"
+    },
+    {
+      "id": "209",
+      "name": "Puzzle Challenge Box",
+      "category": "Games",
+      "originalPrice": 899,
+      "salePrice": 549,
+      "description": "Brain-building puzzles for smart and curious kids.",
+      "image": "https://i.pinimg.com/736x/d4/99/14/d499146a1a950517c9855cfa906083ab.jpg"
+    },
+    {
+      "id": "210",
+      "name": "Remote Control Racing Car",
+      "category": "Vehicles",
+      "originalPrice": 1999,
+      "salePrice": 1199,
+      "description": "A fast and exciting remote control racing car.",
+      "image": "https://i.pinimg.com/736x/d6/b4/6b/d6b46b6b2dcd15ccb5b92150f3765e2d.jpg"
+    },
+    {
+      "id": "211",
+      "name": "Cute Doll House",
+      "category": "Pretend Play",
+      "originalPrice": 2499,
+      "salePrice": 1499,
+      "description": "A charming doll house for imaginative play.",
+      "image": "https://i.pinimg.com/1200x/93/34/cf/9334cf3e3c38b9b526b6bffd79f38791.jpg"
+    },
+    {
+      "id": "212",
+      "name": "Junior Football Set",
+      "category": "Sports",
+      "originalPrice": 999,
+      "salePrice": 599,
+      "description": "A fun football set for active little athletes.",
+      "image": "https://i.pinimg.com/1200x/f0/60/fb/f060fb4c2c19abab24e9507d5fe7017d.jpg"
+    },
+    {
+      "id": "213",
+      "name": "Space Explorer Kit",
+      "category": "Science",
+      "originalPrice": 1499,
+      "salePrice": 899,
+      "description": "Explore planets, stars and the mysteries of space.",
+      "image": "https://i.pinimg.com/736x/38/53/7f/38537f66109b2c7c92f1b4d99b47e13e.jpg"
+    },
+    {
+      "id": "214",
+      "name": "Kids Coding Robot",
+      "category": "Technology",
+      "originalPrice": 2999,
+      "salePrice": 1999,
+      "description": "A beginner-friendly coding robot for young innovators.",
+      "image": "https://i.pinimg.com/736x/da/b6/72/dab6724a645c04093c1ef9cdb8d5fa3b.jpg"
+    },
+    {
+      "id": "215",
+      "name": "Pastel Hair Accessories",
+      "category": "Fashion",
+      "originalPrice": 599,
+      "salePrice": 299,
+      "description": "A cute collection of colorful pastel hair accessories.",
+      "image": "https://i.pinimg.com/736x/9b/f4/ff/9bf4ffd74f1076f124866a1b00f124df.jpg"
+    }
+  ],
+  "wishlist": [],
+  "cart": [],
+  "orders": [
+    {
+      "items": [
+        {
+          "productId": "202",
+          "name": "Cute Teddy Bear",
+          "price": 499,
+          "image": "https://images.unsplash.com/photo-1559454403-b8fb88521f11?auto=format&fit=crop&w=800&q=80",
+          "category": "Toys",
+          "quantity": 1,
+          "id": "vd0jg-qn7aE"
+        },
+        {
+          "productId": "204",
+          "name": "Little Princess Dress",
+          "price": 899,
+          "image": "https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?auto=format&fit=crop&w=800&q=80",
+          "category": "Clothing",
+          "quantity": 1,
+          "id": "TMa1NOiwFKc"
+        }
+      ],
+      "total": 1398,
+      "paymentMethod": "Cash on Delivery",
+      "upiId": "",
+      "date": "8/30/2026",
+      "status": "Placed",
+      "id": "T5aAOY701Yw"
+    },
+    {
+      "items": [
+        {
+          "productId": "204",
+          "name": "Little Princess Dress",
+          "price": 899,
+          "image": "https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?auto=format&fit=crop&w=800&q=80",
+          "category": "Clothing",
+          "quantity": 1,
+          "id": "H2Xd8PVm9h8"
+        }
+      ],
+      "total": 899,
+      "paymentMethod": "Cash on Delivery",
+      "upiId": "",
+      "date": "8/30/2026",
+      "status": "Placed",
+      "id": "_wF-4kiTIio"
+    },
+    {
+      "id": "brMjHYj8TUQ",
+      "userId": "sNl6R0PTSuY",
+      "customer": {
+        "name": "ketha Bhagyalakshmi",
+        "phone": "916304508737",
+        "address": "kota street ,oop bapuji complex ,ongole,AP",
+        "city": "ongole",
+        "state": "Andhra Pradesh",
+        "pincode": "523001"
+      },
+      "items": [
+        {
+          "productId": "201",
+          "name": "Rainbow Building Blocks",
+          "price": 599,
+          "image": "https://images.unsplash.com/photo-1596464716127-f2a82984de30?auto=format&fit=crop&w=800&q=80",
+          "category": "Toys",
+          "quantity": 1,
+          "id": "egbt1XcNIqk"
+        }
+      ],
+      "total": 599,
+      "paymentMethod": "Cash on Delivery",
+      "upiId": "",
+      "date": "8/30/2026",
+      "status": "Placed"
+    },
+    {
+      "id": "5SF4YgpKMDo",
+      "userId": "sNl6R0PTSuY",
+      "customer": {
+        "name": "ketha Bhagyalakshmi",
+        "phone": "916304508737",
+        "address": "kota street ,oop bapuji complex ,ongole,AP",
+        "city": "ongole",
+        "state": "Andhra Pradesh",
+        "pincode": "523001"
+      },
+      "items": [
+        {
+          "productId": "204",
+          "name": "Little Princess Dress",
+          "price": 899,
+          "image": "https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?auto=format&fit=crop&w=800&q=80",
+          "category": "Clothing",
+          "quantity": 1,
+          "id": "zwwrwKdTf6M"
+        }
+      ],
+      "total": 899,
+      "paymentMethod": "Cash on Delivery",
+      "upiId": "",
+      "date": "8/30/2026",
+      "status": "Placed"
+    },
+    {
+      "id": "Az8xrWyFl7A",
+      "userId": "sNl6R0PTSuY",
+      "customer": {
+        "name": "ketha Bhagyalakshmi",
+        "phone": "916304508737",
+        "address": "kota street ,oop bapuji complex ,ongole,AP",
+        "city": "ongole",
+        "state": "Andhra Pradesh",
+        "pincode": "523001"
+      },
+      "items": [
+        {
+          "id": "w6Amvnb0fts",
+          "name": "Little Scientist Kit",
+          "age": "6–8",
+          "interest": "Science",
+          "price": 799,
+          "description": "Fun experiments for curious young scientists.",
+          "image": "https://images.unsplash.com/photo-1532094349884-543bc11b234d?auto=format&fit=crop&w=800&q=80",
+          "quantity": 1
+        },
+        {
+          "productId": "202",
+          "name": "Cute Teddy Bear",
+          "price": 499,
+          "image": "https://images.unsplash.com/photo-1559454403-b8fb88521f11?auto=format&fit=crop&w=800&q=80",
+          "category": "Toys",
+          "quantity": 1,
+          "id": "4WJ3bcWX64A"
+        },
+        {
+          "id": "UWx7Oayv3TE",
+          "name": "Pastel Party Dress",
+          "category": "Dresses",
+          "price": 999,
+          "age": "4-8 Years",
+          "rating": 4.8,
+          "image": "https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?auto=format&fit=crop&w=700&q=80",
+          "description": "Elegant pastel party dress for special occasions.",
+          "productId": "2",
+          "quantity": 1
+        },
+        {
+          "productId": "1",
+          "name": "Cute Teddy Bear",
+          "image": "https://images.unsplash.com/photo-1556012018-50c5c0da73bf?auto=format&fit=crop&w=600&q=80",
+          "price": 699,
+          "category": "Soft Toys",
+          "age": "0-1 Years",
+          "sourceCategory": "toys",
+          "quantity": 1,
+          "id": "3AJrzzuNxI0"
+        },
+        {
+          "productId": "2",
+          "name": "Colorful Building Blocks",
+          "image": "https://doubletakeconsignment.net/cdn/shop/collections/toys-laid-out.png?v=1756864042",
+          "price": 499,
+          "category": "Building Toys",
+          "age": "2-3 Years",
+          "sourceCategory": "toys",
+          "quantity": 1,
+          "id": "TiIDA9spki4"
+        },
+        {
+          "id": "QninYVotX08",
+          "name": "Dinosaur Toy",
+          "category": "Action Figures",
+          "price": 549,
+          "image": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=600&q=80",
+          "rating": 4.7,
+          "age": "4-10 Years",
+          "description": "Colorful dinosaur toy for imaginative prehistoric adventures.",
+          "productId": "4",
+          "quantity": 1
+        },
+        {
+          "id": "X9PbWtY6ihQ",
+          "name": "Space Explorer Set",
+          "age": "7-8 Years",
+          "interest": "Space & Astronomy",
+          "price": 899,
+          "description": "Discover planets, stars and outer space.",
+          "image": "https://i.pinimg.com/736x/38/53/7f/38537f66109b2c7c92f1b4d99b47e13e.jpg",
+          "quantity": 1
+        }
+      ],
+      "total": 4943,
+      "paymentMethod": "Cash on Delivery",
+      "upiId": "",
+      "date": "9/1/2026",
+      "status": "Placed"
+    },
+    {
+      "id": "qdrPYxBsIT8",
+      "userId": "sNl6R0PTSuY",
+      "customer": {
+        "name": "ketha Bhagyalakshmi",
+        "phone": "916304508737",
+        "address": "kota street ,oop bapuji complex ,ongole,AP",
+        "city": "ongole",
+        "state": "Andhra Pradesh",
+        "pincode": "523001"
+      },
+      "items": [
+        {
+          "productId": "202",
+          "name": "Cute Teddy Bear",
+          "price": 499,
+          "image": "https://i.pinimg.com/736x/01/2a/96/012a969cf56c5c103f6770e1b06a1c8f.jpg",
+          "category": "Toys",
+          "quantity": 1,
+          "id": "DN539hNhZU4"
+        }
+      ],
+      "total": 499,
+      "paymentMethod": "Cash on Delivery",
+      "upiId": "",
+      "date": "9/2/2026",
+      "status": "Placed"
+    },
+    {
+      "id": "46SF0FjEkN0",
+      "userId": "6_k9zUW98uk",
+      "customer": {
+        "name": "ketha Bhagyalakshmi",
+        "phone": "916304508737",
+        "address": "kota street ,oop bapuji complex ,ongole,AP",
+        "city": "ongole",
+        "state": "Andhra Pradesh",
+        "pincode": "523001"
+      },
+      "items": [
+        {
+          "id": "mA8zD-5IAKw",
+          "name": "Floral Princess Dress",
+          "category": "Dresses",
+          "price": 899,
+          "age": "2-3 Years",
+          "rating": 4.9,
+          "image": "https://i.pinimg.com/736x/06/09/05/0609054e729dbb997ef52cf276c43de8.jpg",
+          "description": "Beautiful floral dress designed for little princesses.",
+          "productId": "1",
+          "quantity": 1
+        }
+      ],
+      "total": 899,
+      "paymentMethod": "Cash on Delivery",
+      "upiId": "",
+      "date": "9/2/2026",
+      "status": "Placed"
+    },
+    {
+      "id": "FWl2evdJIxE",
+      "userId": "9Q_Jyb4_Xmg",
+      "customer": {
+        "name": "ketha Bhagyalakshmi",
+        "phone": "916304508737",
+        "address": "kota street ,oop bapuji complex ,ongole,AP",
+        "city": "ongole",
+        "state": "Andhra Pradesh",
+        "pincode": "523001"
+      },
+      "items": [
+        {
+          "id": "shuDzBNYmqU",
+          "name": "Floral Princess Dress",
+          "category": "Dresses",
+          "price": 899,
+          "age": "2-3 Years",
+          "rating": 4.9,
+          "image": "https://i.pinimg.com/736x/06/09/05/0609054e729dbb997ef52cf276c43de8.jpg",
+          "description": "Beautiful floral dress designed for little princesses.",
+          "productId": "1",
+          "quantity": 1
+        },
+        {
+          "id": "wPc0PbWBPI8",
+          "name": "Kids Basketball",
+          "category": "Basketball",
+          "price": 449,
+          "age": "6-7 Years",
+          "rating": 4.8,
+          "image": "https://i.pinimg.com/736x/a1/fe/45/a1fe45aedaf03de7b5ba2df9f85a4080.jpg",
+          "description": "Colorful basketball designed for fun outdoor games.",
+          "productId": "2",
+          "quantity": 1
+        }
+      ],
+      "total": 1348,
+      "paymentMethod": "Cash on Delivery",
+      "upiId": "",
+      "date": "9/2/2026",
+      "status": "Placed"
+    },
+    {
+      "id": "8vIA6GjAHCU",
+      "userId": "sNl6R0PTSuY",
+      "customer": {
+        "name": "ketha Bhagyalakshmi",
+        "phone": "916304508737",
+        "address": "kota street ,oop bapuji complex ,ongole,AP",
+        "city": "ongole",
+        "state": "Andhra Pradesh",
+        "pincode": "523001"
+      },
+      "items": [
+        {
+          "id": "rG6FWWj4xi8",
+          "name": "Kids Art & Craft Set",
+          "category": "Arts & Crafts",
+          "price": 849,
+          "image": "https://i.pinimg.com/736x/91/6b/9e/916b9e5011b204f418c0eab7e64ff359.jpg",
+          "rating": 4.8,
+          "age": "9-10 Years",
+          "description": "Creative art set for drawing, painting and crafting.",
+          "productId": "9",
+          "quantity": 1
+        },
+        {
+          "productId": "6",
+          "name": "Princess Doll",
+          "image": "https://i.pinimg.com/736x/f1/35/e6/f135e6f2445ea6354953e9e54e3e7e67.jpg",
+          "price": 799,
+          "category": "Dolls",
+          "age": "6-7 Years",
+          "sourceCategory": "toys",
+          "quantity": 1,
+          "id": "ZpJgWr8GRig"
+        }
+      ],
+      "total": 1648,
+      "paymentMethod": "Cash on Delivery",
+      "upiId": "",
+      "date": "9/4/2026",
+      "status": "Placed"
+    },
+    {
+      "id": "DFzZa8qCyck",
+      "userId": "sNl6R0PTSuY",
+      "customer": {
+        "name": "ketha Bhagyalakshmi",
+        "phone": "916304508737",
+        "address": "kota street ,oop bapuji complex ,ongole,AP",
+        "city": "ongole",
+        "state": "Andhra Pradesh",
+        "pincode": "523001"
+      },
+      "items": [
+        {
+          "id": "1l6iIoDqRj4",
+          "name": "Pastel Art Set",
+          "category": "Art Sets",
+          "price": 499,
+          "age": "9-10 Years",
+          "rating": 4.9,
+          "image": "https://i.pinimg.com/1200x/58/f6/82/58f6821b8313da6321eaaee58667210a.jpg",
+          "description": "A colorful art set for creative little artists.",
+          "productId": "1",
+          "quantity": 1
+        }
+      ],
+      "total": 499,
+      "paymentMethod": "Cash on Delivery",
+      "upiId": "",
+      "date": "9/4/2026",
+      "status": "Placed"
+    },
+    {
+      "id": "mHpeUSDvDqQ",
+      "userId": "5xmpknUWyws",
+      "customer": {
+        "name": "ketha Bhagyalakshmi",
+        "phone": "916304508737",
+        "address": "kota street ,oop bapuji complex ,ongole,AP",
+        "city": "ongole",
+        "state": "Andhra Pradesh",
+        "pincode": "523001"
+      },
+      "items": [
+        {
+          "id": "-o8b90ZKdYw",
+          "name": "Cute Teddy Bear",
+          "category": "Soft Toys",
+          "price": 699,
+          "image": "https://i.pinimg.com/736x/01/2a/96/012a969cf56c5c103f6770e1b06a1c8f.jpg",
+          "rating": 4.8,
+          "age": "0-1 Years",
+          "description": "Soft and cuddly teddy bear perfect for little ones.",
+          "productId": "1",
+          "quantity": 1
+        }
+      ],
+      "total": 699,
+      "paymentMethod": "Cash on Delivery",
+      "upiId": "",
+      "date": "9/4/2026",
+      "status": "Placed"
+    },
+    {
+      "id": "v4epHWpSyho",
+      "userId": "sNl6R0PTSuY",
+      "customer": {
+        "name": "ketha Bhagyalakshmi",
+        "phone": "916304508737",
+        "address": "kota street ,oop bapuji complex ,ongole,AP",
+        "city": "ongole",
+        "state": "Andhra Pradesh",
+        "pincode": "523001"
+      },
+      "items": [
+        {
+          "id": "j_3rB8Fyh3w",
+          "name": "Dinosaur World",
+          "category": "Educational",
+          "price": 349,
+          "age": "7-8 Years",
+          "rating": 4.9,
+          "image": "https://i.pinimg.com/1200x/81/81/ad/8181ad735d94bbde7eee200412fe2552.jpg",
+          "description": "Explore the exciting world of dinosaurs.",
+          "productId": "3",
+          "quantity": 1
+        },
+        {
+          "id": "8TcP-wcFYZo",
+          "name": "Bedtime Stories",
+          "category": "Bedtime",
+          "price": 299,
+          "age": "6-7 Years",
+          "rating": 4.8,
+          "image": "https://i.pinimg.com/1200x/b8/bb/82/b8bb8297ff7c7b4975df72c184ccb130.jpg",
+          "description": "Sweet and calming stories perfect for bedtime.",
+          "productId": "4",
+          "quantity": 2
+        },
+        {
+          "productId": "7",
+          "name": "Toy Train",
+          "image": "https://i.pinimg.com/736x/13/55/a9/1355a9ddf97ca008c028ba82081bb43b.jpg",
+          "price": 899,
+          "category": "Vehicle Toys",
+          "age": "7-8 Years",
+          "sourceCategory": "toys",
+          "quantity": 1,
+          "id": "xPzlwatFI0w"
+        },
+        {
+          "id": "NssrJZKBy10",
+          "name": "Little Scientist Kit",
+          "age": "6-7 Years",
+          "interest": "Science",
+          "price": 799,
+          "description": "Fun experiments for curious young scientists.",
+          "image": "https://i.pinimg.com/736x/1b/f2/53/1bf25348e6b2847589335c520320b53e.jpg",
+          "quantity": 1
+        },
+        {
+          "productId": "202",
+          "name": "Cute Teddy Bear",
+          "price": 499,
+          "image": "https://i.pinimg.com/736x/01/2a/96/012a969cf56c5c103f6770e1b06a1c8f.jpg",
+          "category": "Toys",
+          "quantity": 1,
+          "id": "QTw8Q3G8eHs"
+        }
+      ],
+      "total": 3144,
+      "paymentMethod": "Cash on Delivery",
+      "upiId": "",
+      "date": "9/4/2026",
+      "status": "Placed"
+    },
+    {
+      "id": "Tjwlm7r7DPw",
+      "userId": "0Vbbo9sMvJo",
+      "customer": {
+        "name": "ketha Bhagyalakshmi",
+        "phone": "916304508737",
+        "address": "kota street ,oop bapuji complex ,ongole,AP",
+        "city": "ongole",
+        "state": "Andhra Pradesh",
+        "pincode": "523001"
+      },
+      "items": [
+        {
+          "id": "1",
+          "name": "Floral Princess Dress",
+          "category": "Dresses",
+          "price": 899,
+          "age": "2-3 Years",
+          "rating": 4.9,
+          "image": "https://i.pinimg.com/736x/06/09/05/0609054e729dbb997ef52cf276c43de8.jpg",
+          "description": "Beautiful floral dress designed for little princesses.",
+          "quantity": 2
+        }
+      ],
+      "total": 1798,
+      "paymentMethod": "Cash on Delivery",
+      "upiId": "",
+      "date": "9/4/2026",
+      "status": "Placed"
+    }
+  ],
+  "users": [
+    {
+      "name": "Ketha",
+      "email": "k.bhagyalakshmi237@gmail.com",
+      "phone": "6304508737",
+      "password": "1234",
+      "id": "sNl6R0PTSuY"
+    },
+    {
+      "name": "sunny",
+      "email": "abcd.@gmail.com",
+      "phone": "1234567891",
+      "password": "12340",
+      "id": "5eeKGJ7Z-AA"
+    },
+    {
+      "name": "qwe",
+      "email": "mnbv@gmail.com",
+      "phone": "1234567891",
+      "password": "0987",
+      "id": "6_k9zUW98uk"
+    },
+    {
+      "name": "bubu",
+      "email": "bubu@gmail.com",
+      "phone": "9876543219",
+      "password": "2316",
+      "id": "9Q_Jyb4_Xmg"
+    },
+    {
+      "name": "dudu",
+      "email": "dudu@gmail.com",
+      "phone": "1234567891",
+      "password": "1234",
+      "id": "0Vbbo9sMvJo"
+    },
+    {
+      "name": "poi",
+      "email": "mki@gmail.com",
+      "phone": "0987654321",
+      "password": "0987",
+      "id": "5xmpknUWyws"
+    }
+  ],
+  "admins": [
+    {
+      "id": "admin1",
+      "name": "KiddoWorld Admin",
+      "email": "admin@kiddoworld.com",
+      "password": "admin123"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

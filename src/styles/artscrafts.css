@@ -1,0 +1,780 @@
+/* =========================================
+   ARTS & CRAFTS PAGE
+========================================= */
+
+.craft-page {
+  min-height: 100vh;
+  background: #fffaf8;
+  color: #594747;
+  font-family: "Poppins", sans-serif;
+}
+
+
+/* =========================================
+   HERO
+========================================= */
+
+.craft-hero {
+  min-height: 470px;
+
+  padding: 70px 9%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  overflow: hidden;
+
+  background:
+    radial-gradient(
+      circle at 8% 18%,
+      #fff0bd 0 5%,
+      transparent 6%
+    ),
+    radial-gradient(
+      circle at 90% 20%,
+      #ffdce8 0 7%,
+      transparent 8%
+    ),
+    radial-gradient(
+      circle at 85% 90%,
+      #dff4e9 0 6%,
+      transparent 7%
+    ),
+    linear-gradient(
+      135deg,
+      #fff1df,
+      #ffe9f0
+    );
+}
+
+
+/* =========================================
+   HERO CONTENT
+========================================= */
+
+.craft-hero-content {
+  max-width: 560px;
+}
+
+.craft-small-title {
+  margin: 0 0 18px;
+
+  color: #c98296;
+
+  font-size: 12px;
+  font-weight: 700;
+
+  letter-spacing: 3px;
+}
+
+.craft-hero h1 {
+  margin: 0;
+
+  color: #594747;
+
+  font-size: 58px;
+
+  line-height: 1.08;
+}
+
+.craft-hero h1 span {
+  color: #d8879e;
+}
+
+.craft-hero-text {
+  max-width: 470px;
+
+  margin: 22px 0 28px;
+
+  color: #907d7d;
+
+  font-size: 15px;
+
+  line-height: 1.8;
+}
+
+
+/* =========================================
+   BUTTON
+========================================= */
+
+.craft-explore-btn {
+  padding: 14px 28px;
+
+  border: none;
+
+  border-radius: 30px;
+
+  background: #d990a6;
+
+  color: white;
+
+  font-size: 13px;
+
+  font-weight: 600;
+
+  cursor: pointer;
+
+  transition: 0.3s;
+}
+
+.craft-explore-btn:hover {
+  background: #c77991;
+
+  transform: translateY(-3px);
+
+  box-shadow:
+    0 10px 22px rgba(210, 130, 150, 0.25);
+}
+
+
+/* =========================================
+   HERO ART
+========================================= */
+
+.craft-hero-art {
+  width: 400px;
+  height: 400px;
+
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.craft-circle {
+  width: 280px;
+  height: 280px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+
+  background: rgba(255, 255, 255, 0.72);
+
+  border: 12px solid rgba(255, 255, 255, 0.55);
+
+  font-size: 125px;
+
+  box-shadow:
+    0 20px 45px rgba(100, 70, 70, 0.1);
+}
+
+.craft-star {
+  position: absolute;
+
+  color: #d98da3;
+
+  font-size: 30px;
+
+  animation: craftFloat 3s ease-in-out infinite;
+}
+
+.craft-star1 {
+  top: 45px;
+  left: 40px;
+}
+
+.craft-star2 {
+  top: 90px;
+  right: 25px;
+
+  color: #e3b45e;
+
+  animation-delay: 0.7s;
+}
+
+.craft-star3 {
+  bottom: 55px;
+  left: 55px;
+
+  color: #cda1b0;
+
+  animation-delay: 1.2s;
+}
+
+@keyframes craftFloat {
+
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+
+/* =========================================
+   INTRO
+========================================= */
+
+.craft-intro {
+  padding: 70px 20px 40px;
+
+  text-align: center;
+}
+
+.craft-intro > p {
+  margin: 0 0 12px;
+
+  color: #c98296;
+
+  font-size: 11px;
+
+  font-weight: 700;
+
+  letter-spacing: 3px;
+}
+
+.craft-intro h2 {
+  margin: 0;
+
+  color: #594747;
+
+  font-size: 36px;
+}
+
+.craft-intro h2 span {
+  color: #d8879e;
+}
+
+.craft-intro h4 {
+  margin: 12px 0 0;
+
+  color: #9b8989;
+
+  font-size: 14px;
+
+  font-weight: 400;
+}
+
+
+/* =========================================
+   SEARCH + FILTER
+========================================= */
+
+.craft-controls {
+  width: 82%;
+
+  margin: 25px auto 45px;
+
+  display: flex;
+  align-items: center;
+
+  justify-content: space-between;
+
+  gap: 20px;
+}
+
+
+/* SEARCH */
+
+.craft-search {
+  width: 440px;
+
+  padding: 13px 18px;
+
+  display: flex;
+  align-items: center;
+
+  gap: 10px;
+
+  background: white;
+
+  border: 1px solid #efdede;
+
+  border-radius: 30px;
+
+  box-shadow:
+    0 5px 18px rgba(100, 70, 70, 0.05);
+}
+
+.craft-search input {
+  width: 100%;
+
+  border: none;
+  outline: none;
+
+  background: transparent;
+
+  color: #594747;
+
+  font-family: inherit;
+
+  font-size: 13px;
+}
+
+.craft-search input::placeholder {
+  color: #b3a0a0;
+}
+
+
+/* FILTER */
+
+.craft-filter select {
+  min-width: 210px;
+
+  padding: 13px 20px;
+
+  border: 1px solid #efdede;
+
+  border-radius: 30px;
+
+  outline: none;
+
+  background: white;
+
+  color: #765b63;
+
+  font-family: inherit;
+
+  font-size: 13px;
+
+  cursor: pointer;
+}
+
+
+/* =========================================
+   PRODUCTS
+========================================= */
+
+.craft-products {
+  width: 82%;
+
+  margin: auto;
+
+  padding-bottom: 90px;
+}
+
+.craft-heading {
+  margin-bottom: 25px;
+
+  display: flex;
+
+  align-items: end;
+
+  justify-content: space-between;
+}
+
+.craft-heading p {
+  margin: 0 0 5px;
+
+  color: #c78296;
+
+  font-size: 10px;
+
+  font-weight: 700;
+
+  letter-spacing: 2px;
+}
+
+.craft-heading h2 {
+  margin: 0;
+
+  color: #594747;
+
+  font-size: 29px;
+}
+
+.craft-heading > span {
+  color: #9b8989;
+
+  font-size: 13px;
+}
+
+
+/* =========================================
+   GRID
+========================================= */
+
+.craft-grid {
+  display: grid;
+
+  grid-template-columns: repeat(4, 1fr);
+
+  gap: 25px;
+}
+
+
+/* =========================================
+   CARD
+========================================= */
+
+.craft-card {
+  overflow: hidden;
+
+  background: #ffffff;
+
+  border: 1px solid #f1dfdf;
+
+  border-radius: 22px;
+
+  box-shadow:
+    0 8px 25px rgba(100, 70, 70, 0.06);
+
+  transition: 0.35s;
+}
+
+.craft-card:hover {
+  transform: translateY(-8px);
+
+  box-shadow:
+    0 18px 35px rgba(100, 70, 70, 0.13);
+}
+
+
+/* =========================================
+   IMAGE
+========================================= */
+
+.craft-image {
+  height: 260px;
+
+  position: relative;
+
+  overflow: hidden;
+
+  background: #fff3f4;
+}
+
+.craft-image img {
+  width: 100%;
+  height: 100%;
+
+  display: block;
+
+  object-fit: cover;
+
+  transition: 0.5s;
+}
+
+.craft-card:hover .craft-image img {
+  transform: scale(1.06);
+}
+
+
+/* =========================================
+   WISHLIST
+========================================= */
+
+.craft-wishlist {
+  position: absolute;
+
+  top: 13px;
+  right: 13px;
+
+  width: 42px;
+  height: 42px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border: none;
+
+  border-radius: 50%;
+
+  background: rgba(255, 255, 255, 0.95);
+
+  color: #d9829b;
+
+  font-size: 23px;
+
+  cursor: pointer;
+
+  transition: 0.3s;
+
+  z-index: 2;
+}
+
+.craft-wishlist:hover {
+  transform: scale(1.12);
+
+  background: #ffe8ee;
+}
+
+.craft-wishlist.active {
+  background: #ffe7ed;
+
+  color: #d36f8b;
+}
+
+
+/* =========================================
+   TAG
+========================================= */
+
+.craft-tag {
+  position: absolute;
+
+  left: 13px;
+  bottom: 13px;
+
+  padding: 7px 12px;
+
+  border-radius: 20px;
+
+  background: rgba(255, 255, 255, 0.94);
+
+  color: #9b707b;
+
+  font-size: 10px;
+
+  font-weight: 600;
+}
+
+
+/* =========================================
+   INFO
+========================================= */
+
+.craft-info {
+  padding: 18px;
+}
+
+.craft-info h3 {
+  margin: 0 0 8px;
+
+  color: #594747;
+
+  font-size: 16px;
+
+  font-weight: 600;
+
+  white-space: nowrap;
+
+  overflow: hidden;
+
+  text-overflow: ellipsis;
+}
+
+.craft-rating {
+  margin-bottom: 9px;
+
+  color: #d19a56;
+
+  font-size: 12px;
+}
+
+.craft-age {
+  display: inline-block;
+
+  margin: 0 0 12px;
+
+  padding: 6px 10px;
+
+  border-radius: 20px;
+
+  background: #edf7f1;
+
+  color: #6c8b79;
+
+  font-size: 10px;
+
+  font-weight: 600;
+}
+
+.craft-description {
+  min-height: 42px;
+
+  margin: 0 0 15px;
+
+  color: #9a8989;
+
+  font-size: 11px;
+
+  line-height: 1.6;
+}
+
+
+/* =========================================
+   PRICE + BAG
+========================================= */
+
+.craft-bottom {
+  display: flex;
+
+  align-items: center;
+
+  justify-content: space-between;
+
+  gap: 10px;
+}
+
+.craft-bottom strong {
+  color: #d37f97;
+
+  font-size: 20px;
+}
+
+.craft-bottom button {
+  padding: 10px 13px;
+
+  border: none;
+
+  border-radius: 22px;
+
+  background: #f1d4dc;
+
+  color: #76555e;
+
+  font-size: 10px;
+
+  font-weight: 600;
+
+  cursor: pointer;
+
+  transition: 0.3s;
+}
+
+.craft-bottom button:hover {
+  background: #d68ca1;
+
+  color: white;
+
+  transform: translateY(-2px);
+}
+
+
+/* =========================================
+   EMPTY
+========================================= */
+
+.craft-empty {
+  grid-column: 1 / -1;
+
+  padding: 70px 20px;
+
+  text-align: center;
+
+  background: white;
+
+  border: 1px solid #f0dfdf;
+
+  border-radius: 25px;
+}
+
+.craft-empty div {
+  font-size: 55px;
+}
+
+.craft-empty h3 {
+  margin: 15px 0 5px;
+
+  color: #594747;
+
+  font-size: 22px;
+}
+
+.craft-empty p {
+  color: #998686;
+
+  font-size: 13px;
+}
+
+
+/* =========================================
+   TABLET
+========================================= */
+
+@media (max-width: 1100px) {
+
+  .craft-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+}
+
+
+/* =========================================
+   SMALL TABLET
+========================================= */
+
+@media (max-width: 850px) {
+
+  .craft-hero {
+    flex-direction: column;
+
+    text-align: center;
+
+    padding: 60px 20px;
+  }
+
+  .craft-hero-text {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .craft-hero-art {
+    width: 300px;
+    height: 300px;
+
+    margin-top: 25px;
+  }
+
+  .craft-circle {
+    width: 210px;
+    height: 210px;
+
+    font-size: 95px;
+  }
+
+  .craft-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .craft-controls,
+  .craft-products {
+    width: 90%;
+  }
+
+}
+
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 550px) {
+
+  .craft-hero h1 {
+    font-size: 42px;
+  }
+
+  .craft-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .craft-controls {
+    flex-direction: column;
+
+    align-items: stretch;
+  }
+
+  .craft-search {
+    width: 100%;
+  }
+
+  .craft-filter select {
+    width: 100%;
+  }
+
+  .craft-heading {
+    flex-direction: column;
+
+    align-items: flex-start;
+
+    gap: 8px;
+  }
+
+  .craft-intro h2 {
+    font-size: 29px;
+  }
+
+}

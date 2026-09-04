@@ -1,0 +1,157 @@
+.orders-page {
+  min-height: 100vh;
+  padding: 50px 8%;
+  background: #fffaf7;
+}
+
+.orders-header {
+  text-align: center;
+  margin-bottom: 45px;
+}
+
+.orders-header p {
+  letter-spacing: 3px;
+  font-size: 13px;
+  color: #b58b72;
+}
+
+.orders-header h1 {
+  font-size: 42px;
+  margin: 10px 0;
+  color: #3d3030;
+}
+
+.orders-header span {
+  color: #777;
+}
+
+.orders-container {
+  max-width: 950px;
+  margin: auto;
+}
+
+.order-card {
+  background: white;
+  border-radius: 18px;
+  padding: 25px;
+  margin-bottom: 25px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.07);
+}
+
+.order-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 18px;
+}
+
+.order-top h3 {
+  margin: 0 0 6px;
+  color: #3d3030;
+}
+
+.order-top p {
+  margin: 0;
+  color: #888;
+  font-size: 14px;
+}
+
+.order-status {
+  background: #e8f7e8;
+  color: #3b8c4a;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.order-products {
+  padding: 20px 0;
+}
+
+.order-product {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  padding: 12px 0;
+}
+
+.order-product img {
+  width: 75px;
+  height: 75px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.order-product h4 {
+  margin: 0 0 7px;
+  color: #403535;
+}
+
+.order-product p {
+  margin: 0 0 5px;
+  color: #888;
+  font-size: 14px;
+}
+
+.order-product strong {
+  color: #b56b5f;
+}
+
+.order-bottom {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #eee;
+  padding-top: 20px;
+}
+
+.order-bottom div {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.order-bottom span {
+  font-size: 13px;
+  color: #888;
+}
+
+.order-bottom strong {
+  color: #403535;
+}
+
+.no-orders {
+  text-align: center;
+  padding: 70px 20px;
+}
+
+.no-orders div {
+  font-size: 60px;
+}
+
+.no-orders h2 {
+  color: #403535;
+}
+
+.no-orders p {
+  color: #888;
+}
+
+.no-orders button {
+  margin-top: 15px;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 25px;
+  background: #d99b8c;
+  color: white;
+  cursor: pointer;
+}
+
+.orders-loading {
+  min-height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}

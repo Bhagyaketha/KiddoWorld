@@ -1,0 +1,510 @@
+/* =========================
+   SHOP PAGE
+========================= */
+
+.shop-page {
+  min-height: 100vh;
+  background: #fffaf7;
+  color: #554653;
+  font-family: "Poppins", sans-serif;
+}
+
+
+/* =========================
+   HERO
+========================= */
+
+.shop-hero {
+  min-height: 500px;
+
+  padding: 70px 9%;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: space-between;
+
+  overflow: hidden;
+
+  background:
+    linear-gradient(
+      135deg,
+      #fdf0ed,
+      #f8eef5,
+      #eef5ef
+    );
+}
+
+.shop-hero-content {
+  max-width: 600px;
+}
+
+.shop-small-title {
+  color: #b27b91;
+
+  font-size: 11px;
+
+  font-weight: 700;
+
+  letter-spacing: 3px;
+}
+
+.shop-hero h1 {
+  margin: 15px 0;
+
+  font-family: Georgia, serif;
+
+  font-size: 58px;
+
+  line-height: 1.05;
+
+  color: #554653;
+}
+
+.shop-hero h1 em {
+  color: #bd849b;
+
+  font-weight: normal;
+}
+
+.shop-hero p {
+  max-width: 500px;
+
+  color: #817580;
+
+  font-size: 15px;
+
+  line-height: 1.8;
+}
+
+.shop-hero button {
+  margin-top: 18px;
+
+  padding: 14px 28px;
+
+  border: none;
+
+  border-radius: 30px;
+
+  background: #bd849b;
+
+  color: white;
+
+  font-weight: 600;
+
+  cursor: pointer;
+
+  transition: 0.3s;
+}
+
+.shop-hero button:hover {
+  background: #a66c84;
+
+  transform: translateY(-2px);
+}
+
+
+/* =========================
+   HERO ART
+========================= */
+
+.shop-hero-art {
+  width: 400px;
+
+  height: 400px;
+
+  position: relative;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+}
+
+.hero-circle {
+  width: 290px;
+
+  height: 290px;
+
+  border-radius: 50%;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  font-size: 130px;
+
+  background: #f6dfe3;
+
+  box-shadow:
+    0 25px 50px rgba(120, 80, 100, 0.12);
+}
+
+.floating-star {
+  position: absolute;
+
+  color: #c49a69;
+
+  font-size: 40px;
+}
+
+.star-one {
+  top: 40px;
+
+  right: 45px;
+}
+
+.star-two {
+  bottom: 65px;
+
+  left: 35px;
+
+  font-size: 30px;
+}
+
+.floating-heart {
+  position: absolute;
+
+  top: 100px;
+
+  left: 30px;
+
+  font-size: 45px;
+
+  color: #c47f98;
+}
+
+
+/* =========================
+   CATEGORY SECTION
+========================= */
+
+.shop-categories {
+  padding: 80px 8%;
+}
+
+.shop-section-title {
+  text-align: center;
+
+  margin-bottom: 45px;
+}
+
+.shop-section-title span {
+  color: #b27b91;
+
+  font-size: 10px;
+
+  letter-spacing: 3px;
+
+  font-weight: 700;
+}
+
+.shop-section-title h2 {
+  margin: 10px 0;
+
+  font-family: Georgia, serif;
+
+  font-size: 40px;
+}
+
+.shop-section-title p {
+  color: #817580;
+
+  font-size: 14px;
+}
+
+
+/* =========================
+   CATEGORY GRID
+========================= */
+
+.category-grid {
+  max-width: 1200px;
+
+  margin: auto;
+
+  display: grid;
+
+  grid-template-columns:
+    repeat(3, 1fr);
+
+  gap: 25px;
+}
+
+
+/* =========================
+   CATEGORY CARD
+========================= */
+
+.category-card {
+  min-height: 270px;
+
+  padding: 28px;
+
+  border-radius: 25px;
+
+  position: relative;
+
+  overflow: hidden;
+
+  cursor: pointer;
+
+  transition: 0.35s;
+
+  border: 1px solid rgba(100, 80, 80, 0.08);
+
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: space-between;
+}
+
+.category-card:hover {
+  transform: translateY(-8px);
+
+  box-shadow:
+    0 18px 40px rgba(80, 60, 60, 0.12);
+}
+
+
+/* COLORS */
+
+.category-pink {
+  background: #f9e3e7;
+}
+
+.category-green {
+  background: #e5f0e8;
+}
+
+.category-yellow {
+  background: #fff1d4;
+}
+
+.category-purple {
+  background: #eee5f3;
+}
+
+.category-blue {
+  background: #e2eef4;
+}
+
+.category-peach {
+  background: #f9e6da;
+}
+
+
+/* =========================
+   ICON
+========================= */
+
+.category-icon {
+  width: 65px;
+
+  height: 65px;
+
+  border-radius: 50%;
+
+  background: rgba(255, 255, 255, 0.7);
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  font-size: 34px;
+
+  box-shadow:
+    0 5px 15px rgba(80, 60, 60, 0.07);
+}
+
+
+/* =========================
+   CONTENT
+========================= */
+
+.category-content {
+  position: relative;
+
+  z-index: 2;
+}
+
+.category-content span {
+  font-size: 9px;
+
+  text-transform: uppercase;
+
+  letter-spacing: 1.5px;
+
+  color: #8b7780;
+
+  font-weight: 700;
+}
+
+.category-content h3 {
+  margin: 5px 0;
+
+  font-family: Georgia, serif;
+
+  font-size: 26px;
+}
+
+.category-content p {
+  max-width: 260px;
+
+  margin: 5px 0 10px;
+
+  font-size: 12px;
+
+  color: #746871;
+
+  line-height: 1.6;
+}
+
+.category-content button {
+  padding: 8px 0;
+
+  border: none;
+
+  background: transparent;
+
+  color: #8f6174;
+
+  font-size: 12px;
+
+  font-weight: 700;
+
+  cursor: pointer;
+}
+
+
+/* =========================
+   BOTTOM BANNER
+========================= */
+
+.shop-banner {
+  margin: 20px 8% 70px;
+
+  padding: 45px 55px;
+
+  border-radius: 30px;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: space-between;
+
+  background: #eee7df;
+}
+
+.shop-banner span {
+  color: #a77d69;
+
+  font-size: 10px;
+
+  letter-spacing: 2px;
+
+  font-weight: 700;
+}
+
+.shop-banner h2 {
+  margin: 10px 0;
+
+  font-family: Georgia, serif;
+
+  font-size: 34px;
+
+  line-height: 1.2;
+}
+
+.shop-banner p {
+  color: #776d68;
+
+  font-size: 13px;
+}
+
+.shop-banner-art {
+  font-size: 100px;
+}
+
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media (max-width: 950px) {
+
+  .shop-hero {
+    padding: 55px 6%;
+  }
+
+  .shop-hero h1 {
+    font-size: 45px;
+  }
+
+  .shop-hero-art {
+    width: 300px;
+
+    height: 300px;
+  }
+
+  .hero-circle {
+    width: 220px;
+
+    height: 220px;
+
+    font-size: 90px;
+  }
+
+  .category-grid {
+    grid-template-columns:
+      repeat(2, 1fr);
+  }
+
+}
+
+
+@media (max-width: 650px) {
+
+  .shop-hero {
+    flex-direction: column;
+
+    text-align: center;
+
+    gap: 40px;
+  }
+
+  .shop-hero p {
+    margin: auto;
+  }
+
+  .shop-hero-art {
+    width: 280px;
+
+    height: 280px;
+  }
+
+  .category-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .shop-banner {
+    flex-direction: column;
+
+    text-align: center;
+
+    gap: 20px;
+
+    margin-left: 5%;
+
+    margin-right: 5%;
+  }
+
+}

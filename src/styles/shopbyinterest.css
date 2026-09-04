@@ -1,0 +1,538 @@
+/* ================================
+   MAIN PAGE
+================================ */
+
+.interest-page {
+  min-height: 100vh;
+  background: #fffaf7;
+  color: #514651;
+  font-family: "Poppins", sans-serif;
+}
+
+
+/* ================================
+   HERO
+================================ */
+
+.interest-hero {
+  min-height: 480px;
+  padding: 70px 8%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  position: relative;
+  overflow: hidden;
+
+  background:
+    radial-gradient(
+      circle at 90% 10%,
+      #f5d9df 0,
+      #f5d9df 120px,
+      transparent 121px
+    ),
+    radial-gradient(
+      circle at 5% 90%,
+      #dceee7 0,
+      #dceee7 150px,
+      transparent 151px
+    ),
+    #fff1e8;
+}
+
+
+/* HERO TEXT */
+
+.interest-hero-content {
+  max-width: 650px;
+  position: relative;
+  z-index: 2;
+}
+
+.interest-label {
+  color: #b27b91;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 3px;
+}
+
+.interest-hero h1 {
+  margin: 18px 0;
+
+  font-family: Georgia, serif;
+  font-size: 64px;
+  line-height: 1.1;
+
+  color: #554653;
+}
+
+.interest-hero h1 span {
+  color: #c68da3;
+  font-style: italic;
+}
+
+.interest-hero p {
+  max-width: 570px;
+
+  font-size: 16px;
+  line-height: 1.8;
+
+  color: #766b75;
+}
+
+
+/* HERO BUTTON */
+
+.hero-shop-btn {
+  display: inline-block;
+
+  margin-top: 25px;
+  padding: 13px 27px;
+
+  background: #c895a7;
+  color: white;
+
+  border-radius: 30px;
+
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+
+  transition: 0.3s;
+}
+
+.hero-shop-btn:hover {
+  background: #a97389;
+  transform: translateY(-3px);
+}
+
+
+/* ================================
+   HERO ART
+================================ */
+
+.interest-hero-art {
+  width: 320px;
+  height: 320px;
+
+  border-radius: 50%;
+
+  background: #f7ded5;
+
+  position: relative;
+
+  box-shadow:
+    0 20px 50px rgba(120, 90, 90, 0.12);
+}
+
+
+/* FLOATING EMOJIS */
+
+.floating-item {
+  position: absolute;
+
+  width: 75px;
+  height: 75px;
+
+  border-radius: 50%;
+
+  background: white;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 38px;
+
+  box-shadow:
+    0 10px 25px rgba(80, 60, 60, 0.12);
+}
+
+.item-one {
+  top: 20px;
+  left: 110px;
+}
+
+.item-two {
+  right: 20px;
+  top: 115px;
+}
+
+.item-three {
+  left: 20px;
+  bottom: 55px;
+}
+
+.item-four {
+  right: 80px;
+  bottom: 20px;
+}
+
+
+/* ================================
+   MAIN SECTION
+================================ */
+
+.interest-section {
+  padding: 85px 8%;
+}
+
+
+/* HEADING */
+
+.interest-heading {
+  text-align: center;
+
+  margin-bottom: 55px;
+}
+
+.interest-heading span {
+  font-size: 12px;
+  font-weight: 700;
+
+  letter-spacing: 3px;
+
+  color: #b27b91;
+}
+
+.interest-heading h2 {
+  margin: 10px 0;
+
+  font-family: Georgia, serif;
+
+  font-size: 42px;
+
+  color: #554653;
+}
+
+.interest-heading p {
+  font-size: 15px;
+  color: #817580;
+}
+
+
+/* ================================
+   INTEREST GRID
+================================ */
+
+.interest-grid {
+  display: grid;
+
+  grid-template-columns: repeat(3, 1fr);
+
+  gap: 30px;
+}
+
+
+/* ================================
+   CARD
+================================ */
+
+.interest-card {
+  background: white;
+
+  border-radius: 24px;
+
+  overflow: hidden;
+
+  border: 1px solid #eee1dd;
+
+  box-shadow:
+    0 10px 30px rgba(90, 70, 70, 0.07);
+
+  transition: all 0.35s ease;
+}
+
+.interest-card:hover {
+  transform: translateY(-8px);
+
+  box-shadow:
+    0 18px 40px rgba(90, 70, 70, 0.14);
+}
+
+
+/* IMAGE */
+
+.interest-image {
+  height: 220px;
+
+  position: relative;
+
+  overflow: hidden;
+
+  background: #f6e9e3;
+}
+
+.interest-image img {
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+
+  transition: transform 0.4s ease;
+}
+
+.interest-card:hover .interest-image img {
+  transform: scale(1.07);
+}
+
+
+/* ICON */
+
+.interest-icon {
+  position: absolute;
+
+  left: 20px;
+  bottom: 20px;
+
+  width: 55px;
+  height: 55px;
+
+  border-radius: 50%;
+
+  background: white;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 27px;
+
+  box-shadow:
+    0 7px 20px rgba(70, 50, 50, 0.15);
+}
+
+
+/* ================================
+   CARD INFORMATION
+================================ */
+
+.interest-info {
+  padding: 25px;
+}
+
+.interest-info h3 {
+  margin: 0 0 10px;
+
+  font-family: Georgia, serif;
+
+  font-size: 25px;
+
+  color: #574854;
+}
+
+.interest-info p {
+  min-height: 48px;
+
+  margin-bottom: 17px;
+
+  font-size: 14px;
+
+  line-height: 1.6;
+
+  color: #817580;
+}
+
+
+/* LINK */
+
+.interest-link {
+  color: #a56d84;
+
+  text-decoration: none;
+
+  font-size: 13px;
+
+  font-weight: 700;
+
+  border-bottom: 1px solid #d3a5b4;
+
+  padding-bottom: 4px;
+
+  transition: 0.3s;
+}
+
+.interest-link:hover {
+  color: #71495c;
+
+  padding-left: 6px;
+}
+
+
+/* ================================
+   CTA
+================================ */
+
+.interest-cta {
+  margin: 10px 8% 80px;
+
+  padding: 65px 30px;
+
+  border-radius: 30px;
+
+  background: #e8f1ec;
+
+  text-align: center;
+}
+
+.cta-content {
+  max-width: 700px;
+
+  margin: auto;
+}
+
+.cta-content span {
+  color: #77958a;
+
+  font-size: 12px;
+
+  font-weight: 700;
+
+  letter-spacing: 2px;
+}
+
+.cta-content h2 {
+  margin: 12px 0;
+
+  font-family: Georgia, serif;
+
+  font-size: 36px;
+
+  color: #50645d;
+}
+
+.cta-content p {
+  color: #718078;
+
+  margin-bottom: 25px;
+}
+
+
+/* CTA BUTTON */
+
+.gift-finder-btn {
+  display: inline-block;
+
+  padding: 13px 28px;
+
+  border-radius: 30px;
+
+  background: #c895a7;
+
+  color: white;
+
+  text-decoration: none;
+
+  font-size: 14px;
+
+  font-weight: 600;
+
+  transition: 0.3s;
+}
+
+.gift-finder-btn:hover {
+  background: #a97389;
+
+  transform: translateY(-3px);
+}
+
+
+/* ================================
+   LOADING
+================================ */
+
+.interest-loading {
+  min-height: 70vh;
+
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+
+  color: #a56d84;
+
+  font-size: 18px;
+}
+
+
+/* ================================
+   TABLET
+================================ */
+
+@media (max-width: 1000px) {
+
+  .interest-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .interest-hero h1 {
+    font-size: 52px;
+  }
+
+  .interest-hero-art {
+    width: 240px;
+    height: 240px;
+  }
+
+}
+
+
+/* ================================
+   MOBILE
+================================ */
+
+@media (max-width: 700px) {
+
+  .interest-hero {
+    padding: 60px 6%;
+
+    flex-direction: column;
+
+    text-align: center;
+
+    gap: 45px;
+  }
+
+  .interest-hero h1 {
+    font-size: 44px;
+  }
+
+  .interest-hero p {
+    font-size: 15px;
+  }
+
+  .interest-hero-art {
+    width: 210px;
+    height: 210px;
+  }
+
+  .floating-item {
+    width: 55px;
+    height: 55px;
+
+    font-size: 28px;
+  }
+
+  .interest-section {
+    padding: 60px 6%;
+  }
+
+  .interest-heading h2 {
+    font-size: 32px;
+  }
+
+  .interest-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .interest-cta {
+    margin: 10px 6% 60px;
+
+    padding: 45px 20px;
+  }
+
+  .cta-content h2 {
+    font-size: 28px;
+  }
+}

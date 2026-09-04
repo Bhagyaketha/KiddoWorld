@@ -1,0 +1,835 @@
+/* =========================================
+   BOOKS PAGE
+========================================= */
+
+.books-page {
+  min-height: 100vh;
+
+  background: #fffaf8;
+
+  color: #594747;
+
+  font-family: "Poppins", sans-serif;
+}
+
+
+/* =========================================
+   HERO
+========================================= */
+
+.books-hero {
+  min-height: 470px;
+
+  padding: 70px 9%;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: space-between;
+
+  overflow: hidden;
+
+  background:
+    radial-gradient(
+      circle at 8% 18%,
+      #fff0bd 0 5%,
+      transparent 6%
+    ),
+    radial-gradient(
+      circle at 90% 20%,
+      #ffdce8 0 7%,
+      transparent 8%
+    ),
+    radial-gradient(
+      circle at 85% 90%,
+      #dff4e9 0 6%,
+      transparent 7%
+    ),
+    linear-gradient(
+      135deg,
+      #fff1df,
+      #ffe9f0
+    );
+}
+
+
+/* =========================================
+   HERO CONTENT
+========================================= */
+
+.books-hero-content {
+  max-width: 560px;
+}
+
+.books-small-title {
+  margin: 0 0 18px;
+
+  color: #c98296;
+
+  font-size: 12px;
+
+  font-weight: 700;
+
+  letter-spacing: 3px;
+}
+
+.books-hero h1 {
+  margin: 0;
+
+  color: #594747;
+
+  font-size: 58px;
+
+  line-height: 1.08;
+}
+
+.books-hero h1 span {
+  color: #d8879e;
+}
+
+.books-hero-text {
+  max-width: 470px;
+
+  margin: 22px 0 28px;
+
+  color: #907d7d;
+
+  font-size: 15px;
+
+  line-height: 1.8;
+}
+
+
+/* =========================================
+   HERO BUTTON
+========================================= */
+
+.books-explore-btn {
+  padding: 14px 28px;
+
+  border: none;
+
+  border-radius: 30px;
+
+  background: #d990a6;
+
+  color: white;
+
+  font-size: 13px;
+
+  font-weight: 600;
+
+  cursor: pointer;
+
+  transition: 0.3s;
+}
+
+.books-explore-btn:hover {
+  background: #c77991;
+
+  transform: translateY(-3px);
+
+  box-shadow:
+    0 10px 22px rgba(210, 130, 150, 0.25);
+}
+
+
+/* =========================================
+   HERO ART
+========================================= */
+
+.books-hero-art {
+  width: 400px;
+
+  height: 400px;
+
+  position: relative;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+}
+
+.book-circle {
+  width: 280px;
+
+  height: 280px;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  border-radius: 50%;
+
+  background: rgba(255, 255, 255, 0.72);
+
+  border: 12px solid rgba(255, 255, 255, 0.55);
+
+  font-size: 125px;
+
+  box-shadow:
+    0 20px 45px rgba(100, 70, 70, 0.1);
+}
+
+.book-star {
+  position: absolute;
+
+  color: #d98da3;
+
+  font-size: 30px;
+
+  animation: bookFloat 3s ease-in-out infinite;
+}
+
+.book-star1 {
+  top: 45px;
+
+  left: 40px;
+}
+
+.book-star2 {
+  top: 90px;
+
+  right: 25px;
+
+  color: #e3b45e;
+
+  animation-delay: 0.7s;
+}
+
+.book-star3 {
+  bottom: 55px;
+
+  left: 55px;
+
+  color: #cda1b0;
+
+  animation-delay: 1.2s;
+}
+
+@keyframes bookFloat {
+
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-10px);
+  }
+
+}
+
+
+/* =========================================
+   INTRO
+========================================= */
+
+.books-intro {
+  padding: 70px 20px 40px;
+
+  text-align: center;
+}
+
+.books-intro > p {
+  margin: 0 0 12px;
+
+  color: #c98296;
+
+  font-size: 11px;
+
+  font-weight: 700;
+
+  letter-spacing: 3px;
+}
+
+.books-intro h2 {
+  margin: 0;
+
+  color: #594747;
+
+  font-size: 36px;
+}
+
+.books-intro h2 span {
+  color: #d8879e;
+}
+
+.books-intro h4 {
+  margin: 12px 0 0;
+
+  color: #9b8989;
+
+  font-size: 14px;
+
+  font-weight: 400;
+}
+
+
+/* =========================================
+   SEARCH + FILTER
+========================================= */
+
+.books-controls {
+  width: 82%;
+
+  margin: 25px auto 45px;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: space-between;
+
+  gap: 20px;
+}
+
+
+/* SEARCH */
+
+.books-search {
+  width: 440px;
+
+  padding: 13px 18px;
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 10px;
+
+  background: white;
+
+  border: 1px solid #efdede;
+
+  border-radius: 30px;
+
+  box-shadow:
+    0 5px 18px rgba(100, 70, 70, 0.05);
+}
+
+.books-search input {
+  width: 100%;
+
+  border: none;
+
+  outline: none;
+
+  background: transparent;
+
+  color: #594747;
+
+  font-family: inherit;
+
+  font-size: 13px;
+}
+
+.books-search input::placeholder {
+  color: #b3a0a0;
+}
+
+
+/* FILTER */
+
+.books-filter select {
+  min-width: 200px;
+
+  padding: 13px 20px;
+
+  border: 1px solid #efdede;
+
+  border-radius: 30px;
+
+  outline: none;
+
+  background: white;
+
+  color: #765b63;
+
+  font-family: inherit;
+
+  font-size: 13px;
+
+  cursor: pointer;
+}
+
+
+/* =========================================
+   PRODUCTS
+========================================= */
+
+.books-products {
+  width: 82%;
+
+  margin: auto;
+
+  padding-bottom: 90px;
+}
+
+.books-heading {
+  margin-bottom: 25px;
+
+  display: flex;
+
+  align-items: end;
+
+  justify-content: space-between;
+}
+
+.books-heading p {
+  margin: 0 0 5px;
+
+  color: #c78296;
+
+  font-size: 10px;
+
+  font-weight: 700;
+
+  letter-spacing: 2px;
+}
+
+.books-heading h2 {
+  margin: 0;
+
+  color: #594747;
+
+  font-size: 29px;
+}
+
+.books-heading > span {
+  color: #9b8989;
+
+  font-size: 13px;
+}
+
+
+/* =========================================
+   BOOK GRID
+========================================= */
+
+.books-grid {
+  display: grid;
+
+  grid-template-columns:
+    repeat(4, 1fr);
+
+  gap: 25px;
+}
+
+
+/* =========================================
+   BOOK CARD
+========================================= */
+
+.book-card {
+  overflow: hidden;
+
+  background: #ffffff;
+
+  border: 1px solid #f1dfdf;
+
+  border-radius: 22px;
+
+  box-shadow:
+    0 8px 25px rgba(100, 70, 70, 0.06);
+
+  transition: 0.35s;
+}
+
+.book-card:hover {
+  transform: translateY(-8px);
+
+  box-shadow:
+    0 18px 35px rgba(100, 70, 70, 0.13);
+}
+
+
+/* =========================================
+   BOOK IMAGE
+========================================= */
+
+.book-image {
+  height: 260px;
+
+  position: relative;
+
+  overflow: hidden;
+
+  background: #fff3f4;
+}
+
+.book-image img {
+  width: 100%;
+
+  height: 100%;
+
+  display: block;
+
+  object-fit: cover;
+
+  transition: 0.5s;
+}
+
+.book-card:hover
+.book-image img {
+  transform: scale(1.06);
+}
+
+
+/* =========================================
+   WISHLIST
+========================================= */
+
+.book-wishlist {
+  position: absolute;
+
+  top: 13px;
+
+  right: 13px;
+
+  width: 42px;
+
+  height: 42px;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  border: none;
+
+  border-radius: 50%;
+
+  background: rgba(255, 255, 255, 0.95);
+
+  color: #d9829b;
+
+  font-size: 23px;
+
+  cursor: pointer;
+
+  transition: 0.3s;
+
+  z-index: 2;
+}
+
+.book-wishlist:hover {
+  transform: scale(1.12);
+
+  background: #ffe8ee;
+}
+
+.book-wishlist.active {
+  background: #ffe7ed;
+
+  color: #d36f8b;
+}
+
+
+/* =========================================
+   CATEGORY
+========================================= */
+
+.book-category {
+  position: absolute;
+
+  left: 13px;
+
+  bottom: 13px;
+
+  padding: 7px 12px;
+
+  border-radius: 20px;
+
+  background: rgba(255, 255, 255, 0.94);
+
+  color: #9b707b;
+
+  font-size: 10px;
+
+  font-weight: 600;
+}
+
+
+/* =========================================
+   BOOK INFO
+========================================= */
+
+.book-info {
+  padding: 18px;
+}
+
+.book-info h3 {
+  margin: 0 0 8px;
+
+  color: #594747;
+
+  font-size: 16px;
+
+  font-weight: 600;
+
+  white-space: nowrap;
+
+  overflow: hidden;
+
+  text-overflow: ellipsis;
+}
+
+
+/* =========================================
+   RATING
+========================================= */
+
+.book-rating {
+  margin-bottom: 9px;
+
+  color: #d19a56;
+
+  font-size: 12px;
+}
+
+
+/* =========================================
+   AGE
+========================================= */
+
+.book-age {
+  display: inline-block;
+
+  margin: 0 0 12px;
+
+  padding: 6px 10px;
+
+  border-radius: 20px;
+
+  background: #edf7f1;
+
+  color: #6c8b79;
+
+  font-size: 10px;
+
+  font-weight: 600;
+}
+
+
+/* =========================================
+   DESCRIPTION
+========================================= */
+
+.book-description {
+  min-height: 42px;
+
+  margin: 0 0 15px;
+
+  color: #9a8989;
+
+  font-size: 11px;
+
+  line-height: 1.6;
+}
+
+
+/* =========================================
+   PRICE + BAG
+========================================= */
+
+.book-bottom {
+  display: flex;
+
+  align-items: center;
+
+  justify-content: space-between;
+
+  gap: 10px;
+}
+
+.book-bottom strong {
+  color: #d37f97;
+
+  font-size: 20px;
+}
+
+.book-bottom button {
+  padding: 10px 13px;
+
+  border: none;
+
+  border-radius: 22px;
+
+  background: #f1d4dc;
+
+  color: #76555e;
+
+  font-size: 10px;
+
+  font-weight: 600;
+
+  cursor: pointer;
+
+  transition: 0.3s;
+}
+
+.book-bottom button:hover {
+  background: #d68ca1;
+
+  color: white;
+
+  transform: translateY(-2px);
+}
+
+
+/* =========================================
+   EMPTY
+========================================= */
+
+.books-empty {
+  grid-column: 1 / -1;
+
+  padding: 70px 20px;
+
+  text-align: center;
+
+  background: white;
+
+  border: 1px solid #f0dfdf;
+
+  border-radius: 25px;
+}
+
+.books-empty div {
+  font-size: 55px;
+}
+
+.books-empty h3 {
+  margin: 15px 0 5px;
+
+  color: #594747;
+
+  font-size: 22px;
+}
+
+.books-empty p {
+  color: #998686;
+
+  font-size: 13px;
+}
+
+
+/* =========================================
+   TABLET
+========================================= */
+
+@media (max-width: 1100px) {
+
+  .books-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .books-hero {
+    padding: 60px 7%;
+  }
+
+}
+
+
+/* =========================================
+   SMALL TABLET
+========================================= */
+
+@media (max-width: 850px) {
+
+  .books-hero {
+    flex-direction: column;
+
+    text-align: center;
+
+    padding: 60px 20px;
+  }
+
+  .books-hero-text {
+    margin-left: auto;
+
+    margin-right: auto;
+  }
+
+  .books-hero-art {
+    width: 300px;
+
+    height: 300px;
+
+    margin-top: 25px;
+  }
+
+  .book-circle {
+    width: 210px;
+
+    height: 210px;
+
+    font-size: 95px;
+  }
+
+  .books-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .books-controls,
+  .books-products {
+    width: 90%;
+  }
+
+}
+
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 550px) {
+
+  .books-hero h1 {
+    font-size: 42px;
+  }
+
+  .books-small-title {
+    font-size: 10px;
+
+    letter-spacing: 2px;
+  }
+
+  .books-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .books-controls {
+    flex-direction: column;
+
+    align-items: stretch;
+  }
+
+  .books-search {
+    width: 100%;
+  }
+
+  .books-filter select {
+    width: 100%;
+  }
+
+  .books-heading {
+    flex-direction: column;
+
+    align-items: flex-start;
+
+    gap: 8px;
+  }
+
+  .books-intro h2 {
+    font-size: 29px;
+  }
+
+}

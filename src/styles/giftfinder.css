@@ -1,0 +1,297 @@
+/* ================================
+   GIFT FINDER PAGE
+================================ */
+
+.gift-finder {
+  min-height: 100vh;
+  background: #fffaf7;
+  color: #574747;
+  font-family: "Poppins", sans-serif;
+}
+
+
+/* ================================
+   HERO SECTION
+================================ */
+
+.gift-hero {
+  min-height: 390px;
+  padding: 70px 9%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+
+  background:
+    radial-gradient(circle at 10% 20%, #fff0b8 0 7%, transparent 8%),
+    radial-gradient(circle at 90% 25%, #ffdce8 0 8%, transparent 9%),
+    radial-gradient(circle at 80% 85%, #dff5ed 0 6%, transparent 7%),
+    linear-gradient(135deg, #fff1dc, #ffe9ef);
+}
+
+.gift-hero p {
+  margin: 0 0 15px;
+
+  color: #c98292;
+
+  font-size: 13px;
+  font-weight: 700;
+
+  letter-spacing: 3px;
+}
+
+.gift-hero h1 {
+  margin: 0;
+
+  font-size: 52px;
+  line-height: 1.15;
+
+  color: #594747;
+}
+
+.gift-hero h1 span {
+  color: #d8879e;
+}
+
+.gift-hero h3 {
+  margin-top: 20px;
+
+  color: #8d7777;
+
+  font-size: 17px;
+  font-weight: 400;
+}
+
+
+/* ================================
+   GIFT SECTION
+================================ */
+
+.gift-section {
+  width: 82%;
+  margin: auto;
+
+  padding: 65px 0 90px;
+
+  text-align: center;
+}
+
+.gift-section > h2 {
+  margin: 0;
+
+  font-size: 35px;
+
+  color: #594747;
+}
+
+.gift-subtitle {
+  margin: 10px 0 35px;
+
+  color: #988686;
+
+  font-size: 14px;
+}
+
+
+/* ================================
+   GIFT GRID
+================================ */
+
+.gift-grid {
+  display: grid;
+
+  grid-template-columns: repeat(4, 1fr);
+
+  gap: 25px;
+
+  text-align: left;
+}
+
+
+/* ================================
+   GIFT CARD
+================================ */
+
+.gift-card {
+  overflow: hidden;
+
+  background: white;
+
+  border: 1px solid #f2e1e1;
+
+  border-radius: 22px;
+
+  box-shadow: 0 8px 25px rgba(100, 70, 70, 0.07);
+
+  transition: 0.35s;
+}
+
+.gift-card:hover {
+  transform: translateY(-8px);
+
+  box-shadow: 0 18px 35px rgba(100, 70, 70, 0.14);
+}
+
+
+/* ================================
+   IMAGE
+================================ */
+
+.gift-image {
+  height: 245px;
+
+  position: relative;
+
+  overflow: hidden;
+
+  background: #fff4f2;
+}
+
+.gift-image img {
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+
+  transition: 0.5s;
+}
+
+.gift-card:hover .gift-image img {
+  transform: scale(1.06);
+}
+
+
+/* ================================
+   GIFT LABEL
+================================ */
+
+.gift-image span {
+  position: absolute;
+
+  left: 13px;
+  bottom: 13px;
+
+  padding: 7px 13px;
+
+  border-radius: 20px;
+
+  background: rgba(255, 255, 255, 0.94);
+
+  color: #a06f7b;
+
+  font-size: 11px;
+  font-weight: 600;
+}
+
+
+/* ================================
+   GIFT INFO
+================================ */
+
+.gift-info {
+  padding: 18px;
+}
+
+.gift-info h3 {
+  margin: 0 0 10px;
+
+  color: #594747;
+
+  font-size: 17px;
+}
+
+.gift-age {
+  margin: 5px 0;
+
+  color: #9b8989;
+
+  font-size: 12px;
+}
+
+.gift-price {
+  margin: 10px 0 16px;
+
+  color: #d47d94;
+
+  font-size: 20px;
+  font-weight: 700;
+}
+
+
+/* ================================
+   VIEW GIFT BUTTON
+================================ */
+
+.gift-info button {
+  width: 100%;
+
+  padding: 11px 15px;
+
+  border: none;
+  border-radius: 25px;
+
+  background: #f2d4dc;
+
+  color: #76555e;
+
+  font-size: 13px;
+  font-weight: 600;
+
+  cursor: pointer;
+
+  transition: 0.3s;
+}
+
+.gift-info button:hover {
+  background: #d98da3;
+
+  color: white;
+
+  transform: translateY(-2px);
+}
+
+
+/* ================================
+   RESPONSIVE
+================================ */
+
+@media (max-width: 1100px) {
+  .gift-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 800px) {
+  .gift-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .gift-section {
+    width: 90%;
+  }
+
+  .gift-hero h1 {
+    font-size: 42px;
+  }
+}
+
+@media (max-width: 550px) {
+  .gift-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .gift-hero {
+    padding: 55px 20px;
+  }
+
+  .gift-hero h1 {
+    font-size: 35px;
+  }
+
+  .gift-section > h2 {
+    font-size: 28px;
+  }
+}

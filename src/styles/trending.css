@@ -1,0 +1,322 @@
+/* =========================================
+   TRENDING PAGE
+========================================= */
+
+.trending-page {
+  min-height: 100vh;
+  background: #fffaf7;
+  color: #574747;
+  font-family: "Poppins", sans-serif;
+}
+
+
+/* =========================================
+   HERO
+========================================= */
+
+.trending-hero {
+  min-height: 380px;
+  padding: 70px 9%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+
+  background:
+    radial-gradient(
+      circle at 10% 20%,
+      #fff0b8 0 7%,
+      transparent 8%
+    ),
+    radial-gradient(
+      circle at 90% 25%,
+      #ffdce8 0 8%,
+      transparent 9%
+    ),
+    radial-gradient(
+      circle at 80% 85%,
+      #dff5ed 0 6%,
+      transparent 7%
+    ),
+    linear-gradient(
+      135deg,
+      #fff1dc,
+      #ffe9ef
+    );
+}
+
+
+.trending-hero p {
+  margin: 0 0 15px;
+
+  color: #c98292;
+
+  font-size: 13px;
+  font-weight: 700;
+
+  letter-spacing: 3px;
+}
+
+
+.trending-hero h1 {
+  margin: 0;
+
+  font-size: 52px;
+  line-height: 1.15;
+
+  color: #594747;
+}
+
+
+.trending-hero h1 span {
+  color: #d8879e;
+}
+
+
+.trending-hero h3 {
+  margin-top: 20px;
+
+  color: #8d7777;
+
+  font-size: 17px;
+  font-weight: 400;
+}
+
+
+/* =========================================
+   PRODUCTS SECTION
+========================================= */
+
+.trending-products {
+  width: 82%;
+  margin: auto;
+
+  padding: 70px 0 90px;
+
+  text-align: center;
+}
+
+
+.trending-small-title {
+  margin: 0 0 8px;
+
+  color: #c98292;
+
+  font-size: 12px;
+  font-weight: 700;
+
+  letter-spacing: 3px;
+}
+
+
+.trending-products > h2 {
+  margin: 0;
+
+  color: #594747;
+
+  font-size: 35px;
+}
+
+
+.trending-subtitle {
+  margin: 10px 0 40px;
+
+  color: #988686;
+
+  font-size: 14px;
+}
+
+
+/* =========================================
+   PRODUCT GRID
+========================================= */
+
+.trending-grid {
+  display: grid;
+
+  grid-template-columns:
+    repeat(4, 1fr);
+
+  gap: 25px;
+
+  text-align: left;
+}
+
+
+/* =========================================
+   PRODUCT CARD
+========================================= */
+
+.trending-card {
+  overflow: hidden;
+
+  background: white;
+
+  border: 1px solid #f2e1e1;
+
+  border-radius: 22px;
+
+  box-shadow:
+    0 8px 25px rgba(100, 70, 70, 0.07);
+
+  transition: 0.35s;
+}
+
+
+.trending-card:hover {
+  transform: translateY(-8px);
+
+  box-shadow:
+    0 18px 35px rgba(100, 70, 70, 0.14);
+}
+
+
+/* =========================================
+   IMAGE
+========================================= */
+
+.trending-image {
+  height: 245px;
+
+  position: relative;
+
+  overflow: hidden;
+
+  background: #fff4f2;
+}
+
+
+.trending-image img {
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+
+  transition: 0.5s;
+}
+
+
+.trending-card:hover
+.trending-image img {
+  transform: scale(1.06);
+}
+
+
+/* =========================================
+   TRENDING BADGE
+========================================= */
+
+.trending-image span {
+  position: absolute;
+
+  left: 13px;
+  bottom: 13px;
+
+  padding: 7px 13px;
+
+  border-radius: 20px;
+
+  background: rgba(255, 255, 255, 0.95);
+
+  color: #a06f7b;
+
+  font-size: 11px;
+  font-weight: 600;
+}
+
+
+/* =========================================
+   PRODUCT INFO
+========================================= */
+
+.trending-info {
+  padding: 18px;
+}
+
+
+.trending-info > p {
+  margin: 0 0 7px;
+
+  color: #c98292;
+
+  font-size: 11px;
+  font-weight: 600;
+
+  text-transform: uppercase;
+
+  letter-spacing: 1px;
+}
+
+
+.trending-info h3 {
+  margin: 0 0 12px;
+
+  color: #594747;
+
+  font-size: 17px;
+
+  line-height: 1.4;
+}
+
+
+.trending-info strong {
+  color: #d47d94;
+
+  font-size: 20px;
+}
+
+
+/* =========================================
+   RESPONSIVE
+========================================= */
+
+@media (max-width: 1100px) {
+
+  .trending-grid {
+    grid-template-columns:
+      repeat(3, 1fr);
+  }
+
+}
+
+
+@media (max-width: 800px) {
+
+  .trending-grid {
+    grid-template-columns:
+      repeat(2, 1fr);
+  }
+
+  .trending-products {
+    width: 90%;
+  }
+
+  .trending-hero h1 {
+    font-size: 42px;
+  }
+
+}
+
+
+@media (max-width: 550px) {
+
+  .trending-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .trending-hero {
+    padding: 55px 20px;
+  }
+
+  .trending-hero h1 {
+    font-size: 35px;
+  }
+
+  .trending-products > h2 {
+    font-size: 28px;
+  }
+
+}

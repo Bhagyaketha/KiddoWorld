@@ -1,0 +1,311 @@
+/* ================================
+   TOYS PAGE
+================================ */
+
+.toys-page {
+  min-height: 100vh;
+  padding: 40px 60px;
+  background: #fff7fb;
+  font-family: Arial, sans-serif;
+}
+
+/* Heading */
+
+.toys-page h1 {
+  text-align: center;
+  color: #8e6bbf;
+  font-size: 38px;
+  margin-bottom: 8px;
+}
+
+.toys-page > p {
+  text-align: center;
+  color: #777;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+/* ================================
+   SEARCH
+================================ */
+
+.toys-page > input {
+  display: block;
+  width: 60%;
+  max-width: 600px;
+  margin: 0 auto 25px;
+  padding: 13px 20px;
+  border: 2px solid #e6d7f5;
+  border-radius: 25px;
+  outline: none;
+  font-size: 15px;
+  background: white;
+}
+
+.toys-page > input:focus {
+  border-color: #b99bd8;
+  box-shadow: 0 0 8px rgba(185, 155, 216, 0.25);
+}
+
+/* ================================
+   CATEGORY BUTTONS
+================================ */
+
+.category-buttons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 35px;
+}
+
+.category-buttons button {
+  padding: 9px 20px;
+  border: none;
+  border-radius: 20px;
+  background: #eadff7;
+  color: #76559e;
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.category-buttons button:hover {
+  background: #d8c4ef;
+  transform: translateY(-2px);
+}
+
+.category-buttons button.active {
+  background: #a98bd0;
+  color: white;
+}
+
+/* ================================
+   TOY GRID
+================================ */
+
+.toy-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+}
+
+/* ================================
+   TOY CARD
+================================ */
+
+.toy-card {
+  background: white;
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 5px 18px rgba(0, 0, 0, 0.08);
+  transition: 0.3s ease;
+  border: 1px solid #f0e5f7;
+}
+
+.toy-card:hover {
+  transform: translateY(-7px);
+  box-shadow: 0 10px 25px rgba(150, 120, 180, 0.18);
+}
+
+/* ================================
+   TOY IMAGE
+================================ */
+
+.toy-image {
+  position: relative;
+  height: 230px;
+  overflow: hidden;
+  background: #f8f2fc;
+}
+
+.toy-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 0.4s ease;
+}
+
+.toy-card:hover .toy-image img {
+  transform: scale(1.06);
+}
+
+/* ================================
+   WISHLIST BUTTON
+================================ */
+
+.wishlist-btn {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  border: none;
+  background: white;
+  color: #aaa;
+  font-size: 22px;
+  cursor: pointer;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.12);
+  transition: 0.3s;
+}
+
+.wishlist-btn:hover {
+  transform: scale(1.1);
+}
+
+.wishlist-btn.liked {
+  color: #e66a9b;
+}
+
+/* ================================
+   CATEGORY LABEL
+================================ */
+
+.toy-category {
+  position: absolute;
+  bottom: 12px;
+  left: 12px;
+  background: #ffffffdd;
+  color: #76559e;
+  padding: 6px 12px;
+  border-radius: 15px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+/* ================================
+   TOY DETAILS
+================================ */
+
+.toy-details {
+  padding: 18px;
+}
+
+.toy-details h3 {
+  margin: 0 0 8px;
+  color: #4f4261;
+  font-size: 18px;
+}
+
+.toy-rating {
+  color: #e8a63a;
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.toy-age {
+  color: #777;
+  font-size: 13px;
+  margin: 5px 0;
+}
+
+.toy-description {
+  color: #777;
+  font-size: 13px;
+  line-height: 1.5;
+  min-height: 40px;
+}
+
+/* ================================
+   PRICE + BAG BUTTON
+================================ */
+
+.toy-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.toy-price {
+  color: #8e6bbf;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Add to Bag */
+
+.bag-btn {
+  border: none;
+  background: #b99bd8;
+  color: white;
+  padding: 10px 14px;
+  border-radius: 20px;
+  font-size: 13px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.bag-btn:hover {
+  background: #9575bd;
+  transform: scale(1.04);
+}
+
+/* ================================
+   NO TOYS
+================================ */
+
+.no-toys {
+  grid-column: 1 / -1;
+  text-align: center;
+  padding: 60px 20px;
+  color: #777;
+}
+
+.no-toys div {
+  font-size: 55px;
+  margin-bottom: 10px;
+}
+
+.no-toys h3 {
+  color: #8e6bbf;
+  font-size: 22px;
+}
+
+.no-toys p {
+  color: #888;
+}
+
+/* ================================
+   RESPONSIVE
+================================ */
+
+@media (max-width: 1100px) {
+  .toy-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 800px) {
+  .toys-page {
+    padding: 30px 25px;
+  }
+
+  .toy-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .toys-page > input {
+    width: 80%;
+  }
+}
+
+@media (max-width: 550px) {
+  .toys-page {
+    padding: 25px 15px;
+  }
+
+  .toy-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .toys-page h1 {
+    font-size: 30px;
+  }
+
+  .toys-page > input {
+    width: 90%;
+  }
+}

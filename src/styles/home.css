@@ -1,0 +1,1097 @@
+/* =========================================
+   HOME PAGE
+========================================= */
+
+.home-page {
+  min-height: 100vh;
+  background:#fffaf8;
+  color: #594747;
+  font-family: "Poppins", sans-serif;
+}
+
+
+/* =========================================
+   HERO
+========================================= */
+
+.home-hero {
+  min-height: 570px;
+
+  padding: 70px 9%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  overflow: hidden;
+
+  background:
+    radial-gradient(
+      circle at 8% 15%,
+      #fff1bd 0 5%,
+      transparent 6%
+    ),
+    radial-gradient(
+      circle at 88% 18%,
+      #ffdce8 0 7%,
+      transparent 8%
+    ),
+    radial-gradient(
+      circle at 85% 90%,
+      #dff4e9 0 7%,
+      transparent 8%
+    ),
+    linear-gradient(
+      135deg,
+      #fff1df,
+      #ffeaf1
+    );
+}
+
+
+/* =========================================
+   HERO CONTENT
+========================================= */
+
+.home-hero-content {
+  max-width: 580px;
+}
+
+.home-small-title {
+  margin: 0 0 18px;
+
+  color: #c98296;
+
+  font-size: 12px;
+
+  font-weight: 700;
+
+  letter-spacing: 3px;
+}
+
+.home-hero h1 {
+  margin: 0;
+
+  font-size: 62px;
+
+  line-height: 1.06;
+
+  color: #594747;
+}
+
+.home-hero h1 span {
+  color: #d789a0;
+}
+
+.home-hero-text {
+  max-width: 510px;
+
+  margin: 25px 0;
+
+  color: #8f7d7d;
+
+  font-size: 15px;
+
+  line-height: 1.8;
+}
+
+
+/* =========================================
+   HERO BUTTONS
+========================================= */
+
+.home-hero-buttons {
+  display: flex;
+
+  align-items: center;
+
+  gap: 15px;
+}
+
+.home-shop-btn,
+.home-age-btn {
+  display: inline-block;
+
+  padding: 14px 25px;
+
+  border-radius: 30px;
+
+  text-decoration: none;
+
+  font-size: 12px;
+
+  font-weight: 600;
+
+  transition: 0.3s;
+}
+
+.home-shop-btn {
+  background: #d88da4;
+
+  color: white;
+}
+
+.home-shop-btn:hover {
+  background: #c97992;
+
+  transform: translateY(-3px);
+}
+
+.home-age-btn {
+  border: 1px solid #e0bdc7;
+
+  color: #a06e7c;
+
+  background: rgba(255, 255, 255, 0.6);
+}
+
+.home-age-btn:hover {
+  background: white;
+
+  transform: translateY(-3px);
+}
+
+
+/* =========================================
+   HERO VISUAL
+========================================= */
+
+.home-hero-visual {
+  width: 430px;
+  height: 430px;
+
+  position: relative;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+}
+
+.home-main-circle {
+  width: 300px;
+  height: 300px;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+
+  background: rgba(255, 255, 255, 0.75);
+
+  border: 12px solid rgba(255, 255, 255, 0.6);
+
+  font-size: 135px;
+
+  box-shadow:
+    0 25px 55px rgba(100, 70, 70, 0.1);
+}
+
+
+/* FLOATING ICONS */
+
+.home-floating {
+  position: absolute;
+
+  width: 65px;
+  height: 65px;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+
+  background: white;
+
+  font-size: 30px;
+
+  box-shadow:
+    0 10px 25px rgba(100, 70, 70, 0.1);
+
+  animation: homeFloat 3s ease-in-out infinite;
+}
+
+.home-ball {
+  top: 30px;
+  left: 45px;
+}
+
+.home-book {
+  top: 85px;
+  right: 10px;
+
+  animation-delay: 0.7s;
+}
+
+.home-paint {
+  bottom: 40px;
+  left: 40px;
+
+  animation-delay: 1.2s;
+}
+
+.home-star {
+  right: 40px;
+  bottom: 80px;
+
+  animation-delay: 1.8s;
+}
+
+@keyframes homeFloat {
+
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-12px);
+  }
+
+}
+
+
+/* =========================================
+   FEATURES
+========================================= */
+
+.home-features {
+  width: 82%;
+
+  margin: -35px auto 0;
+
+  position: relative;
+
+  display: grid;
+
+  grid-template-columns: repeat(4, 1fr);
+
+  background: white;
+
+  border-radius: 20px;
+
+  box-shadow:
+    0 10px 35px rgba(100, 70, 70, 0.08);
+}
+
+.home-feature-card {
+  padding: 22px;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  gap: 12px;
+
+  border-right: 1px solid #f3e5e5;
+}
+
+.home-feature-card:last-child {
+  border-right: none;
+}
+
+.home-feature-card > span {
+  font-size: 27px;
+}
+
+.home-feature-card h3 {
+  margin: 0;
+
+  font-size: 13px;
+}
+
+.home-feature-card p {
+  margin: 3px 0 0;
+
+  color: #a28f8f;
+
+  font-size: 10px;
+}
+
+
+/* =========================================
+   SECTION TITLE
+========================================= */
+
+.home-section-title {
+  margin-bottom: 40px;
+
+  text-align: center;
+}
+
+.home-section-title p {
+  margin: 0 0 8px;
+
+  color: #c98296;
+
+  font-size: 10px;
+
+  font-weight: 700;
+
+  letter-spacing: 3px;
+}
+
+.home-section-title h2 {
+  margin: 0;
+
+  color: #594747;
+
+  font-size: 35px;
+}
+
+.home-section-title > span {
+  display: block;
+
+  margin-top: 10px;
+
+  color: #9b8989;
+
+  font-size: 13px;
+}
+
+
+/* =========================================
+   CATEGORIES
+========================================= */
+
+.home-categories {
+  width: 82%;
+
+  margin: auto;
+
+  padding: 100px 0 80px;
+}
+
+.home-category-grid {
+  display: grid;
+
+  grid-template-columns: repeat(3, 1fr);
+
+  gap: 22px;
+}
+
+.home-category-card {
+  min-height: 210px;
+
+  padding: 28px;
+
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: center;
+
+  border-radius: 25px;
+
+  text-decoration: none;
+
+  transition: 0.35s;
+
+  position: relative;
+
+  overflow: hidden;
+}
+
+.home-category-card:hover {
+  transform: translateY(-8px);
+
+  box-shadow:
+    0 18px 35px rgba(100, 70, 70, 0.1);
+}
+
+.toys-card {
+  background: #fff0e5;
+}
+
+.clothing-card {
+  background: #ffeaf1;
+}
+
+.books-card {
+  background: #eaf3fb;
+}
+
+.school-card {
+  background: #fff7d9;
+}
+
+.craft-card {
+  background: #edf7ef;
+}
+
+.sports-card {
+  background: #e9f3f7;
+}
+
+.category-icon {
+  margin-bottom: 13px;
+
+  font-size: 45px;
+}
+
+.home-category-card h3 {
+  margin: 0;
+
+  color: #594747;
+
+  font-size: 19px;
+}
+
+.home-category-card p {
+  margin: 5px 0 14px;
+
+  color: #967f7f;
+
+  font-size: 12px;
+}
+
+.home-category-card > span:last-child {
+  color: #c57f94;
+
+  font-size: 11px;
+
+  font-weight: 600;
+}
+
+
+/* =========================================
+   BANNER
+========================================= */
+
+.home-banner {
+  width: 82%;
+
+  min-height: 270px;
+
+  margin: 0 auto 90px;
+
+  padding: 45px 60px;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: space-between;
+
+  border-radius: 30px;
+
+  background:
+    linear-gradient(
+      120deg,
+      #e8f5ee,
+      #fff1d9
+    );
+
+  overflow: hidden;
+}
+
+.home-banner-content p {
+  margin: 0 0 10px;
+
+  color: #8ca68e;
+
+  font-size: 10px;
+
+  font-weight: 700;
+
+  letter-spacing: 3px;
+}
+
+.home-banner-content h2 {
+  max-width: 500px;
+
+  margin: 0 0 12px;
+
+  color: #594747;
+
+  font-size: 40px;
+
+  line-height: 1.15;
+}
+
+.home-banner-content h2 span {
+  color: #d789a0;
+}
+
+.home-banner-content > p:nth-of-type(2) {
+  color: #958585;
+
+  font-size: 13px;
+
+  letter-spacing: 0;
+
+  font-weight: 400;
+}
+
+.home-banner-btn {
+  display: inline-block;
+
+  margin-top: 12px;
+
+  padding: 12px 22px;
+
+  border-radius: 25px;
+
+  background: white;
+
+  color: #8d6974;
+
+  text-decoration: none;
+
+  font-size: 11px;
+
+  font-weight: 600;
+
+  transition: 0.3s;
+}
+
+.home-banner-btn:hover {
+  transform: translateY(-3px);
+
+  box-shadow:
+    0 8px 20px rgba(100, 70, 70, 0.08);
+}
+
+.home-banner-art {
+  font-size: 150px;
+
+  transform: rotate(-5deg);
+}
+
+
+/* =========================================
+   PRODUCTS
+========================================= */
+
+.home-products {
+  width: 82%;
+
+  margin: auto;
+
+  padding-bottom: 90px;
+}
+
+.home-product-grid {
+  display: grid;
+
+  grid-template-columns: repeat(4, 1fr);
+
+  gap: 22px;
+}
+
+.home-product-card {
+  overflow: hidden;
+
+  border: 1px solid #f1e2e2;
+
+  border-radius: 20px;
+
+  background: white;
+
+  transition: 0.35s;
+}
+
+.home-product-card:hover {
+  transform: translateY(-7px);
+
+  box-shadow:
+    0 15px 30px rgba(100, 70, 70, 0.1);
+}
+
+.home-product-image {
+  height: 230px;
+
+  position: relative;
+
+  overflow: hidden;
+
+  background: #fff1f3;
+}
+
+.home-product-image img {
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+
+  transition: 0.5s;
+}
+
+.home-product-card:hover img {
+  transform: scale(1.06);
+}
+
+.home-product-image span {
+  position: absolute;
+
+  top: 12px;
+  left: 12px;
+
+  padding: 6px 10px;
+
+  border-radius: 20px;
+
+  background: white;
+
+  color: #b6875c;
+
+  font-size: 10px;
+}
+
+.home-product-info {
+  padding: 17px;
+}
+
+.home-product-info > p {
+  margin: 0 0 5px;
+
+  color: #c98296;
+
+  font-size: 9px;
+
+  font-weight: 600;
+
+  text-transform: uppercase;
+}
+
+.home-product-info h3 {
+  margin: 0 0 17px;
+
+  color: #594747;
+
+  font-size: 15px;
+
+  white-space: nowrap;
+
+  overflow: hidden;
+
+  text-overflow: ellipsis;
+}
+
+.home-product-bottom {
+  display: flex;
+
+  align-items: center;
+
+  justify-content: space-between;
+}
+
+.home-product-bottom strong {
+  color: #d17f96;
+
+  font-size: 18px;
+}
+
+.home-product-bottom a {
+  color: #8c7880;
+
+  text-decoration: none;
+
+  font-size: 10px;
+
+  font-weight: 600;
+}
+
+.home-view-all {
+  margin-top: 35px;
+
+  text-align: center;
+}
+
+.home-view-all a {
+  padding: 12px 24px;
+
+  display: inline-block;
+
+  border: 1px solid #e5cbd2;
+
+  border-radius: 25px;
+
+  color: #a06f7d;
+
+  text-decoration: none;
+
+  font-size: 11px;
+
+  font-weight: 600;
+}
+
+
+/* =========================================
+   AGE SECTION
+========================================= */
+
+.home-age-section {
+  padding: 90px 9%;
+
+  background: #fff2f2;
+}
+
+.home-age-grid {
+  max-width: 1100px;
+
+  margin: auto;
+
+  display: grid;
+
+  grid-template-columns: repeat(4, 1fr);
+
+  gap: 20px;
+}
+
+.home-age-card {
+  padding: 30px 15px;
+
+  text-align: center;
+
+  border-radius: 25px;
+
+  background: white;
+
+  text-decoration: none;
+
+  transition: 0.3s;
+}
+
+.home-age-card:hover {
+  transform: translateY(-7px);
+}
+
+.home-age-card span {
+  font-size: 42px;
+}
+
+.home-age-card h3 {
+  margin: 13px 0 4px;
+
+  color: #594747;
+
+  font-size: 15px;
+}
+
+.home-age-card p {
+  margin: 0;
+
+  color: #a18e8e;
+
+  font-size: 11px;
+}
+
+
+/* =========================================
+   GIFT FINDER
+========================================= */
+
+.home-gift {
+  width: 82%;
+
+  margin: 90px auto;
+
+  padding: 35px 45px;
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 25px;
+
+  border-radius: 25px;
+
+  background: #f8edf1;
+}
+
+.home-gift-icon {
+  width: 75px;
+  height: 75px;
+
+  flex-shrink: 0;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+
+  background: white;
+
+  font-size: 38px;
+}
+
+.home-gift-content {
+  flex: 1;
+}
+
+.home-gift-content p {
+  margin: 0 0 5px;
+
+  color: #c98296;
+
+  font-size: 9px;
+
+  font-weight: 700;
+
+  letter-spacing: 2px;
+}
+
+.home-gift-content h2 {
+  margin: 0 0 5px;
+
+  color: #594747;
+
+  font-size: 25px;
+}
+
+.home-gift-content span {
+  color: #998686;
+
+  font-size: 12px;
+}
+
+.home-gift-btn {
+  padding: 13px 23px;
+
+  border-radius: 25px;
+
+  background: #d78ba1;
+
+  color: white;
+
+  text-decoration: none;
+
+  font-size: 11px;
+
+  font-weight: 600;
+
+  white-space: nowrap;
+}
+
+
+/* =========================================
+   FINAL SECTION
+========================================= */
+
+.home-final {
+  padding: 80px 20px;
+
+  text-align: center;
+
+  background:
+    linear-gradient(
+      135deg,
+      #ffe9ef,
+      #fff3dc
+    );
+}
+
+.home-final p {
+  margin: 0 0 10px;
+
+  color: #c98296;
+
+  font-size: 10px;
+
+  font-weight: 700;
+
+  letter-spacing: 3px;
+}
+
+.home-final h2 {
+  margin: 0;
+
+  color: #594747;
+
+  font-size: 35px;
+}
+
+.home-final span {
+  display: block;
+
+  margin: 10px 0 25px;
+
+  color: #978484;
+
+  font-size: 13px;
+}
+
+.home-final-btn {
+  display: inline-block;
+
+  padding: 14px 28px;
+
+  border-radius: 30px;
+
+  background: #d78ba1;
+
+  color: white;
+
+  text-decoration: none;
+
+  font-size: 12px;
+
+  font-weight: 600;
+}
+
+
+/* =========================================
+   TABLET
+========================================= */
+
+@media (max-width: 1050px) {
+
+  .home-hero {
+    padding: 60px 5%;
+  }
+
+  .home-hero h1 {
+    font-size: 50px;
+  }
+
+  .home-features {
+    width: 90%;
+  }
+
+  .home-category-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .home-product-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .home-age-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+}
+
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 700px) {
+
+  .home-hero {
+    flex-direction: column;
+
+    text-align: center;
+
+    padding: 60px 20px;
+  }
+
+  .home-hero-text {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .home-hero-buttons {
+    justify-content: center;
+
+    flex-wrap: wrap;
+  }
+
+  .home-hero-visual {
+    width: 300px;
+    height: 300px;
+
+    margin-top: 30px;
+  }
+
+  .home-main-circle {
+    width: 210px;
+    height: 210px;
+
+    font-size: 95px;
+  }
+
+  .home-floating {
+    width: 50px;
+    height: 50px;
+
+    font-size: 22px;
+  }
+
+  .home-features {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .home-feature-card {
+    border-bottom: 1px solid #f3e5e5;
+  }
+
+  .home-categories,
+  .home-products {
+    width: 90%;
+  }
+
+  .home-category-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .home-banner {
+    width: 90%;
+
+    padding: 35px 25px;
+  }
+
+  .home-banner-art {
+    font-size: 90px;
+  }
+
+  .home-product-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .home-age-section {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .home-age-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .home-gift {
+    width: 90%;
+
+    flex-direction: column;
+
+    text-align: center;
+  }
+
+}
+
+
+@media (max-width: 450px) {
+
+  .home-hero h1 {
+    font-size: 40px;
+  }
+
+  .home-features {
+    grid-template-columns: 1fr;
+  }
+
+  .home-feature-card {
+    border-right: none;
+  }
+
+  .home-age-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .home-banner {
+    flex-direction: column;
+
+    text-align: center;
+  }
+
+}

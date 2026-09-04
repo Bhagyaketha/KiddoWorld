@@ -1,0 +1,783 @@
+/* =========================================
+   CLOTHING PAGE
+========================================= */
+
+.clothing-page {
+  min-height: 100vh;
+  background: #fffaf8;
+  color: #594747;
+  font-family: "Poppins", sans-serif;
+}
+
+
+/* =========================================
+   HERO SECTION
+========================================= */
+
+.clothing-hero {
+  min-height: 470px;
+  padding: 70px 9%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  overflow: hidden;
+
+  background:
+    radial-gradient(circle at 8% 18%, #fff0bd 0 5%, transparent 6%),
+    radial-gradient(circle at 90% 20%, #ffdce8 0 7%, transparent 8%),
+    radial-gradient(circle at 85% 90%, #dff4e9 0 6%, transparent 7%),
+    linear-gradient(135deg, #fff1df, #ffe9f0);
+}
+
+
+/* =========================================
+   HERO CONTENT
+========================================= */
+
+.clothing-hero-content {
+  max-width: 560px;
+}
+
+.clothing-small-title {
+  margin: 0 0 18px;
+
+  color: #c98296;
+
+  font-size: 12px;
+  font-weight: 700;
+
+  letter-spacing: 3px;
+}
+
+.clothing-hero h1 {
+  margin: 0;
+
+  color: #594747;
+
+  font-size: 58px;
+  line-height: 1.08;
+}
+
+.clothing-hero h1 span {
+  color: #d8879e;
+}
+
+.clothing-hero-text {
+  max-width: 470px;
+
+  margin: 22px 0 28px;
+
+  color: #907d7d;
+
+  font-size: 15px;
+  line-height: 1.8;
+}
+
+
+/* =========================================
+   EXPLORE BUTTON
+========================================= */
+
+.clothing-explore {
+  padding: 14px 28px;
+
+  border: none;
+  border-radius: 30px;
+
+  background: #d990a6;
+
+  color: white;
+
+  font-size: 13px;
+  font-weight: 600;
+
+  cursor: pointer;
+
+  transition: 0.3s;
+}
+
+.clothing-explore:hover {
+  background: #c77991;
+
+  transform: translateY(-3px);
+
+  box-shadow:
+    0 10px 22px rgba(210, 130, 150, 0.25);
+}
+
+
+/* =========================================
+   HERO ART
+========================================= */
+
+.clothing-hero-art {
+  width: 400px;
+  height: 400px;
+
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fashion-circle {
+  width: 280px;
+  height: 280px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+
+  background: rgba(255, 255, 255, 0.72);
+
+  border: 12px solid rgba(255, 255, 255, 0.55);
+
+  font-size: 135px;
+
+  box-shadow:
+    0 20px 45px rgba(100, 70, 70, 0.1);
+}
+
+.fashion-star {
+  position: absolute;
+
+  color: #d98da3;
+
+  font-size: 30px;
+
+  animation: floatStar 3s ease-in-out infinite;
+}
+
+.star1 {
+  top: 45px;
+  left: 40px;
+}
+
+.star2 {
+  top: 90px;
+  right: 25px;
+
+  color: #e3b45e;
+
+  animation-delay: 0.7s;
+}
+
+.star3 {
+  bottom: 55px;
+  left: 55px;
+
+  color: #cda1b0;
+
+  animation-delay: 1.2s;
+}
+
+@keyframes floatStar {
+
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+
+/* =========================================
+   INTRO SECTION
+========================================= */
+
+.clothing-intro {
+  padding: 70px 20px 40px;
+
+  text-align: center;
+}
+
+.clothing-intro > p {
+  margin: 0 0 12px;
+
+  color: #c98296;
+
+  font-size: 11px;
+  font-weight: 700;
+
+  letter-spacing: 3px;
+}
+
+.clothing-intro h2 {
+  margin: 0;
+
+  color: #594747;
+
+  font-size: 36px;
+}
+
+.clothing-intro h2 span {
+  color: #d8879e;
+}
+
+.clothing-intro h4 {
+  margin: 12px 0 0;
+
+  color: #9b8989;
+
+  font-size: 14px;
+  font-weight: 400;
+}
+
+
+/* =========================================
+   SEARCH + FILTER
+========================================= */
+
+.clothing-controls {
+  width: 82%;
+
+  margin: 25px auto 45px;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: space-between;
+
+  gap: 20px;
+}
+
+
+/* SEARCH */
+
+.clothing-search {
+  width: 440px;
+
+  padding: 13px 18px;
+
+  display: flex;
+  align-items: center;
+
+  gap: 10px;
+
+  background: white;
+
+  border: 1px solid #efdede;
+
+  border-radius: 30px;
+
+  box-shadow:
+    0 5px 18px rgba(100, 70, 70, 0.05);
+}
+
+.clothing-search span {
+  font-size: 15px;
+}
+
+.clothing-search input {
+  width: 100%;
+
+  border: none;
+  outline: none;
+
+  background: transparent;
+
+  color: #594747;
+
+  font-family: inherit;
+
+  font-size: 13px;
+}
+
+.clothing-search input::placeholder {
+  color: #b3a0a0;
+}
+
+
+/* FILTER */
+
+.clothing-filter select {
+  min-width: 200px;
+
+  padding: 13px 20px;
+
+  border: 1px solid #efdede;
+
+  border-radius: 30px;
+
+  outline: none;
+
+  background: white;
+
+  color: #765b63;
+
+  font-family: inherit;
+
+  font-size: 13px;
+
+  cursor: pointer;
+}
+
+
+/* =========================================
+   PRODUCTS SECTION
+========================================= */
+
+.clothing-products {
+  width: 82%;
+
+  margin: auto;
+
+  padding-bottom: 90px;
+}
+
+.clothing-products-heading {
+  margin-bottom: 25px;
+
+  display: flex;
+
+  align-items: end;
+
+  justify-content: space-between;
+}
+
+.clothing-products-heading p {
+  margin: 0 0 5px;
+
+  color: #c78296;
+
+  font-size: 10px;
+
+  font-weight: 700;
+
+  letter-spacing: 2px;
+}
+
+.clothing-products-heading h2 {
+  margin: 0;
+
+  color: #594747;
+
+  font-size: 29px;
+}
+
+.clothing-products-heading > span {
+  color: #9b8989;
+
+  font-size: 13px;
+}
+
+
+/* =========================================
+   CLOTHING GRID
+========================================= */
+
+.clothing-grid {
+  display: grid;
+
+  grid-template-columns: repeat(4, 1fr);
+
+  gap: 25px;
+}
+
+
+/* =========================================
+   PRODUCT CARD
+========================================= */
+
+.clothing-card {
+  overflow: hidden;
+
+  background: #ffffff;
+
+  border: 1px solid #f1dfdf;
+
+  border-radius: 22px;
+
+  box-shadow:
+    0 8px 25px rgba(100, 70, 70, 0.06);
+
+  transition: 0.35s;
+}
+
+.clothing-card:hover {
+  transform: translateY(-8px);
+
+  box-shadow:
+    0 18px 35px rgba(100, 70, 70, 0.13);
+}
+
+
+/* =========================================
+   PRODUCT IMAGE
+========================================= */
+
+.clothing-image {
+  height: 260px;
+
+  position: relative;
+
+  overflow: hidden;
+
+  background: #fff3f4;
+}
+
+.clothing-image img {
+  width: 100%;
+  height: 100%;
+
+  display: block;
+
+  object-fit: cover;
+
+  transition: 0.5s;
+}
+
+.clothing-card:hover
+.clothing-image img {
+  transform: scale(1.06);
+}
+
+
+/* =========================================
+   WISHLIST BUTTON
+========================================= */
+
+.clothing-wishlist {
+  position: absolute;
+
+  top: 13px;
+  right: 13px;
+
+  width: 42px;
+  height: 42px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border: none;
+  border-radius: 50%;
+
+  background: rgba(255, 255, 255, 0.95);
+
+  color: #d9829b;
+
+  font-size: 23px;
+
+  cursor: pointer;
+
+  transition: 0.3s;
+
+  z-index: 2;
+}
+
+.clothing-wishlist:hover {
+  transform: scale(1.12);
+
+  background: #ffe8ee;
+}
+
+.clothing-wishlist.active {
+  background: #ffe7ed;
+
+  color: #d36f8b;
+}
+
+
+/* =========================================
+   CATEGORY TAG
+========================================= */
+
+.clothing-tag {
+  position: absolute;
+
+  left: 13px;
+  bottom: 13px;
+
+  padding: 7px 12px;
+
+  border-radius: 20px;
+
+  background: rgba(255, 255, 255, 0.94);
+
+  color: #9b707b;
+
+  font-size: 10px;
+
+  font-weight: 600;
+}
+
+
+/* =========================================
+   PRODUCT INFORMATION
+========================================= */
+
+.clothing-info {
+  padding: 18px;
+}
+
+.clothing-info h3 {
+  margin: 0 0 8px;
+
+  color: #594747;
+
+  font-size: 16px;
+
+  font-weight: 600;
+
+  white-space: nowrap;
+
+  overflow: hidden;
+
+  text-overflow: ellipsis;
+}
+
+
+/* RATING */
+
+.clothing-rating {
+  margin-bottom: 9px;
+
+  color: #d19a56;
+
+  font-size: 12px;
+}
+
+
+/* AGE */
+
+.clothing-age {
+  display: inline-block;
+
+  margin: 0 0 12px;
+
+  padding: 6px 10px;
+
+  border-radius: 20px;
+
+  background: #edf7f1;
+
+  color: #6c8b79;
+
+  font-size: 10px;
+
+  font-weight: 600;
+}
+
+
+/* DESCRIPTION */
+
+.clothing-description {
+  min-height: 42px;
+
+  margin: 0 0 15px;
+
+  color: #9a8989;
+
+  font-size: 11px;
+
+  line-height: 1.6;
+}
+
+
+/* =========================================
+   PRICE + BAG
+========================================= */
+
+.clothing-bottom {
+  display: flex;
+
+  align-items: center;
+
+  justify-content: space-between;
+
+  gap: 10px;
+}
+
+.clothing-bottom strong {
+  color: #d37f97;
+
+  font-size: 20px;
+}
+
+.clothing-bottom button {
+  padding: 10px 13px;
+
+  border: none;
+
+  border-radius: 22px;
+
+  background: #f1d4dc;
+
+  color: #76555e;
+
+  font-size: 10px;
+
+  font-weight: 600;
+
+  cursor: pointer;
+
+  transition: 0.3s;
+}
+
+.clothing-bottom button:hover {
+  background: #d68ca1;
+
+  color: white;
+
+  transform: translateY(-2px);
+
+  box-shadow:
+    0 6px 15px rgba(214, 140, 161, 0.2);
+}
+
+
+/* =========================================
+   EMPTY RESULT
+========================================= */
+
+.clothing-empty {
+  grid-column: 1 / -1;
+
+  padding: 70px 20px;
+
+  text-align: center;
+
+  background: white;
+
+  border: 1px solid #f0dfdf;
+
+  border-radius: 25px;
+}
+
+.clothing-empty div {
+  font-size: 55px;
+}
+
+.clothing-empty h3 {
+  margin: 15px 0 5px;
+
+  color: #594747;
+
+  font-size: 22px;
+}
+
+.clothing-empty p {
+  color: #998686;
+
+  font-size: 13px;
+}
+
+
+/* =========================================
+   TABLET
+========================================= */
+
+@media (max-width: 1100px) {
+
+  .clothing-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .clothing-hero {
+    padding: 60px 7%;
+  }
+
+}
+
+
+/* =========================================
+   SMALL TABLET
+========================================= */
+
+@media (max-width: 850px) {
+
+  .clothing-hero {
+    flex-direction: column;
+
+    text-align: center;
+
+    padding: 60px 20px;
+  }
+
+  .clothing-hero-text {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .clothing-hero-art {
+    width: 300px;
+    height: 300px;
+
+    margin-top: 25px;
+  }
+
+  .fashion-circle {
+    width: 210px;
+    height: 210px;
+
+    font-size: 100px;
+  }
+
+  .clothing-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .clothing-controls,
+  .clothing-products {
+    width: 90%;
+  }
+
+}
+
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 550px) {
+
+  .clothing-hero h1 {
+    font-size: 42px;
+  }
+
+  .clothing-small-title {
+    font-size: 10px;
+    letter-spacing: 2px;
+  }
+
+  .clothing-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .clothing-controls {
+    flex-direction: column;
+
+    align-items: stretch;
+  }
+
+  .clothing-search {
+    width: 100%;
+  }
+
+  .clothing-filter select {
+    width: 100%;
+  }
+
+  .clothing-products-heading {
+    flex-direction: column;
+
+    align-items: flex-start;
+
+    gap: 8px;
+  }
+
+  .clothing-intro h2 {
+    font-size: 29px;
+  }
+
+}

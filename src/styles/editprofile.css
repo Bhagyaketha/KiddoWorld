@@ -1,0 +1,179 @@
+.edit-profile-page {
+  min-height: 100vh;
+  padding: 70px 20px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: #fff8f7;
+}
+
+.edit-profile-card {
+  width: 100%;
+  max-width: 600px;
+
+  padding: 40px;
+
+  border-radius: 25px;
+
+  background: white;
+
+  box-shadow: 0 15px 40px rgba(100, 70, 70, 0.1);
+}
+
+.edit-profile-header {
+  display: flex;
+  align-items: center;
+
+  gap: 20px;
+
+  margin-bottom: 35px;
+}
+
+.edit-avatar {
+  width: 75px;
+  height: 75px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+
+  background: #f4d9df;
+
+  color: #a86d7c;
+
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.edit-profile-header span {
+  color: #c98296;
+
+  font-size: 10px;
+
+  font-weight: 700;
+
+  letter-spacing: 3px;
+}
+
+.edit-profile-header h1 {
+  margin: 5px 0;
+
+  color: #594747;
+
+  font-size: 30px;
+}
+
+.edit-profile-header p {
+  margin: 0;
+
+  color: #9b8989;
+
+  font-size: 12px;
+}
+
+.edit-input {
+  margin-bottom: 20px;
+}
+
+.edit-input label {
+  display: block;
+
+  margin-bottom: 8px;
+
+  color: #705d5d;
+
+  font-size: 12px;
+
+  font-weight: 600;
+}
+
+.edit-input input {
+  width: 100%;
+
+  box-sizing: border-box;
+
+  padding: 13px 15px;
+
+  border: 1px solid #eadbdd;
+
+  border-radius: 12px;
+
+  outline: none;
+
+  color: #594747;
+
+  background: #fffafa;
+
+  font-size: 13px;
+}
+
+.edit-input input:focus {
+  border-color: #d789a0;
+
+  box-shadow: 0 0 0 3px rgba(215, 137, 160, 0.1);
+}
+
+.edit-buttons {
+  display: flex;
+
+  gap: 15px;
+
+  margin-top: 30px;
+}
+
+.save-profile-btn,
+.cancel-profile-btn {
+  flex: 1;
+
+  padding: 13px;
+
+  border-radius: 25px;
+
+  cursor: pointer;
+
+  font-size: 12px;
+
+  font-weight: 600;
+}
+
+.save-profile-btn {
+  border: none;
+
+  background: #d789a0;
+
+  color: white;
+}
+
+.cancel-profile-btn {
+  border: 1px solid #dfc8ce;
+
+  background: white;
+
+  color: #96717d;
+}
+
+.save-profile-btn:hover,
+.cancel-profile-btn:hover {
+  transform: translateY(-2px);
+}
+
+@media (max-width: 600px) {
+
+  .edit-profile-card {
+    padding: 25px;
+  }
+
+  .edit-profile-header {
+    flex-direction: column;
+
+    text-align: center;
+  }
+
+  .edit-buttons {
+    flex-direction: column;
+  }
+}
