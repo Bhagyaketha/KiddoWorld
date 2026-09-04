@@ -56,11 +56,10 @@ const AIStoryMaker = () => {
 
 
       // Send data to our backend
-      const response = await axios.post(
-        "http://localhost:5001/generate-story",
-        formData
-      );
-
+       const response = await axios.post(
+  `${import.meta.env.VITE_API_URL}/generate-story`,
+  formData
+);
 
       // Store generated story
       setStory(response.data);
