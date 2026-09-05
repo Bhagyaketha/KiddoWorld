@@ -49,6 +49,7 @@ collections.forEach((collection) => {
       }
 
       res.json(db[collection]);
+
     } catch (error) {
       console.error(`${collection} error:`, error);
 
@@ -58,6 +59,45 @@ collections.forEach((collection) => {
     }
   });
 });
+
+
+// ===============================
+// CREATE ORDER
+// ===============================
+
+app.post("/orders", (req, res) => {
+  try {
+    const db = getDatabase();
+
+    if (!db.orders) {
+      db.orders = [];
+    }
+
+    const newOrder = {
+      id: Date.now().toString(),
+      ...req.body
+    };
+
+    db.orders.push(newOrder);
+
+    fs.writeFileSync(
+      dbPath,
+      JSON.stringify(db, null, 2),
+      "utf8"
+    );
+
+    res.status(201).json(newOrder);
+
+  } catch (error) {
+    console.error("Order creation error:", error);
+
+    res.status(500).json({
+      error: "Unable to create order"
+    });
+  }
+});
+
+
 // ===============================
 // AI STORY GENERATION - OLLAMA
 // ===============================
