@@ -59,7 +59,34 @@ collections.forEach((collection) => {
     }
   });
 });
+// ===============================
+// GET USER BY ID
+// ===============================
 
+app.get("/users/:id", (req, res) => {
+  try {
+    const db = getDatabase();
+
+    const user = db.users.find(
+      (u) => String(u.id) === String(req.params.id)
+    );
+
+    if (!user) {
+      return res.status(404).json({
+        error: "User not found"
+      });
+    }
+
+    res.json(user);
+
+  } catch (error) {
+    console.error("User fetch error:", error);
+
+    res.status(500).json({
+      error: "Unable to fetch user"
+    });
+  }
+});
 
 // ===============================
 // CREATE ORDER
