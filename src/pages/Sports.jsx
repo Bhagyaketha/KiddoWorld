@@ -25,7 +25,7 @@ const Sports = () => {
   useEffect(() => {
 
     axios
-      .get("http://localhost:5001/sports")
+      .get("https://kiddoworld-server.onrender.com/sports")
       .then((response) => {
         setItems(response.data);
       })

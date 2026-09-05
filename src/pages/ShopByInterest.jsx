@@ -7,7 +7,7 @@ const ShopByInterest = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch("http://localhost:5001/interests")
+    fetch("https://kiddoworld-server.onrender.com/interests")
       .then((response) => response.json())
       .then((data) => {
         setInterests(data);

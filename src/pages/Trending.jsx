@@ -9,7 +9,7 @@ const Trending = () => {
   useEffect(() => {
 
     axios
-      .get("http://localhost:5001/homeProducts")
+      .get("https://kiddoworld-server.onrender.com/homeProducts")
       .then((response) => {
         setProducts(response.data);
       })

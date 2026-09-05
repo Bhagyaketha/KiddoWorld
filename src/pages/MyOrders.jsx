@@ -36,7 +36,7 @@ const MyOrders = () => {
 
         // Get orders belonging to the logged-in user
         const response = await axios.get(
-          `http://localhost:5001/orders?userId=${currentUser.id}`
+          `https://kiddoworld-server.onrender.com/orders?userId=${currentUser.id}`
         );
 
 

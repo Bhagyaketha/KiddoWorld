@@ -20,7 +20,7 @@ const AdminLogin = () => {
 
     try {
       const response = await axios.get(
-        "http://localhost:5001/admins"
+        "https://kiddoworld-server.onrender.com/admins"
       );
 
       const admin = response.data.find(

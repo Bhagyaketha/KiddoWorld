@@ -33,7 +33,7 @@ const AdminDashboard = () => {
 
     Promise.all(
       productEndpoints.map((item) =>
-        axios.get(`http://localhost:5001/${item.url}`)
+        axios.get(`https://kiddoworld-server.onrender.com/${item.url}`)
       )
     )
       .then((responses) => {
@@ -64,7 +64,7 @@ const AdminDashboard = () => {
 
     // Fetch users
     axios
-      .get("http://localhost:5001/users")
+      .get("https://kiddoworld-server.onrender.com/users")
       .then((res) => {
         setUsers(res.data);
       })
@@ -135,8 +135,8 @@ const AdminDashboard = () => {
 
     axios
       .delete(
-        `http://localhost:5001/${endpoint}/${product.id}`
-      )
+  `https://kiddoworld-server.onrender.com/${endpoint}/${product.id}`
+)
       .then(() => {
         setProducts((previousProducts) =>
           previousProducts.filter(

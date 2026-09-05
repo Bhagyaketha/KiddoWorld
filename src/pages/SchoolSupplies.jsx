@@ -22,7 +22,7 @@ const SchoolSupplies = () => {
 
   useEffect(() => {
     axios
-      .get("http://localhost:5001/schoolSupplies")
+      .get("https://kiddoworld-server.onrender.com/schoolSupplies")
       .then((response) => {
         setItems(response.data);
       })

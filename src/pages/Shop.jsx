@@ -7,7 +7,7 @@ const Shop = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
-    fetch("http://localhost:5001/categories")
+    fetch("https://kiddoworld-server.onrender.com/categories")
       .then((res) => res.json())
       .then((data) => {
         setCategories(Array.isArray(data) ? data : []);

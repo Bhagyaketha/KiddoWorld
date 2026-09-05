@@ -232,7 +232,7 @@ const Checkout = () => {
       // ==========================================
 
       await axios.post(
-        "http://localhost:5001/orders",
+        "https://kiddoworld-server.onrender.com/orders",
         newOrder
       );
 

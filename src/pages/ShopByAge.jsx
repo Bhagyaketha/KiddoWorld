@@ -61,7 +61,7 @@ const ShopByAge = () => {
             try {
 
               const response = await axios.get(
-                `http://localhost:5001/${endpoint}`
+                `https://kiddoworld-server.onrender.com/${endpoint}`
               );
 
               if (Array.isArray(response.data)) {

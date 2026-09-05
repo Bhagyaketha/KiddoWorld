@@ -22,7 +22,7 @@ const Clothing = () => {
 
   useEffect(() => {
     axios
-      .get("http://localhost:5001/clothing")
+      .get("https://kiddoworld-server.onrender.com/clothing")
       .then((response) => {
         setClothing(response.data);
       })

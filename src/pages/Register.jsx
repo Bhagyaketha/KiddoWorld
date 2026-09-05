@@ -37,7 +37,7 @@ const Register = () => {
 
       // Check whether email already exists
       const response = await axios.get(
-        "http://localhost:5001/users"
+        "https://kiddoworld-server.onrender.com/users"
       );
 
       const users = response.data;
@@ -68,7 +68,7 @@ const Register = () => {
 
       // Save user to db.json
       const postResponse = await axios.post(
-        "http://localhost:5001/users",
+        "https://kiddoworld-server.onrender.com/users",
         newUser
       );
 

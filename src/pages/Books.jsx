@@ -25,7 +25,7 @@ const Books = () => {
   useEffect(() => {
 
     axios
-      .get("http://localhost:5001/books")
+      .get("https://kiddoworld-server.onrender.com/books")
       .then((response) => {
         setBooks(response.data);
       })

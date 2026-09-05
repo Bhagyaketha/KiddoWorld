@@ -24,7 +24,7 @@ const EditProfile = () => {
     }
 
     axios
-      .get(`http://localhost:5001/users/${loggedInUser.id}`)
+      .get(`https://kiddoworld-server.onrender.com/users/${loggedInUser.id}`)
       .then((response) => {
 
         setUser(response.data);
@@ -55,7 +55,7 @@ const EditProfile = () => {
       };
 
       const response = await axios.put(
-        `http://localhost:5001/users/${user.id}`,
+        `https://kiddoworld-server.onrender.com/users/${user.id}`,
         updatedUser
       );
 

@@ -26,7 +26,7 @@ const GiftDetails = () => {
 
     axios
       .get(
-        `http://localhost:5001/giftProducts/${id}`
+        `https://kiddoworld-server.onrender.com/giftProducts/${id}`
       )
       .then((response) => {
 

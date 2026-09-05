@@ -22,7 +22,7 @@ const ArtsCrafts = () => {
 
   useEffect(() => {
     axios
-      .get("http://localhost:5001/artsCrafts")
+      .get("https://kiddoworld-server.onrender.com/artsCrafts")
       .then((response) => {
         setItems(response.data);
       })
