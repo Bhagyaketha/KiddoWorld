@@ -26,7 +26,7 @@ const GiftDetails = () => {
 
     axios
       .get(
-        `http://localhost:5000/giftProducts/${id}`
+        `http://localhost:5001/giftProducts/${id}`
       )
       .then((response) => {
 

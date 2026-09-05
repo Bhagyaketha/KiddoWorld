@@ -19,7 +19,7 @@ const Toys = () => {
   // Fetch toys from JSON Server
   useEffect(() => {
     axios
-      .get("http://localhost:5000/toys")
+      .get("http://localhost:5001/toys")
       .then((response) => {
         setToys(response.data);
       })

@@ -36,7 +36,7 @@ const Profile = () => {
 
         // Get latest user data from db.json
         const response = await axios.get(
-          `http://localhost:5000/users/${currentUser.id}`
+          `http://localhost:5001/users/${currentUser.id}`
         );
 
         setUser(response.data);

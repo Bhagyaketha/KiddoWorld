@@ -20,7 +20,7 @@ const AdminLogin = () => {
 
     try {
       const response = await axios.get(
-        "http://localhost:5000/admins"
+        "http://localhost:5001/admins"
       );
 
       const admin = response.data.find(

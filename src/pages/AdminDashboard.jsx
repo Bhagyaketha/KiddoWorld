@@ -33,7 +33,7 @@ const AdminDashboard = () => {
 
     Promise.all(
       productEndpoints.map((item) =>
-        axios.get(`http://localhost:5000/${item.url}`)
+        axios.get(`http://localhost:5001/${item.url}`)
       )
     )
       .then((responses) => {
@@ -64,7 +64,7 @@ const AdminDashboard = () => {
 
     // Fetch users
     axios
-      .get("http://localhost:5000/users")
+      .get("http://localhost:5001/users")
       .then((res) => {
         setUsers(res.data);
       })
@@ -135,7 +135,7 @@ const AdminDashboard = () => {
 
     axios
       .delete(
-        `http://localhost:5000/${endpoint}/${product.id}`
+        `http://localhost:5001/${endpoint}/${product.id}`
       )
       .then(() => {
         setProducts((previousProducts) =>

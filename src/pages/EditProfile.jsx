@@ -24,7 +24,7 @@ const EditProfile = () => {
     }
 
     axios
-      .get(`http://localhost:5000/users/${loggedInUser.id}`)
+      .get(`http://localhost:5001/users/${loggedInUser.id}`)
       .then((response) => {
 
         setUser(response.data);
@@ -55,7 +55,7 @@ const EditProfile = () => {
       };
 
       const response = await axios.put(
-        `http://localhost:5000/users/${user.id}`,
+        `http://localhost:5001/users/${user.id}`,
         updatedUser
       );
 

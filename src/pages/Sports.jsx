@@ -25,7 +25,7 @@ const Sports = () => {
   useEffect(() => {
 
     axios
-      .get("http://localhost:5000/sports")
+      .get("http://localhost:5001/sports")
       .then((response) => {
         setItems(response.data);
       })

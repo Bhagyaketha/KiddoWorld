@@ -20,7 +20,7 @@ const Deals = () => {
 
   useEffect(() => {
 
-    fetch("http://localhost:5000/deals")
+    fetch("http://localhost:5001/deals")
       .then((res) => res.json())
       .then((data) => setDeals(data))
       .catch((err) => console.log(err));

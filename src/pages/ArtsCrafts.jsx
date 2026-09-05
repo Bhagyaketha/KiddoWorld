@@ -22,7 +22,7 @@ const ArtsCrafts = () => {
 
   useEffect(() => {
     axios
-      .get("http://localhost:5000/artsCrafts")
+      .get("http://localhost:5001/artsCrafts")
       .then((response) => {
         setItems(response.data);
       })

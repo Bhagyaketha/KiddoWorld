@@ -25,7 +25,7 @@ const Login = () => {
 
       // Get users from db.json
       const response = await axios.get(
-        "http://localhost:5000/users"
+        "http://localhost:5001/users"
       );
 
       const users = response.data;

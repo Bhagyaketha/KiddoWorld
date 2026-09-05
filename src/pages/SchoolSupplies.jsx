@@ -22,7 +22,7 @@ const SchoolSupplies = () => {
 
   useEffect(() => {
     axios
-      .get("http://localhost:5000/schoolSupplies")
+      .get("http://localhost:5001/schoolSupplies")
       .then((response) => {
         setItems(response.data);
       })

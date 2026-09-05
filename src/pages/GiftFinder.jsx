@@ -12,7 +12,7 @@ const GiftFinder = () => {
   useEffect(() => {
 
     axios
-      .get("http://localhost:5000/giftProducts")
+      .get("http://localhost:5001/giftProducts")
       .then((response) => {
         setGifts(response.data);
       })

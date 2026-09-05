@@ -7,7 +7,7 @@ const ShopByInterest = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch("http://localhost:5000/interests")
+    fetch("http://localhost:5001/interests")
       .then((response) => response.json())
       .then((data) => {
         setInterests(data);

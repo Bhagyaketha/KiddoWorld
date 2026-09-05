@@ -61,7 +61,7 @@ const ShopByAge = () => {
             try {
 
               const response = await axios.get(
-                `http://localhost:5000/${endpoint}`
+                `http://localhost:5001/${endpoint}`
               );
 
               if (Array.isArray(response.data)) {

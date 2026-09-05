@@ -22,7 +22,7 @@ const Clothing = () => {
 
   useEffect(() => {
     axios
-      .get("http://localhost:5000/clothing")
+      .get("http://localhost:5001/clothing")
       .then((response) => {
         setClothing(response.data);
       })

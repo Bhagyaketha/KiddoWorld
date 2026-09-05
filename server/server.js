@@ -1,10 +1,66 @@
 const express = require("express");
 const cors = require("cors");
+const fs = require("fs");
+const path = require("path");
 
 const app = express();
 
 app.use(cors());
 app.use(express.json());
+
+
+// ===============================
+// DATABASE: db.json
+// ===============================
+
+const dbPath = path.join(__dirname, "../data/db.json");
+
+function getDatabase() {
+  const data = fs.readFileSync(dbPath, "utf8");
+  return JSON.parse(data);
+}
+
+const collections = [
+  "toys",
+  "categories",
+  "ageGroups",
+  "interests",
+  "giftProducts",
+  "clothing",
+  "books",
+  "schoolSupplies",
+  "artsCrafts",
+  "deals",
+  "users",
+  "wishlist",
+  "cart",
+  "orders"
+];
+
+collections.forEach((collection) => {
+  app.get(`/${collection}`, (req, res) => {
+    try {
+      const db = getDatabase();
+
+      if (!db[collection]) {
+        return res.status(404).json({
+          error: `${collection} not found`
+        });
+      }
+
+      res.json(db[collection]);
+    } catch (error) {
+      console.error(`${collection} error:`, error);
+
+      res.status(500).json({
+        error: `Unable to read ${collection}`
+      });
+    }
+  });
+});
+// ===============================
+// AI STORY GENERATION - OLLAMA
+// ===============================
 
 app.post("/generate-story", async (req, res) => {
   try {
@@ -59,6 +115,7 @@ Use exactly this format:
       "http://localhost:11434/api/generate",
       {
         method: "POST",
+
         headers: {
           "Content-Type": "application/json"
         },
@@ -88,6 +145,7 @@ Use exactly this format:
     res.json(story);
 
   } catch (error) {
+
     console.error(
       "Story generation error:",
       error
@@ -99,8 +157,15 @@ Use exactly this format:
   }
 });
 
+
+// ===============================
+// SERVER
+// ===============================
+
 const PORT = process.env.PORT || 5001;
 
 app.listen(PORT, "0.0.0.0", () => {
-  console.log(`AI Story Server running on port ${PORT}`);
+  console.log(
+    `AI Story Server running on port ${PORT}`
+  );
 });
