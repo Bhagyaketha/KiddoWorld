@@ -30,6 +30,7 @@ const collections = [
   "books",
   "schoolSupplies",
   "artsCrafts",
+  "sports",
   "deals",
   "users",
   "wishlist",
@@ -84,6 +85,34 @@ app.get("/users/:id", (req, res) => {
 
     res.status(500).json({
       error: "Unable to fetch user"
+    });
+  }
+});
+// ===============================
+// GET GIFT BY ID
+// ===============================
+
+app.get("/giftProducts/:id", (req, res) => {
+  try {
+    const db = getDatabase();
+
+    const gift = db.giftProducts.find(
+      (item) => String(item.id) === String(req.params.id)
+    );
+
+    if (!gift) {
+      return res.status(404).json({
+        error: "Gift not found"
+      });
+    }
+
+    res.json(gift);
+
+  } catch (error) {
+    console.error("Gift fetch error:", error);
+
+    res.status(500).json({
+      error: "Unable to fetch gift"
     });
   }
 });
