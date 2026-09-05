@@ -60,7 +60,6 @@ const AIStoryMaker = () => {
   "https://kiddoworld-server.onrender.com/generate-story",
   formData
 );
-
       // Store generated story
       setStory(response.data);
 
