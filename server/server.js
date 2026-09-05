@@ -155,10 +155,10 @@ app.post("/orders", (req, res) => {
 
 
 // ===============================
-// AI STORY GENERATION - OLLAMA
+// AI STORY GENERATION - FREE TEMPLATE
 // ===============================
 
-app.post("/generate-story", async (req, res) => {
+app.post("/generate-story", (req, res) => {
   try {
     const {
       name,
@@ -169,83 +169,54 @@ app.post("/generate-story", async (req, res) => {
       lesson
     } = req.body;
 
-    const prompt = `
-Create a fun, safe and age-appropriate children's story.
+    const childName = name || "the little hero";
+    const childAge = age || "6";
+    const childInterest = interest || "adventure";
+    const childCharacter = character || "brave explorer";
+    const storyTheme = theme || "friendship";
+    const storyLesson = lesson || "being kind and helping others";
 
-Child's name: ${name}
-Age: ${age}
-Favorite interest: ${interest}
-Character: ${character}
-Story theme: ${theme}
-Lesson: ${lesson}
-
-Requirements:
-- Write a creative story suitable for the child's age.
-- Make the child the main character.
-- Make the story exciting and imaginative.
-- Use simple language.
-- Include a beginning, middle and ending.
-- Include a positive lesson.
-- Include one fun activity the child can do after reading.
-- Do not include violence, scary content, inappropriate content,
-  romance, or dangerous instructions.
-
-Return ONLY valid JSON.
-
-Use exactly this format:
-
-{
-  "title": "Story title",
-  "paragraphs": [
-    "Paragraph 1",
-    "Paragraph 2",
-    "Paragraph 3",
-    "Paragraph 4"
-  ],
-  "lesson": "What the child learned",
-  "activity": "Fun activity related to the story"
-}
-`;
-
-    const response = await fetch(
-      "http://localhost:11434/api/generate",
+    const stories = [
       {
-        method: "POST",
+        title: `${childName}'s Magical ${childInterest} Adventure`,
+        paragraphs: [
+          `One bright morning, ${childName}, a ${childAge}-year-old ${childCharacter}, discovered a magical world connected to ${childInterest}. Everything around them looked colorful and wonderful.`,
 
-        headers: {
-          "Content-Type": "application/json"
-        },
+          `${childName} decided to explore the amazing place. Along the way, they met a friendly little friend who needed help. Instead of continuing alone, ${childName} stopped and offered help.`,
 
-        body: JSON.stringify({
-          model: "llama3.2",
-          prompt: prompt,
-          stream: false,
-          format: "json"
-        })
+          `Together, they solved a small problem and continued their adventure. ${childName} discovered that working together made the journey even more exciting and fun.`,
+
+          `At the end of the day, ${childName} returned home with a big smile. The adventure taught ${childName} that ${storyLesson} can make every day more special.`
+        ],
+        lesson: storyLesson,
+        activity: `Draw a picture of ${childName}'s magical ${childInterest} adventure.`
+      },
+
+      {
+        title: `The Brave ${childName}`,
+        paragraphs: [
+          `Once upon a time, ${childName} was a curious ${childCharacter} who loved ${childInterest}. One day, ${childName} found a mysterious path leading to a beautiful new place.`,
+
+          `At first, ${childName} was unsure what to do. But with courage and a positive attitude, ${childName} decided to follow the path and discover what was waiting ahead.`,
+
+          `During the journey, ${childName} met others who needed help. ${childName} shared ideas, listened carefully, and worked together with them.`,
+
+          `By the end of the adventure, everyone was happy. ${childName} learned that ${storyLesson} is one of the greatest strengths a person can have.`
+        ],
+        lesson: storyLesson,
+        activity: `Tell someone about your favorite part of ${childName}'s adventure.`
       }
-    );
+    ];
 
-    if (!response.ok) {
-      throw new Error(
-        `Ollama error: ${response.status}`
-      );
-    }
-
-    const data = await response.json();
-
-    console.log("Ollama response:");
-    console.log(data.response);
-
-    const story = JSON.parse(data.response);
+    // Select a story template
+    const story = stories[
+      Math.floor(Math.random() * stories.length)
+    ];
 
     res.json(story);
 
   } catch (error) {
-
-    console.error(
-      "Story generation error:",
-      error
-    );
+    console.error("Story generation error:", error);
 
     res.status(500).json({
       error: "Unable to generate story"
