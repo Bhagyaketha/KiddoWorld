@@ -57,7 +57,7 @@ const AIStoryMaker = () => {
 
       // Send data to our backend
      const response = await axios.post(
-  "http://localhost:5001/generate-story",
+  "https://kiddoworld-server.onrender.com/generate-story",
   formData
 );
 
